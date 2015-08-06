@@ -1,11 +1,39 @@
-== README youtube generator
+# README YPV Youtube playlist videoplayer
 
-== INSTALL
+This youtube videoplayer takes a bunch of Youtube playlists and downloads their metadata and videofiles in order to display its findings as a web-interface for playback. It heavily relies on [Pafy!](https://github.com/mps-youtube/pafy) and [youtube-dl](https://rg3.github.io/youtube-dl/).
 
-'sudo pip install youtube-dl'
-'sudo pip install pafy'
+The scripts found here were written for an exhibition titled "Art and Playlists from 10 Years" at the [Kunsthaus Langenthal!](http://www.kunsthauslangenthal.ch/), curated by Raffael Doerig in August 2015.  
 
-== JSON FILESTRUCTURE FOR SCRAPER
+Gordan Savicic, 2015
+
+## INSTALL
+
+`sudo pip install youtube-dl`
+`sudo pip install pafy`
+
+## HOWTO
+
+### Scrape videos
+
+`python scraper.py >> output.json`
+
+### Run player
+
+Frontend player 
+
+**TBD**
+
+### Interface
+
+Using a Storm 8 keys interface. Keycodes are:
+
+**TBD**
+
+## Appendix
+
+### JSON Filestructure for scraper (artistlist_input.json)
+
+```
 {
 	"Videoplayer": {
 		"Title" : "General title for the Youtube Exhbition/Player", 
@@ -19,9 +47,11 @@
 		}
 	}
 }
+```
 
-== JSON FILESTRUCTURE FOR PLAYER
+### JSON Filestructure for player
 
+```
 {
     "Videoplayer": {
     	"AssetsPath" : "the path to all media assets",
@@ -33,7 +63,6 @@
 	        "ID": "Increment number; in case we want to change order of videos",
 	        "PlaylistID": "The id of the playlist",
 	        "Playlisturl": "The full url of playlist incl. https:// http://",
-	        "Playlistlist": "Optional: A comma-seperated list of all urls of all playlists",
 	        "Title": "The title of the playlist",
 	        "Youtubename": "The name of the youtube author who created the playlist",
 			"Videos": {
@@ -58,7 +87,5 @@
 	        }
         }
     }
-} 
-
-== SCRAPER
-
+}
+```
