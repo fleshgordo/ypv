@@ -1,15 +1,16 @@
 # README YPV Youtube playlist videoplayer
 
-This youtube videoplayer takes a bunch of Youtube playlists and downloads their metadata and videofiles in order to display its findings as a web-interface for playback. It heavily relies on [Pafy!](https://github.com/mps-youtube/pafy) and [youtube-dl](https://rg3.github.io/youtube-dl/).
+This youtube videoplayer takes a bunch of Youtube playlists and downloads their metadata and videofiles in order to display its findings as a web-interface for playback. It heavily relies on [Pafy](https://github.com/mps-youtube/pafy) and [youtube-dl](https://rg3.github.io/youtube-dl/).
 
-The scripts found here were written for an exhibition titled "Art and Playlists from 10 Years" at the [Kunsthaus Langenthal!](http://www.kunsthauslangenthal.ch/), curated by Raffael Doerig in August 2015.  
+The scripts found here were written for an exhibition titled "Art and Playlists from 10 Years" at the [Kunsthaus Langenthal](http://www.kunsthauslangenthal.ch/), curated by Raffael Doerig in August 2015.  
 
-Gordan Savicic, 2015
+Written by Gordan Savicic while driving an electrobike, 2015
 
 ## INSTALL
-
-`sudo pip install youtube-dl`
-`sudo pip install pafy`
+```
+sudo pip install youtube-dl
+sudo pip install pafy
+```
 
 ## HOWTO
 
