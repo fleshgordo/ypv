@@ -1,0 +1,39 @@
+{
+	"Works": {
+		"0": {
+			"Artistname": "Oliver Laric",
+			"Concept": "Text about the playlist by Oliver Laric",
+			"ID": 0,
+			"Playlisturl": "",
+			"Title": "The title of the playlist"
+		},
+		"1": {
+			"Artistname": "TRAUMAWIEN & Bernhard Bauch",
+			"Concept": "Text about the playlist by TRAUMAWIEN",
+			"ID": 1,
+			"Playlisturl": "",
+			"Title": "The title of the playlist"
+		},
+		"2": {
+			"Artistname": "Iocose",
+			"Concept": "Text about the playlist by Iocose",
+			"ID": 2,
+			"Playlisturl": "",
+			"Title": "The title of the playlist"
+		},
+		"3": {
+			"Artistname": "Constant Dullaart",
+			"Concept": "Text about the playlist by Constant Dullaart",
+			"ID": 3,
+			"Playlisturl": "https://www.youtube.com/playlist?list=PLCUGKK4FUkbOb4pSW13KeQ_M3Y6SB4KUl",
+			"Title": "The title of the playlist"
+		},
+		"4": {
+			"Artistname": "Petra Cortright",
+			"Concept": "Text about the playlist by Constant Dullaart",
+			"ID": 4,
+			"Playlisturl": "https://www.youtube.com/playlist?list=PL83uifC2t2mylGa9sqFSns5vpa37aODac",
+			"Title": "The title of the playlist"
+		}
+	}
+}
