@@ -1,0 +1,753 @@
+{
+  "Videoplayer": {
+    "Works": {
+      "1": {
+        "Artistname": "TRAUMAWIEN & Bernhard Bauch",
+        "Concept": "Text about the playlist by TRAUMAWIEN",
+        "ID": "1",
+        "Playlisturl": ""
+      },
+      "0": {
+        "Artistname": "Oliver Laric",
+        "Concept": "Text about the playlist by Oliver Laric",
+        "ID": "0",
+        "Playlisturl": ""
+      },
+      "3": {
+        "Concept": "Text about the playlist by Constant Dullaart",
+        "Description": "A moment in consumer 3d animation, skills tried and proven by pouring rendered water in to invisible containers.",
+        "Videos": {
+          "TotalAmount": 15,
+          "Video": {
+            "0": {
+              "username": "dimensiont",
+              "description": "Working on using water ripple displacement maps in Carrara.",
+              "extension": "m4v",
+              "views": "1,083",
+              "title": "Water Ripple Displacement Test In Carrara",
+              "indexID": 0,
+              "videoID": "A-75LUh6G4s",
+              "filename": "A-75LUh6G4s.m4v",
+              "downloadUrl": "http://r7---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=03eef92d487a1b8b&itag=136&source=youtube&mm=31&pl=22&mn=sn-nfpnnjvh-1gis&mv=m&ms=au&ratebypass=yes&mime=video/mp4&gir=yes&clen=2539175&lmt=1395204152779993&dur=11.101&key=dg_yt0&fexp=9406010,9406175,9407147,9408710,9409207,9412773,9415365,9415417,9415485,9416023,9416126,9416729,9416851,9416985,9417354,9417713,9418059,9418153,9418182,9418340,9418781&upn=pdz1u4bINlU&sver=3&signature=0F8D9F32B3AD2128271D2648C95F3C0A5A568F3D.7F5D46371B77623CC10575DEBE447DCC6A48FDB0&mt=1438960240&ip=178.199.44.182&ipbits=0&expire=1438981984&sparams=ip,ipbits,expire,id,itag,source,mm,pl,mn,mv,ms,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 4,
+              "lengthseconds": 12,
+              "duration": "0:12",
+              "thumbnailUrl": "https://i.ytimg.com/vi/A-75LUh6G4s/default.jpg",
+              "resolution": [
+                1152,
+                720
+              ],
+              "filesize": 2539175
+            },
+            "1": {
+              "username": "zoell2",
+              "description": "Yet another blender fluid simulation rendred with 3 lights rig in many many hours...",
+              "extension": "m4v",
+              "views": "106",
+              "title": "Blender Fluid Simulation",
+              "indexID": 1,
+              "videoID": "cU-YUR7_gsY",
+              "filename": "cU-YUR7_gsY.m4v",
+              "downloadUrl": "http://r8---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=714f98511eff82c6&itag=134&source=youtube&mn=sn-nfpnnjvh-1gis&mm=31&mv=m&ms=au&pl=22&ratebypass=yes&mime=video/mp4&gir=yes&clen=757543&lmt=1379922149491734&dur=9.960&key=dg_yt0&sver=3&fexp=9407701,9407942,9407992,9408093,9408513,9408710,9408937,9409261,9412927,9415365,9415485,9415661,9416023,9416126,9416336,9416729,9417055,9417118,9418153,9418616,9418973&upn=r1du-vrIWj8&mt=1438960240&signature=7FE23BFD131B92FEAC32E73C464D4F55B33CBF26.1F102D49FFEC0AA7685D5B57D8FAD1D9DD98E403&ip=178.199.44.182&ipbits=0&expire=1438981987&sparams=ip,ipbits,expire,id,itag,source,mn,mm,mv,ms,pl,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 1,
+              "lengthseconds": 10,
+              "duration": "0:10",
+              "thumbnailUrl": "https://i.ytimg.com/vi/cU-YUR7_gsY/default.jpg",
+              "resolution": [
+                640,
+                360
+              ],
+              "filesize": 757543
+            },
+            "2": {
+              "username": "WrenderFarm",
+              "description": "Flip tank test using Houdini 12's fluid shelf tools.\n1 environment light with low samples, hence the noise. Just a test.",
+              "extension": "m4v",
+              "views": "2,483",
+              "title": "Houdini 12 Fluid Sim Test",
+              "indexID": 2,
+              "videoID": "qDTakNGD7_I",
+              "filename": "qDTakNGD7_I.m4v",
+              "downloadUrl": "http://r4---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=a834da90d183eff2&itag=134&source=youtube&mm=31&pl=22&ms=au&mn=sn-nfpnnjvh-1gis&mv=m&ratebypass=yes&mime=video/mp4&gir=yes&clen=365837&lmt=1391920716012294&dur=4.881&sver=3&upn=DG_tA6nRBgQ&signature=962D0526A990372411BBE363A062CB6059BEB9A6.591AE4207203916800C6D184A51022EE574B1300&fexp=9408210,9408489,9408710,9414856,9415365,9415485,9416023,9416045,9416126,9416899,9418081,9418153,9418189,9418916&mt=1438960240&key=dg_yt0&ip=178.199.44.182&ipbits=0&expire=1438981988&sparams=ip,ipbits,expire,id,itag,source,mm,pl,ms,mn,mv,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 3,
+              "lengthseconds": 5,
+              "duration": "0:05",
+              "thumbnailUrl": "https://i.ytimg.com/vi/qDTakNGD7_I/default.jpg",
+              "resolution": [
+                640,
+                360
+              ],
+              "filesize": 365837
+            },
+            "3": {
+              "username": "Paul Van Gaans",
+              "description": "A little fluid water sim test using Blender 2.55. Also rendered with Blender internal renderer",
+              "extension": "m4v",
+              "views": "395",
+              "title": "Blender 2.55 Fluid sim test",
+              "indexID": 3,
+              "videoID": "6KgBnBDn32w",
+              "filename": "6KgBnBDn32w.m4v",
+              "downloadUrl": "http://r5---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=e8a8019c10e7df6c&itag=136&source=youtube&pl=22&ms=au&mv=m&mm=31&mn=sn-nfpnnjvh-1gis&ratebypass=yes&mime=video/mp4&gir=yes&clen=2776346&lmt=1383976535653088&dur=9.960&mt=1438960240&upn=ooTB_9Jll20&sver=3&key=dg_yt0&fexp=9406993,9407942,9407992,9408495,9408710,9414930,9415365,9415485,9416023,9416103,9416126,9416729,9416899,9416907,9417190,9418153,9418411,9418707,9418785&signature=4A5E6D3EE0A0B7C6EC1D6588C9E083B8536B090E.5C977D00684275B86F79278428619C8632B60324&ip=178.199.44.182&ipbits=0&expire=1438981988&sparams=ip,ipbits,expire,id,itag,source,pl,ms,mv,mm,mn,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 2,
+              "lengthseconds": 10,
+              "duration": "0:10",
+              "thumbnailUrl": "https://i.ytimg.com/vi/6KgBnBDn32w/default.jpg",
+              "resolution": [
+                1280,
+                720
+              ],
+              "filesize": 2776346
+            },
+            "4": {
+              "username": "Daniel Kvarfordt",
+              "description": "Blender fluidsim test",
+              "extension": "m4v",
+              "views": "131",
+              "title": "Blender fluidsim test",
+              "indexID": 4,
+              "videoID": "rqrDaW1oDnA",
+              "filename": "rqrDaW1oDnA.m4v",
+              "downloadUrl": "http://r7---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=aeaac3696d680e70&itag=135&source=youtube&pl=22&mv=m&ms=au&mm=31&mn=sn-nfpnnjvh-1gis&ratebypass=yes&mime=video/mp4&gir=yes&clen=1105186&lmt=1392195882642686&dur=12.451&signature=93139B69536999F06668B379291BD0CD0750336F.74B9CDAD82926C0FDB73E8534C147F3B01798248&upn=vu_kLKH-t6g&key=dg_yt0&mt=1438960240&sver=3&fexp=9407155,9408352,9408498,9408710,9415365,9415436,9415485,9415820,9416023,9416045,9416126,9416729,9417487,9417537,9418153,9418215,9418712,9418777,9418824&ip=178.199.44.182&ipbits=0&expire=1438981991&sparams=ip,ipbits,expire,id,itag,source,pl,mv,ms,mm,mn,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 1,
+              "lengthseconds": 13,
+              "duration": "0:13",
+              "thumbnailUrl": "https://i.ytimg.com/vi/rqrDaW1oDnA/default.jpg",
+              "resolution": [
+                600,
+                480
+              ],
+              "filesize": 1105186
+            },
+            "5": {
+              "username": "bocherrini",
+              "description": "Yet another blender fluid simulation test.  This time I increased the resolution of the water animation from 50 to 100.  Took about 40 minutes to bake the animation and 3 hours to render, due to the transparency and reflections I set on the water.",
+              "extension": "m4v",
+              "views": "78",
+              "title": "Another Blender Fluid Sim Test",
+              "indexID": 5,
+              "videoID": "9u8qpVgEkIw",
+              "filename": "9u8qpVgEkIw.m4v",
+              "downloadUrl": "http://r1---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=f6ef2aa55804908c&itag=135&source=youtube&ms=au&mv=m&pl=22&mn=sn-nfpnnjvh-1gis&mm=31&ratebypass=yes&mime=video/mp4&gir=yes&clen=927249&lmt=1380601672115003&dur=9.960&key=dg_yt0&signature=725FD84465CD3C52F3D775CBBA0141B9F28FE5F5.64A9E67D109CE6A6BDA7E800D265B2F885E26F2F&upn=jFz-bjlSQX0&fexp=9407157,9407171,9408710,9412514,9413140,9415365,9415436,9415485,9415791,9416023,9416126,9416312,9416323,9416370,9416480,9416520,9416729,9416911,9417200,9418133,9418153,9418391&mt=1438960240&sver=3&ip=178.199.44.182&ipbits=0&expire=1438981992&sparams=ip,ipbits,expire,id,itag,source,ms,mv,pl,mn,mm,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 0,
+              "lengthseconds": 10,
+              "duration": "0:10",
+              "thumbnailUrl": "https://i.ytimg.com/vi/9u8qpVgEkIw/default.jpg",
+              "resolution": [
+                640,
+                480
+              ],
+              "filesize": 927249
+            },
+            "6": {
+              "username": "Zerox466",
+              "description": "This is just a Basic Fluid Control test. it took me 4 days to get it right...mostly cause baking and rendering take so long on my hunk of junk computer....anyway... i didn't want to wait a 5th day to do this again cause i didn't make the frames long enough so bare with me it stops close enough to the end, i was planing for it to end when the water is still.",
+              "extension": "m4v",
+              "views": "122",
+              "title": "(Fluid sim # 2) Fluid Controll Test",
+              "indexID": 6,
+              "videoID": "L2c9SlRjNvs",
+              "filename": "L2c9SlRjNvs.m4v",
+              "downloadUrl": "http://r6---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=2f673d4a546336fb&itag=137&source=youtube&mm=31&mn=sn-nfpnnjvh-1gis&pl=22&mv=m&ms=au&ratebypass=yes&mime=video/mp4&gir=yes&clen=7573367&lmt=1380994057574930&dur=18.633&key=dg_yt0&signature=096F8D244C916E1213E3860BF2E86B914366CCB0.810D48E7A5356698D29290C1693DE35DF0482EF0&fexp=9405969,9408710,9413121,9414897,9414935,9415365,9415435,9415485,9415871,9415881,9416023,9416045,9416126,9417995,9418144,9418153,9418677&mt=1438960240&upn=Pcr8CBJ4wFc&sver=3&ip=178.199.44.182&ipbits=0&expire=1438981993&sparams=ip,ipbits,expire,id,itag,source,mm,mn,pl,mv,ms,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 1,
+              "lengthseconds": 19,
+              "duration": "0:19",
+              "thumbnailUrl": "https://i.ytimg.com/vi/L2c9SlRjNvs/default.jpg",
+              "resolution": [
+                1920,
+                1080
+              ],
+              "filesize": 7573367
+            },
+            "7": {
+              "username": "zeealpal",
+              "description": "My first test of rendering a fluid simulation with foam in Blender 3D 2.59.\n\nBaking time 10 mins, render 1.5 hours. I will do another overnight, and psot that later :)",
+              "extension": "m4v",
+              "views": "1,340",
+              "title": "Test Blender Fluid Sim with Foam",
+              "indexID": 7,
+              "videoID": "oBY2aBInzGQ",
+              "filename": "oBY2aBInzGQ.m4v",
+              "downloadUrl": "http://r1---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=a01636681227cc64&itag=135&source=youtube&ms=au&mv=m&pl=22&mn=sn-nfpnnjvh-1gis&mm=31&ratebypass=yes&mime=video/mp4&gir=yes&clen=1435776&lmt=1392194107253835&dur=10.376&sver=3&fexp=9408710,9415365,9415485,9416023,9416126,9418153&signature=7BB3785F70D8332B4BFF00A007CC506A6ED2B44C.696FB955A764612F9E613BD61C6842BED8D5F183&mt=1438960370&key=dg_yt0&upn=YbJ89m0Ron8&ip=178.199.44.182&ipbits=0&expire=1438981999&sparams=ip,ipbits,expire,id,itag,source,ms,mv,pl,mn,mm,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 5,
+              "lengthseconds": 11,
+              "duration": "0:11",
+              "thumbnailUrl": "https://i.ytimg.com/vi/oBY2aBInzGQ/default.jpg",
+              "resolution": [
+                854,
+                480
+              ],
+              "filesize": 1435776
+            },
+            "8": {
+              "username": "Bakalavr17",
+              "description": "Test of fluide and emmiter lights",
+              "extension": "m4v",
+              "views": "141",
+              "title": "Blender 2.5 Fluidsim + indirect light",
+              "indexID": 8,
+              "videoID": "ntWdzAzdoa8",
+              "filename": "ntWdzAzdoa8.m4v",
+              "downloadUrl": "http://r8---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=9ed59dcc0cdda1af&itag=135&source=youtube&mm=31&mv=m&pl=22&ms=au&mn=sn-nfpnnjvh-1gis&ratebypass=yes&mime=video/mp4&gir=yes&clen=782679&lmt=1391503124697476&dur=10.408&key=dg_yt0&upn=pMWdyCIWA8s&fexp=9405331,9406001,9408710,9415365,9415436,9415485,9416023,9416126,9416733,9416838,9418153,9418499,9418781,9418973&mt=1438960370&signature=375A286C225E139ED9AB209FCD7EA2832319E63A.25F45336B6873A2BD5FCB84C82A205F9B5AA333A&sver=3&ip=178.199.44.182&ipbits=0&expire=1438982000&sparams=ip,ipbits,expire,id,itag,source,mm,mv,pl,ms,mn,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 3,
+              "lengthseconds": 11,
+              "duration": "0:11",
+              "thumbnailUrl": "https://i.ytimg.com/vi/ntWdzAzdoa8/default.jpg",
+              "resolution": [
+                844,
+                480
+              ],
+              "filesize": 782679
+            },
+            "9": {
+              "username": "Ben Harling",
+              "description": "A simple ( short ) test of cycles rendering the blender fluid sim.\n\n300 passes per frame, around 3 mins per frame average on i5, win32.\n\nsorry for low quality, but had to use my pc for other things so had to stop it rendering! Was mainly interested in seeing the caustics.",
+              "extension": "m4v",
+              "views": "9,237",
+              "title": "Blender Cycles Fluid sim",
+              "indexID": 9,
+              "videoID": "1-EOy4x7xko",
+              "filename": "1-EOy4x7xko.m4v",
+              "downloadUrl": "http://r5---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=d7e10ecb8c7bc64a&itag=133&source=youtube&pcm2cms=yes&mm=31&mn=sn-nfpnnjvh-1gis&mv=m&ms=au&pl=22&ratebypass=yes&mime=video/mp4&gir=yes&clen=91883&lmt=1380858930771893&dur=2.920&fexp=9406013,9407146,9408012,9408710,9408937,9415365,9415485,9415848,9416023,9416126,9416276,9416729,9417203,9417828,9417913,9418153,9418203,9418780&sver=3&key=dg_yt0&upn=KcbuRihzYKY&mt=1438960370&signature=5801BCF23FFE3343D7D63BA321572210DC9F84F5.5350A87001B2FACEF0CF1C11DB2F73F7BA6B024E&ip=178.199.44.182&ipbits=0&expire=1438982001&sparams=ip,ipbits,expire,id,itag,source,pcm2cms,mm,mn,mv,ms,pl,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 8,
+              "lengthseconds": 3,
+              "duration": "0:03",
+              "thumbnailUrl": "https://i.ytimg.com/vi/1-EOy4x7xko/default.jpg",
+              "resolution": [
+                320,
+                240
+              ],
+              "filesize": 91883
+            },
+            "10": {
+              "username": "Jenny van Son",
+              "description": "Low resolution particle fluid sim in Houdini.\n\nTesting idea based on https://vimeo.com/57182252 by Sergey Shlyaev.\nAdded an air field to the fluid sim. Seperation of the air field might be adjusted to decrease the resistance. Particle color based on velocity strength.",
+              "extension": "m4v",
+              "views": "239",
+              "title": "fluid sim with air field",
+              "indexID": 10,
+              "videoID": "DIOaGv7L0p8",
+              "filename": "DIOaGv7L0p8.m4v",
+              "downloadUrl": "http://r7---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=0c839a1afecbd29f&itag=136&source=youtube&ms=au&mv=m&pl=22&mm=31&mn=sn-nfpnnjvh-1gis&ratebypass=yes&mime=video/mp4&gir=yes&clen=2888388&lmt=1412652846014512&dur=10.375&fexp=9407171,9408710,9409171,9412774,9413142,9415052,9415088,9415365,9415485,9415837,9416023,9416126,9416328,9417423,9417717,9417927,9418153&upn=vkf7IaLx978&signature=94689D5F106C7CD0E4563489F74C118493BE53B0.38032D610B8FD2A0FE36E44BB9A267596ADAE759&sver=3&mt=1438960370&key=dg_yt0&ip=178.199.44.182&ipbits=0&expire=1438982002&sparams=ip,ipbits,expire,id,itag,source,ms,mv,pl,mm,mn,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 2,
+              "lengthseconds": 11,
+              "duration": "0:11",
+              "thumbnailUrl": "https://i.ytimg.com/vi/DIOaGv7L0p8/default.jpg",
+              "resolution": [
+                780,
+                720
+              ],
+              "filesize": 2888388
+            },
+            "11": {
+              "username": "alias65536",
+              "description": "another test for fluids in blender, i really got to start making actual videos instead of tests, but it really is amazing what you can do with this program, took my computer total of 14 hours to crank this one out!",
+              "extension": "m4v",
+              "views": "87",
+              "title": "Another blender fluid sim...",
+              "indexID": 11,
+              "videoID": "0DUQqcHvIS0",
+              "filename": "0DUQqcHvIS0.m4v",
+              "downloadUrl": "http://r4---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=d03510a9c1ef212d&itag=136&source=youtube&ms=au&pl=22&mv=m&mm=31&mn=sn-nfpnnjvh-1gis&ratebypass=yes&mime=video/mp4&gir=yes&clen=1389735&lmt=1383018264858576&dur=5.000&signature=1DE89F121BD70FEA79F70D6AB4B335C662BCD296.3839B27C0269149281A2E8DE9B886469444FC3ED&mt=1438960370&sver=3&upn=I_pEq5Kf0Ds&key=dg_yt0&fexp=9407991,9408093,9408710,9409249,9413137,9413271,9415365,9415485,9416023,9416126,9416223,9416370,9416686,9416985,9418153,9418712,9418780,9418986&ip=178.199.44.182&ipbits=0&expire=1438982004&sparams=ip,ipbits,expire,id,itag,source,ms,pl,mv,mm,mn,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 1,
+              "lengthseconds": 5,
+              "duration": "0:05",
+              "thumbnailUrl": "https://i.ytimg.com/vi/0DUQqcHvIS0/default.jpg",
+              "resolution": [
+                1024,
+                720
+              ],
+              "filesize": 1389735
+            },
+            "12": {
+              "username": "Sci Fi Animator",
+              "description": "Another quick Blender fluid animation test. Previous fluid sim videos were set at 14 frames per second; this one is set at 24 fps.  I'm taking some time off from the tutorials just to play around with Blender Cycles rendering and the Blender fluid simulations. The simulation was set at 100 and there were 45 samples for the rendering. Blender 2.65.",
+              "extension": "m4v",
+              "views": "670",
+              "title": "Blender Fluid Simulation - 24 fps - Blender Cycles",
+              "indexID": 12,
+              "videoID": "vwhUy4HqJ-Q",
+              "filename": "vwhUy4HqJ-Q.m4v",
+              "downloadUrl": "http://r4---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=bf0854cb81ea27e4&itag=136&source=youtube&pl=22&mv=m&ms=au&mm=31&mn=sn-nfpnnjvh-1gis&ratebypass=yes&mime=video/mp4&gir=yes&clen=3165282&lmt=1381081204381389&dur=11.458&upn=e6diXtRyhpM&mt=1438960370&key=dg_yt0&fexp=9406994,9408491,9408710,9412857,9415365,9415485,9416023,9416126,9416179,9416260,9416554,9416729,9417712,9417875,9418153,9418246,9418917&sver=3&signature=37EDAECC645A9894B74577E81624BC19FE9745B6.1AFD60B267CA5DD763A87EDF9DDDD845B06409CC&ip=178.199.44.182&ipbits=0&expire=1438982006&sparams=ip,ipbits,expire,id,itag,source,pl,mv,ms,mm,mn,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 5,
+              "lengthseconds": 12,
+              "duration": "0:12",
+              "thumbnailUrl": "https://i.ytimg.com/vi/vwhUy4HqJ-Q/default.jpg",
+              "resolution": [
+                1280,
+                720
+              ],
+              "filesize": 3165282
+            },
+            "13": {
+              "username": "raymation3d",
+              "description": "testing pipe line for blender fluids to lightwave",
+              "extension": "m4v",
+              "views": "120",
+              "title": "Blender fluid sim to lightwave3d",
+              "indexID": 13,
+              "videoID": "-0tz3qDG0oU",
+              "filename": "-0tz3qDG0oU.m4v",
+              "downloadUrl": "http://r1---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=fb4b73dea0c6d285&itag=136&source=youtube&ms=au&mv=m&mm=31&mn=sn-nfpnnjvh-1gis&pl=22&ratebypass=yes&mime=video/mp4&gir=yes&clen=2565198&lmt=1383012159956011&dur=16.650&fexp=9406513,9407992,9408710,9414929,9415365,9415435,9415485,9415942,9416023,9416126,9416525,9416729,9416903,9417503,9418153,9418232,9418494,9418823&sver=3&upn=BVy_XA0T7HQ&signature=6FD1A9281EA88464A93A59FFF36391A730556588.10BEA371AE7070938E158CA0BF8A8E50D3D02B4F&mt=1438960370&key=dg_yt0&ip=178.199.44.182&ipbits=0&expire=1438982009&sparams=ip,ipbits,expire,id,itag,source,ms,mv,mm,mn,pl,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 2,
+              "lengthseconds": 17,
+              "duration": "0:17",
+              "thumbnailUrl": "https://i.ytimg.com/vi/-0tz3qDG0oU/default.jpg",
+              "resolution": [
+                1280,
+                720
+              ],
+              "filesize": 2565198
+            },
+            "14": {
+              "username": "Galacticboy2009",
+              "description": "GPU used was the Nvidia GTX 580, EVGA with 1,536mb of GDDR5 RAM and 512 CUDA cores.",
+              "extension": "m4v",
+              "views": "302",
+              "title": "Blender Fluid Sim. Rendered with CUDA",
+              "indexID": 14,
+              "videoID": "cAmfNjo8_LI",
+              "filename": "cAmfNjo8_LI.m4v",
+              "downloadUrl": "http://r4---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=70099f363a3cfcb2&itag=137&source=youtube&pl=22&mv=m&ms=au&mm=31&mn=sn-nfpnnjvh-1gis&ratebypass=yes&mime=video/mp4&gir=yes&clen=4290782&lmt=1389905088342561&dur=8.333&mt=1438960370&upn=X4tzxAU_zyg&fexp=9407942,9407992,9408214,9408710,9413320,9415365,9415397,9415435,9415485,9415822,9416023,9416126,9416729,9416765,9417201,9417438,9418153&key=dg_yt0&sver=3&signature=72AEEA80A23B74B5D601DB60C94DD8AD3E1D40BA.5290CA404BF47E868B917F5C34F128C015D997C0&ip=178.199.44.182&ipbits=0&expire=1438982010&sparams=ip,ipbits,expire,id,itag,source,pl,mv,ms,mm,mn,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 1,
+              "lengthseconds": 9,
+              "duration": "0:09",
+              "thumbnailUrl": "https://i.ytimg.com/vi/cAmfNjo8_LI/default.jpg",
+              "resolution": [
+                1920,
+                1080
+              ],
+              "filesize": 4290782
+            }
+          },
+          "TotalDuration": "00:02:38"
+        },
+        "Title": "FLUIDSIM invisible containers",
+        "PlaylistID": "PLCUGKK4FUkbOb4pSW13KeQ_M3Y6SB4KUl",
+        "Artistname": "Constant Dullaart",
+        "Youtubename": "constantdullaart",
+        "ID": "3",
+        "Playlisturl": "https://www.youtube.com/playlist?list=PLCUGKK4FUkbOb4pSW13KeQ_M3Y6SB4KUl"
+      },
+      "2": {
+        "Artistname": "Iocose",
+        "Concept": "Text about the playlist by Iocose",
+        "ID": "2",
+        "Playlisturl": ""
+      },
+      "5": {
+        "Concept": "Text about the playlist by Nico Princen",
+        "Description": "",
+        "Videos": {
+          "TotalAmount": 9,
+          "Video": {
+            "0": {
+              "username": "IPCamLeaks",
+              "description": "Something from the archives again.",
+              "extension": "m4v",
+              "views": "41,304",
+              "title": "IP Camera Trolling: Aww hell naw!",
+              "indexID": 0,
+              "videoID": "rxVmuesX2-A",
+              "filename": "rxVmuesX2-A.m4v",
+              "downloadUrl": "http://r5---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=af1566b9eb17dbe0&itag=135&source=youtube&mm=31&mn=sn-nfpnnjvh-1gis&pl=22&ms=au&mv=m&ratebypass=yes&mime=video/mp4&gir=yes&clen=8582405&lmt=1429785486329801&dur=137.000&key=dg_yt0&sver=3&upn=xmV4yDWmKI8&signature=81777A221F72B05595A1817F8E560C497F171B6D.4AE5602C943EB09D478E03C6F9E0F56DD1F91A89&fexp=9408710,9412773,9415365,9415386,9415485,9416023,9416126,9416374,9416729,9416837,9416985,9418153,9418394,9418455,9418732,9419058&mt=1438960370&ip=178.199.44.182&ipbits=0&expire=1438982017&sparams=ip,ipbits,expire,id,itag,source,mm,mn,pl,ms,mv,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 376,
+              "lengthseconds": 138,
+              "duration": "2:18",
+              "thumbnailUrl": "https://i.ytimg.com/vi/rxVmuesX2-A/default.jpg",
+              "resolution": [
+                854,
+                480
+              ],
+              "filesize": 8582405
+            },
+            "1": {
+              "username": "Susy Firth",
+              "description": "Po\u00e9sie m\u00e9taphysique chant\u00e9e",
+              "extension": "m4v",
+              "views": "148",
+              "title": "Susy Firth - A Man That Looks On Glass",
+              "indexID": 1,
+              "videoID": "3HtuW_YUpTc",
+              "filename": "3HtuW_YUpTc.m4v",
+              "downloadUrl": "http://r5---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=dc7b6e5bf614a537&itag=138&source=youtube&mn=sn-nfpnnjvh-1gis&pl=22&mm=31&mv=m&ms=au&ratebypass=yes&mime=video/mp4&gir=yes&clen=50114139&lmt=1381191301561122&dur=153.280&key=dg_yt0&sver=3&fexp=9408093,9408710,9412773,9415365,9415485,9416023,9416074,9416126,9416347,9416402,9416729,9417269,9418024,9418200&upn=607cgcK-oeo&signature=8D792163E17B5C7BF97155076B869F169F162C64.4B0F8B79C48E6A92A5797577C959CDA791DEA930&mt=1438960370&ip=178.199.44.182&ipbits=0&expire=1438982018&sparams=ip,ipbits,expire,id,itag,source,mn,pl,mm,mv,ms,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 1,
+              "lengthseconds": 154,
+              "duration": "2:34",
+              "thumbnailUrl": "https://i.ytimg.com/vi/3HtuW_YUpTc/default.jpg",
+              "resolution": [
+                1440,
+                1188
+              ],
+              "filesize": 50114139
+            },
+            "2": {
+              "username": "Michael Wesch",
+              "description": "\"Web 2.0\" in just under 5 minutes.\r\nhttp://mediatedcultures.net\r\n\r\nThis is a slightly revised and cleaned up version of the video that was featured on YouTube in February 2007.\r\n\r\nI considered releasing it as an \"eternal beta\" in true Web 2.0 style, but decided to let it stand as is and start working on future projects. Many of my future videos will address the last 30 seconds of this video (the \"rethink ...\" part).\r\n\r\nThank you all for the helpful comments on the earlier draft.  It has been a great experience to connect with so many people interested in\r\nsimilar issues.\r\n\r\nOnce again, there are higher quality versions available for download:\r\n\r\nWindows Media File (55 MB):\r\nhttp://www.mediafire.com/?2wnmpy2ibz1\r\n\r\nQuicktime File (96 MB): \r\nhttp://www.mediafire.com/?axhbjnmw4yn\r\n\r\nMojiti Version (for comments, translations, etc.):\r\nhttp://mojiti.com/kan/2743/5984\r\n\r\nThis work is licensed under a Creative Commons\r\nAttribution-Noncommercial-Share Alike 3.0 License. So you are welcome to download it, share it, even change it, just as long as you give me some credit and you don't sell it or use it to sell anything. I received many more positive comments than negative about the song choice (great work Deus!), but if you are one of those who does not like the song just download the video and change the audio track to your liking.\r\n\r\nThe video was created by me (Michael Wesch), working alone from my house in St. George, Kansas.  I used CamStudio for the screen captures and Sony Vegas for the panning/cropping/zooming animations.  Someday I might make a video tutorial for those who are interested.",
+              "extension": "m4v",
+              "views": "1,685,727",
+              "title": "The Machine is Us/ing Us (Final Version)",
+              "indexID": 2,
+              "videoID": "NLlGopyXT_g",
+              "filename": "NLlGopyXT_g.m4v",
+              "downloadUrl": "http://r3---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=34b946a29c974ff8&itag=135&source=youtube&pl=22&mn=sn-nfpnnjvh-1gis&mm=31&pcm2cms=yes&mv=m&ms=au&ratebypass=yes&mime=video/mp4&gir=yes&clen=20401451&lmt=1389686314747745&dur=273.367&sver=3&fexp=9406630,9407701,9408513,9408710,9412773,9412843,9413121,9415365,9415485,9416023,9416126,9416281,9417201,9418153,9418904&upn=y1NZs9ODpb0&signature=11FA8B7A4094AA518DAD5D49A1327790B44D3EE8.156F6E8C73AB5A76F7C1105BB5DE1CE367DA3DB2&mt=1438960370&key=dg_yt0&ip=178.199.44.182&ipbits=0&expire=1438982018&sparams=ip,ipbits,expire,id,itag,source,pl,mn,mm,pcm2cms,mv,ms,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 7209,
+              "lengthseconds": 274,
+              "duration": "4:34",
+              "thumbnailUrl": "https://i.ytimg.com/vi/NLlGopyXT_g/default.jpg",
+              "resolution": [
+                640,
+                480
+              ],
+              "filesize": 20401451
+            },
+            "3": {
+              "username": "esteticaCC",
+              "description": "",
+              "extension": "m4v",
+              "views": "265,478",
+              "title": "Kuleshov Effect / Effetto Kuleshov",
+              "indexID": 3,
+              "videoID": "_gGl3LJ7vHc",
+              "filename": "_gGl3LJ7vHc.m4v",
+              "downloadUrl": "http://r7---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=fe01a5dcb27bbc77&itag=133&source=youtube&ms=au&mv=m&mm=31&mn=sn-nfpnnjvh-1gis&pl=22&ratebypass=yes&mime=video/mp4&gir=yes&clen=1382178&lmt=1429608943714361&dur=45.078&mt=1438960370&key=dg_yt0&sver=3&fexp=9407573,9407942,9408509,9408710,9412843,9412858,9415365,9415485,9416023,9416126,9416729,9417269,9417470,9417558,9418085,9418153,9418204,9418823&signature=589F70A071529E46444694DC677C3C425CD40ADA.9B3FC9F2E1E579A6FD3F857F3BA4732E24677024&upn=DvLIbbWnUv4&ip=178.199.44.182&ipbits=0&expire=1438982018&sparams=ip,ipbits,expire,id,itag,source,ms,mv,mm,mn,pl,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 649,
+              "lengthseconds": 46,
+              "duration": "0:46",
+              "thumbnailUrl": "https://i.ytimg.com/vi/_gGl3LJ7vHc/default.jpg",
+              "resolution": [
+                320,
+                240
+              ],
+              "filesize": 1382178
+            },
+            "4": {
+              "username": "Walter Witt",
+              "description": "***************************************************************************************************************\nTo use this video in a commercial player or in broadcasts, please email\u00a0licensing@storyful.com\n***************************************************************************************************************\n\nI was very lucky to record this and to escape with no injuries from this event. A lot of people have asked me: \"Why didn't you keep on recording?\" and I think it's a fair question, anyone would, right? Well, it's not that easy of course and I would like to use this space to tell you what I felt in that exact moment. \n\nYou can easily say that I could just keep on recording for another 30 seconds and my chances of getting out of there are pretty much the same. This is true.\n\nOn the other hand you have 2 arguments against and both of them are very specific to this articular situation only, which of course I don't blame anyone for not knowing. The first thing to consider is that I was on the third day of my trip using a mobile phone to take photos, videos and to communicate with other people. My phone probably had no more than 15% battery left and if I wanted to get out of there I really needed to save its energy in order to get rescued. Second, Not many know of the ground conditions in that place. Why would anyone assume that I could just run with the phone in my hand recording? It was in a mountain near a river, therefore there was rocks and water everywhere. If I wanted to escape from that place I really needed both of my hands to not fall and brake one of my legs... When I was escaping I got lost and fell a couple of times, I had to get across a river and I had to climb a couple of little rocks in order to make my way back.\n\nBut for me, the most important answer as to why I couldn't keep on recording is that in that exact moment your mind operates in a different way. Your unconscious mind takes over your conscious (logic) mind and therefore you just operate instinctively, in this case is your survival instinct the one making every decision for you.\n\nI'm going to write a blog sometime this week to tell the full story of this event because I think it deserves it, there is a lot more than just this video that I believe it's worth telling.\n\nHopefully this helps to clarify this question to those wondering \"why\"...\n\n\nWatch the video that I recorder after escaping...\nhttps://www.youtube.com/watch?v=vYeFfyN8PlA\n\n***************************************************************************************************************\nTo use this video in a commercial player or in broadcasts, please email\u00a0licensing@storyful.com\n***************************************************************************************************************",
+              "extension": "m4v",
+              "views": "1,830,055",
+              "title": "[Official Video] Momento exacto erupci\u00f3n volc\u00e1n Calbuco - Exact moment of volcanic eruption in Chile",
+              "indexID": 4,
+              "videoID": "1DmiIdyyuD8",
+              "filename": "1DmiIdyyuD8.m4v",
+              "downloadUrl": "http://r7---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=d439a221dcb2b83f&itag=137&source=youtube&ms=au&pl=22&mv=m&mm=31&mn=sn-nfpnnjvh-1gis&ratebypass=yes&mime=video/mp4&gir=yes&clen=14695151&lmt=1429967178454539&dur=41.765&mt=1438960370&sver=3&signature=3B116C2344FE363226F01F0EA673E91E0E60D5AD.3A9DDB5E6F65EF8C6728FA14373926BB85F2F590&key=dg_yt0&upn=XOHxlPHI4IQ&fexp=9408710,9415365,9415485,9416023,9416126,9418153&ip=178.199.44.182&ipbits=0&expire=1438982018&sparams=ip,ipbits,expire,id,itag,source,ms,pl,mv,mm,mn,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 4996,
+              "lengthseconds": 42,
+              "duration": "0:42",
+              "thumbnailUrl": "https://i.ytimg.com/vi/1DmiIdyyuD8/default.jpg",
+              "resolution": [
+                1920,
+                1080
+              ],
+              "filesize": 14695151
+            },
+            "5": {
+              "username": "Jeff Gompertz",
+              "description": "archival footage / rough cut\r\n\r\nDirector / videographer: Ondi Timoner \r\nInstallation /capsule hotel: Jeff Gompertz\r\nProducer / Quiet project: Josh Harris",
+              "extension": "m4v",
+              "views": "7,755",
+              "title": "We Live in Public: Capsule Hotel (1)",
+              "indexID": 5,
+              "videoID": "ABLO1d97TBQ",
+              "filename": "ABLO1d97TBQ.m4v",
+              "downloadUrl": "http://r4---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=0012ced5df7b4c14&itag=135&source=youtube&mv=m&mm=31&mn=sn-nfpnnjvh-1gis&ms=au&pl=22&ratebypass=yes&mime=video/mp4&gir=yes&clen=8634123&lmt=1380769096470046&dur=89.790&upn=shM6gxrgwS0&signature=870EBFF7A0717EBB527CE427C274A13B2D65F5AC.07496AE0CCDA7BF41F617CC7DAC325402282EEC1&sver=3&fexp=9406821,9407135,9407942,9408498,9408710,9409246,9412773,9415365,9415485,9415837,9416023,9416126,9416359,9416679,9417097,9417191,9417996,9418153,9418326&mt=1438960370&key=dg_yt0&ip=178.199.44.182&ipbits=0&expire=1438982019&sparams=ip,ipbits,expire,id,itag,source,mv,mm,mn,ms,pl,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 7,
+              "lengthseconds": 162,
+              "duration": "2:42",
+              "thumbnailUrl": "https://i.ytimg.com/vi/ABLO1d97TBQ/default.jpg",
+              "resolution": [
+                654,
+                480
+              ],
+              "filesize": 8634123
+            },
+            "6": {
+              "username": "mworth",
+              "description": "What was it that that mystery package contained?",
+              "extension": "m4v",
+              "views": "414",
+              "title": "A Ham Sandwich",
+              "indexID": 6,
+              "videoID": "lHOwHRA6_mg",
+              "filename": "lHOwHRA6_mg.m4v",
+              "downloadUrl": "http://r1---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=9473b01d103afe68&itag=135&source=youtube&mm=31&mn=sn-nfpnnjvh-1gis&mv=m&pl=22&ms=au&ratebypass=yes&mime=video/mp4&gir=yes&clen=399484&lmt=1387210008847214&dur=6.039&key=dg_yt0&mt=1438960370&sver=3&upn=ucRY1xzcM3E&signature=46E2DCC0934847748445DC40820928F267F8A39B.1E5A47344C3D99E36CB60F8745916EF610EC4234&fexp=9407146,9407642,9408145,9408504,9408710,9409207,9413140,9414602,9415356,9415365,9415435,9415485,9415848,9416023,9416048,9416126,9416323,9416729,9417533,9417753,9418153&ip=178.199.44.182&ipbits=0&expire=1438982019&sparams=ip,ipbits,expire,id,itag,source,mm,mn,mv,pl,ms,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 2,
+              "lengthseconds": 7,
+              "duration": "0:07",
+              "thumbnailUrl": "https://i.ytimg.com/vi/lHOwHRA6_mg/default.jpg",
+              "resolution": [
+                640,
+                480
+              ],
+              "filesize": 399484
+            },
+            "7": {
+              "username": "bacteriasleep",
+              "description": "we waited until the blast had passed, walked out of the shelter and then it was extremely solemn...\n\nif the radiance of a thousand suns were to burst at once into the sky that would be like the splendor of the mighty one...\n\nthe optimist thinks this is the best of all possible worlds and the pessimist knows it.\n\n-j. robert oppenheimer\n\n\nwe were lying there, very tense, in the early dawn, and there were just a few streaks of gold in the east; you could see your neighbor very dimly. those ten seconds were the longest ten seconds that i ever experienced. \nsuddenly, there was an enormous flash of light, the brightest light i have ever seen or that i think anyone has ever seen. \nit blasted; it pounced; it bored its way right through you. it was a vision which was seen with more than the eye. it was seen to last forever. you would wish it to stop; altogether it lasted about two seconds. \nfinally it was over, diminishing, and we looked toward the place where the bomb had been; there was an enormous ball of fire which grew and grew and it rolled as it grew; it went up into the air, in yellow flashes and into scarlet and green. it looked menacing. it seemed to come toward one. a new thing had just been born... \n\n-isidor rabi\n\n\nat the instant of the explosion i was looking directly at it, with no eye protection of any kind... the grandeur and magnitude of the phenomenon were completely breath-taking.\n\n-robert serber\n\n\nwe wore welder's glasses. the thing that got me was not the flash but the blinding heat of a bright day on your face in the cold desert morning. it was like opening a hot oven with the sun coming out like a sunrise.\n\n-philip morrison\n\n\njezt komme, feuer!\n\n-friedrich h\u00f6lderlin\n\n\nil y a l\u00e0 cendre\n\n-jacques derrida\n\n\nasche, \nasche, \u3000asche. \nnacht. \nnacht\u3000-\u3000und\u3000-\u3000nacht. \n\n-paul celan\n\n\ntu n'as rien vu \u00e0 hiroshima. \nrien. \nj'ai tout vu. \ntout... \n\n-marguerite duras\n\n\nfor the gaze of music that leaves it behind, it is rounded to a spherethat can be overviewd, as in the meantime it has already been photographed from space, not the center of creation but something minute and ephemeral. to such experience is allied the melancholy hope for other stars, inhabited by happier beings than humans. but the earth that has grown remote to itself is without the hope the stars once promised. it is sinking into empty galaxies. on it lies beauty as the refrection of past hope, which fills the dying eye until it is frozen below the flakes of unbound space the moment of delight before such beauty dares to withstand its abandonment to disenchanted nature. that metaphysics is no longer possible becomes the ultimate metaphysics.\n\n-theodor. w. adorno\n\n\nhasel and gretel\nare \u3000alive and \u3000well\nand\u3000they're living in berlin\nshe\u3000is\u3000 a\u3000 cocktail \u3000waitress\nhe had a part in \u3000a \u3000fassbinder film\nand \u3000they\u3000 sit\u3000 around\u3000 at\u3000 night now\ndrinking\u3000\u3000 \u3000 \u3000 schnapps\u3000\u3000\u3000and \u3000 \u3000gin\nand she says\u3000:\u3000hansel, \n\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000you're really\u3000bringing me down \nand he says \u3000 :\u3000gretel, \n\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000you \u3000can \u3000really \u3000be \u3000a bitch \n \u3000 \u3000he says\u3000:\u3000i've \u3000 wasted\u3000 my\u3000\u3000 life \n\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000on our stupid \u3000\u3000\u3000\u3000\u3000 \u3000\u3000\u3000legend \n\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000when my\u3000\u3000\u3000\u3000 \u3000 \u3000\u3000\u3000\u3000\u3000\u3000one  \n\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000and\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000only\u3000\u3000\u3000love \n\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000was the wicked\u3000\u3000\u3000\u3000\u3000\u3000witch. \n \n\u3000 she said\u3000: \u3000what  is \u3000history\u3000?\nand he said\u3000:  history is an angel\n\u3000\u3000\u3000\u3000\u3000\u3000\u3000being blown backwards \n\u3000\u3000\u3000\u3000\u3000\u3000\u3000into\u3000the \u3000\u3000\u3000\u3000\u3000\u3000\u3000future\n\u3000\u3000he said\u3000:  history is a \u3000 pile\u3000\u3000of \u3000\u3000\u3000debris\n\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000 and \u3000 the \u3000 angel\u3000\u3000 wants\u3000to\n\u3000\u3000\u3000go back and fix things\u3000to  repair\u3000the  things\nthat\u3000have \u3000been \u3000broken\nbut there is a storm blowing from paradaise\nand\u3000 the storm keeps blowing \u3000the\u3000angel\nbackwards\u3000into\u3000\u3000\u3000\u3000 the\u3000\u3000\u3000\u3000 future\uff0e\nand this storm, \nthis \u3000\u3000storm\nis \u3000\u3000called\nprogress\n\n-laurie anderson (for walter benjamin)\n\n\nstaring at a burning fire\nisn't salvation\nsympathy for the devil\nisn't salvation\nlucid ambiguity\nisn't salvation\nbla bla bla bla bla bla\nisn't saltation\n\ndiscovering there is no salvation\nis\nsalvation\n\n-bernardo bertolucci\n\n\ntaken from \"the atomic age\" video collection.\n\noppenheimer's aria :: ryuichi sakamoto / reference : olivier messiaen / visual : shiro takatani (dumb type)\nhttp://www.sitesakamoto.com/oppenheimer_single.swf",
+              "extension": "m4v",
+              "views": "515,563",
+              "title": "in alamogordo, new mexico, on july 16, 1945",
+              "indexID": 7,
+              "videoID": "l8w3Y-dskeg",
+              "filename": "l8w3Y-dskeg.m4v",
+              "downloadUrl": "http://r2---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=97cc3763e76c91e8&itag=133&source=youtube&mm=31&mn=sn-nfpnnjvh-1gis&mv=m&ms=au&pl=22&ratebypass=yes&mime=video/mp4&gir=yes&clen=3024760&lmt=1428135605666957&dur=98.832&fexp=9405191,9406848,9407992,9408710,9415365,9415435,9415485,9416023,9416126,9416898,9417285,9417893,9418024,9418026,9418153&mt=1438960370&key=dg_yt0&signature=26D47F43A4916289DEB7216B56CCE935D2C6EA09.18ED6BEB0526BA56266F26511BB9FF91EB0FEF45&sver=3&upn=11Xbk6pKrCk&ip=178.199.44.182&ipbits=0&expire=1438982019&sparams=ip,ipbits,expire,id,itag,source,mm,mn,mv,ms,pl,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 1897,
+              "lengthseconds": 99,
+              "duration": "1:39",
+              "thumbnailUrl": "https://i.ytimg.com/vi/l8w3Y-dskeg/default.jpg",
+              "resolution": [
+                320,
+                240
+              ],
+              "filesize": 3024760
+            },
+            "8": {
+              "username": "Pea",
+              "description": "http://nigge.rs",
+              "extension": "m4v",
+              "views": "1,821",
+              "title": "404.exe",
+              "indexID": 8,
+              "videoID": "X7e2upS6bc0",
+              "filename": "X7e2upS6bc0.m4v",
+              "downloadUrl": "http://r5---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=5fb7b6ba94ba6dcd&itag=134&source=youtube&pl=22&mn=sn-nfpnnjvh-1gis&mm=31&ms=au&mv=m&ratebypass=yes&mime=video/mp4&gir=yes&clen=3609932&lmt=1402171804993054&dur=100.068&upn=blY38r7DFtk&fexp=9405967,9407148,9408710,9414799,9414898,9415365,9415485,9416023,9416126,9416515,9416571,9416729,9417285,9418153,9418201&key=dg_yt0&sver=3&mt=1438960370&signature=5BB5059D8ADE8EB59C464AE7E479077585A1458D.18FFFBFD111FC8C99FF2A0BF3283B61D67B46BA1&ip=178.199.44.182&ipbits=0&expire=1438982020&sparams=ip,ipbits,expire,id,itag,source,pl,mn,mm,ms,mv,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 50,
+              "lengthseconds": 101,
+              "duration": "1:41",
+              "thumbnailUrl": "https://i.ytimg.com/vi/X7e2upS6bc0/default.jpg",
+              "resolution": [
+                640,
+                360
+              ],
+              "filesize": 3609932
+            }
+          },
+          "TotalDuration": "00:17:03"
+        },
+        "Title": "Playlist NP",
+        "PlaylistID": "PLFEKcIBXXbQGXKmPFALXv1uaQWZtSOCAG",
+        "Artistname": "Nico Princen",
+        "Youtubename": "saprai",
+        "ID": "5",
+        "Playlisturl": "https://www.youtube.com/playlist?list=PLFEKcIBXXbQGXKmPFALXv1uaQWZtSOCAG"
+      },
+      "4": {
+        "Concept": "Text about the playlist by Petra Cortright",
+        "Description": "",
+        "Videos": {
+          "TotalAmount": 10,
+          "Video": {
+            "0": {
+              "username": "HowToBasic",
+              "description": "Today I show you how to make a delicious rainbow cake. Rainbow cakes are one of my absolute favourite cakes, not just because they look & taste amazing, but because they're extremely easy to make! These types of cakes are perfect for birthday parties & other social gatherings! What are you waiting for? Show off your amazing baking skills & make a delicious rainbow cake today! Enjoy!\n\nClick Here To Eggscribe! --\u25ba\nhttp://bit.ly/Eggscribe\n\nShare this incredible rainbow cake recipe around!!\nTWEET IT\u25ba http://ctt.ec/NRB37\nFACEEGG IT\u25ba http://bit.ly/RainbowCakeRecipe \n\nHave a video Suggestion? Post it in the Comments Section, Contact me through my Facebook page or Tweet me!\n\nConnect with me!\nFacebook \u25ba http://www.facebook.com/HowToBasic\nTwitter \u25ba http://www.twitter.com/HowToBasic\nInstagram \u25ba http://instagram.com/HowToBasic\n2ND Channel \u25ba http://www.youtube.com/HowToBasic2\nWebsite \u25ba http://www.howtobasic.net/\n\nT-Shirts & Eggy Merchandise \u25ba http://howtobasic.spreadshirt.com/\n\nWant to send me something?\nSend mail to \u25ba\nHowToBasic\nPO Box 334\nCannington, WA 6987\nAustralia\n\nKnow someone that would be interested in this Rainbow cake recipe? Link this video to them!\n\nHowToBasic howtobasic How To Basic",
+              "extension": "m4v",
+              "views": "3,690,186",
+              "title": "How To Make a Rainbow Cake",
+              "indexID": 0,
+              "videoID": "ENdgyD7Uar4",
+              "filename": "ENdgyD7Uar4.m4v",
+              "downloadUrl": "http://r8---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=10d760c83ed46abe&itag=136&source=youtube&ms=au&mv=m&pl=22&mm=31&mn=sn-nfpnnjvh-1gis&ratebypass=yes&mime=video/mp4&gir=yes&clen=34628910&lmt=1429518024485175&dur=141.080&key=dg_yt0&fexp=9405975,9407136,9407880,9408491,9408710,9409208,9413137,9415005,9415365,9415485,9415982,9416023,9416126,9416729,9417097,9417278,9417536,9418153,9418203,9418985&signature=39B69F058291D0B51B601BE9A8215CE835F83A2B.211C3E0DA091CA154E1D59207CC25FA630A038A5&mt=1438960370&sver=3&upn=w-dzXhhH0EA&ip=178.199.44.182&ipbits=0&expire=1438982014&sparams=ip,ipbits,expire,id,itag,source,ms,mv,pl,mm,mn,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 49642,
+              "lengthseconds": 142,
+              "duration": "2:22",
+              "thumbnailUrl": "https://i.ytimg.com/vi/ENdgyD7Uar4/default.jpg",
+              "resolution": [
+                1280,
+                720
+              ],
+              "filesize": 34628910
+            },
+            "1": {
+              "username": "HowToBasic",
+              "description": "Today I show you how to make a delicious homemade cream pie. Cream pie's are one of the world's most popular dessert dishes due to their great taste, and the fact that they aren't difficult to make. If you want to impress someone, whip out the ingredients, fill their bowl, then follow the simple step by step instructions in this video to make the most delicious cream pie you will ever taste. Enjoy!\n\nClick Here To Eggscribe! --\u25ba\nhttp://bit.ly/Eggscribe\n\n*SHARE* this delicious cream pie recipe around! \nTWEET IT\u25ba http://ctt.ec/qaea0 \nEGGBOOK IT\u25ba http://bit.ly/CreamPieFBShare  \n\nHave a video Suggestion? Post it in the Comments Section, Contact me through my Facebook page or Tweet me!\n\nConnect with me!\nFacebook \u25ba http://www.facebook.com/HowToBasic\nTwitter \u25ba http://www.twitter.com/HowToBasic\nInstagram \u25ba http://instagram.com/HowToBasic\n2ND Channel \u25ba http://www.youtube.com/HowToBasic2\nWebsite \u25ba http://www.howtobasic.net/\n\nT-Shirts & Eggy Merchandise \u25ba http://howtobasic.spreadshirt.com/\n\nWant to send me something?\nSend mail to \u25ba\nHowToBasic\nPO Box 334\nCannington, WA 6987\nAustralia\n\nKnow someone that would love this cream pie recipe? Link them to this video!\n\nSong - \"C Major Prelude\" - YouTube Audio Library\n\nHowToBasic howtobasic How To Basic",
+              "extension": "m4v",
+              "views": "2,622,696",
+              "title": "How To Make a Cream Pie",
+              "indexID": 1,
+              "videoID": "Y3Q9JCdjPfA",
+              "filename": "Y3Q9JCdjPfA.m4v",
+              "downloadUrl": "http://r1---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=63743d2427633df0&itag=136&source=youtube&mm=31&mn=sn-nfpnnjvh-1gis&mv=m&pl=22&ms=au&ratebypass=yes&mime=video/mp4&gir=yes&clen=32820986&lmt=1407971997168108&dur=149.961&key=dg_yt0&sver=3&upn=NHw7Zkyg6XI&signature=61B1A0595581E344AB140A7E5656493838F070A7.5EED29EF11362AA6FAAD4D0B4CFDC390FBB34E11&mt=1438960370&fexp=9408710,9410705,9412755,9415365,9415485,9415884,9416023,9416126,9416729,9417437,9417926,9418081,9418111,9418153,9418204&ip=178.199.44.182&ipbits=0&expire=1438982014&sparams=ip,ipbits,expire,id,itag,source,mm,mn,mv,pl,ms,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 44641,
+              "lengthseconds": 151,
+              "duration": "2:31",
+              "thumbnailUrl": "https://i.ytimg.com/vi/Y3Q9JCdjPfA/default.jpg",
+              "resolution": [
+                1280,
+                720
+              ],
+              "filesize": 32820986
+            },
+            "2": {
+              "username": "HowToBasic",
+              "description": "Today I show you how to make a delicious ice cream sandwich!\nIce cream sandwiches are an absolute treat for kids & even adults! They are absolutely delicious, they will definitely impress anyone that inserts them into their mouth holes/ anus holes/yolky holes. Feel like something sweet? Want to risk getting food poisoning? Want to be more sexy, just like me?? Look no further! Simply make one of my delicious homemade Ice Cream Sandwiches & Enjoy!\n\nClick Here To Eggscribe! --\u25ba\nhttp://bit.ly/Eggscribe\n\nShare this DELICIOUS recipe around! TWEET IT! \u25ba \nhttp://ctt.ec/1qCb6\n\nHave a video Suggestion? Post it in the Comments Section, Contact me through my Facebook page or Tweet me!\n\nConnect with me!\nFacebook \u25ba http://www.facebook.com/HowToBasic\nTwitter \u25ba http://www.twitter.com/HowToBasic\nInstagram \u25ba http://instagram.com/HowToBasic\n2ND Channel \u25ba http://www.youtube.com/HowToBasic2\nWebsite \u25ba http://www.howtobasic.net/\n\nT-Shirts & Eggy Merchandise \u25ba http://howtobasic.spreadshirt.com/\n\nWant to send me something?\nSend mail to \u25ba\nHowToBasic\nPO Box 334\nCannington, WA 6987\nAustralia\n\nKnow someone that loves a good Ice Cream Sandwich?? link them to this video! \n\nHowToBasic howtobasic How To Basic",
+              "extension": "m4v",
+              "views": "1,944,924",
+              "title": "How To Make an Ice Cream Sandwich",
+              "indexID": 2,
+              "videoID": "Lf6ZVcA5gcg",
+              "filename": "Lf6ZVcA5gcg.m4v",
+              "downloadUrl": "http://r1---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=2dfe9955c03981c8&itag=136&source=youtube&mn=sn-nfpnnjvh-1gis&mm=31&pl=22&mv=m&ms=au&ratebypass=yes&mime=video/mp4&gir=yes&clen=17726343&lmt=1428047356526762&dur=113.720&sver=3&fexp=9407156,9407942,9408093,9408513,9408710,9415365,9415485,9415663,9416023,9416126,9416524,9416906,9417118,9417701,9418153,9418199,9418203&key=dg_yt0&upn=pOP5iNCAHmo&mt=1438960370&signature=01BABB71580D17B406DA3E544449FB6779CED046.46A60B25D8523036B15443DBBF1B14B247373AD2&ip=178.199.44.182&ipbits=0&expire=1438982015&sparams=ip,ipbits,expire,id,itag,source,mn,mm,pl,mv,ms,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 29355,
+              "lengthseconds": 114,
+              "duration": "1:54",
+              "thumbnailUrl": "https://i.ytimg.com/vi/Lf6ZVcA5gcg/default.jpg",
+              "resolution": [
+                1280,
+                720
+              ],
+              "filesize": 17726343
+            },
+            "3": {
+              "username": "HowToBasic",
+              "description": "Today I show you how to unbend the iPhone 6 Plus. Lately everyone has come to realise that it's rather easy for the iPhone 6 Plus to bend. Even every day use such as taking it out of your pocket may result in your iPhone bending. Unfortunately people have tried bending it back into shape, only to discover that it has permanent damage, such as a cracked screen. This is when I decided to do some tests to figure out a simple fix for the problem. Pretty quickly I discovered a simple way to fix & Unbend the iPhone 6 Plus without damaging the phone whatsoever.\n\nClick Here To Eggscribe! --\u25ba\nhttp://bit.ly/Eggscribe\n\nSHARE this quick & easy fix around!!\nTWEET IT\u25ba http://ctt.ec/CMZP6 \nEGGBOOK IT\u25ba http://bit.ly/UnbendiPhone6Plus \n\nHave a video Suggestion? Post it in the Comments Section, Contact me through my Facebook page or Tweet me!\n\nConnect with me!\nFacebook \u25ba http://www.facebook.com/HowToBasic\nTwitter \u25ba http://www.twitter.com/HowToBasic\nInstagram \u25ba http://instagram.com/HowToBasic\n2ND Channel \u25ba http://www.youtube.com/HowToBasic2\nWebsite \u25ba http://www.howtobasic.net/\n\nT-Shirts & Eggy Merchandise \u25ba http://howtobasic.spreadshirt.com/\n\nWant to send me something?\nSend mail to \u25ba\nHowToBasic\nPO Box 334\nCannington, WA 6987\nAustralia\n\nKnow someone that has bent/damaged their new iPhone? Link them to this video!\n\nHowToBasic howtobasic How To Basic",
+              "extension": "m4v",
+              "views": "3,855,635",
+              "title": "How To Unbend The iPhone 6 Plus",
+              "indexID": 3,
+              "videoID": "S-N-9JQj3_c",
+              "filename": "S-N-9JQj3_c.m4v",
+              "downloadUrl": "http://r6---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=4be37ef49423dff7&itag=136&source=youtube&mm=31&mn=sn-nfpnnjvh-1gis&ms=au&mv=m&pl=22&ratebypass=yes&mime=video/mp4&gir=yes&clen=18647226&lmt=1412304522380635&dur=113.640&mt=1438960370&sver=3&signature=5F86EA2B97748060D7F1488F1004F2EB51BB0126.037D5DE798A544985AF8BAF416CB614E30C20815&key=dg_yt0&fexp=9406006,9407171,9407880,9407942,9408710,9410705,9412773,9413031,9415365,9415485,9416023,9416126,9416273,9416729,9416837,9417454,9417656,9418153,9418200,9418718,9418903&upn=P_AhkVx8g9w&ip=178.199.44.182&ipbits=0&expire=1438982015&sparams=ip,ipbits,expire,id,itag,source,mm,mn,ms,mv,pl,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 57071,
+              "lengthseconds": 114,
+              "duration": "1:54",
+              "thumbnailUrl": "https://i.ytimg.com/vi/S-N-9JQj3_c/default.jpg",
+              "resolution": [
+                1280,
+                720
+              ],
+              "filesize": 18647226
+            },
+            "4": {
+              "username": "HowToBasic",
+              "description": "Today I show you how to quickly get a six pack. Have you previously tried to get a six pack without any results? Do you think getting a six pack requires heaps of effort and dedication? It actually doesn't!  Simply watch this video and I will show you how to quickly get six pack abs. This is by far the easiest & effortless method around for obtaining a six pack and getting that hot body you desire. \n\nClick Here To Eggscribe! --\u25ba\nhttp://bit.ly/Eggscribe\n\nShare this Six Pack shortcut method around! Tweet it! --\u25ba\nhttp://clicktotweet.com/ZU1hW\n\nHave a video Suggestion? Post it in the Comments Section, Contact me through my Facebook page or Tweet me!\n\nConnect with me!\nFacebook \u25ba http://www.facebook.com/HowToBasic\nTwitter \u25ba http://www.twitter.com/HowToBasic\nInstagram \u25ba http://instagram.com/HowToBasic\n2ND Channel \u25ba http://www.youtube.com/HowToBasic2\nWebsite \u25ba http://www.howtobasic.net/\n\nT-Shirts & Eggy Merchandise \u25ba http://howtobasic.spreadshirt.com/\n\nWant to send me something?\nSend mail to \u25ba\nHowToBasic\nPO Box 334\nCannington, WA 6987\nAustralia\n\nKnow someone that desperately wants a six pack? Link them to this video! It'll help them out and ensure they get a six pack quickly & efficiently! \n\nHowToBasic howtobasic How To Basic",
+              "extension": "m4v",
+              "views": "5,144,060",
+              "title": "How To Get a Six Pack",
+              "indexID": 4,
+              "videoID": "nU-WggUYYj4",
+              "filename": "nU-WggUYYj4.m4v",
+              "downloadUrl": "http://r7---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=9d4f96820518623e&itag=136&source=youtube&mn=sn-nfpnnjvh-1gis&mm=31&pl=22&mv=m&ms=au&ratebypass=yes&mime=video/mp4&gir=yes&clen=27479817&lmt=1428040843387043&dur=135.000&sver=3&upn=L6i7ldkO2Hw&signature=2D4DE2B3738CD73A3398336DBF2A3D8B9BB81ACA.5C2196C223746DD72FF245B249074751D86DE292&mt=1438960370&key=dg_yt0&fexp=9407478,9408710,9415365,9415485,9416023,9416126,9418153&ip=178.199.44.182&ipbits=0&expire=1438982015&sparams=ip,ipbits,expire,id,itag,source,mn,mm,pl,mv,ms,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 58273,
+              "lengthseconds": 136,
+              "duration": "2:16",
+              "thumbnailUrl": "https://i.ytimg.com/vi/nU-WggUYYj4/default.jpg",
+              "resolution": [
+                1280,
+                720
+              ],
+              "filesize": 27479817
+            },
+            "5": {
+              "username": "HowToBasic",
+              "description": "Today I show you how to turn into a Chocolate Cake. Morphing into a chocolate cake may seem difficult, but when you know the correct technique it's a piece of cake - HAHAHAHA GET IT? HAHAHA LOL LMFAO ROFL. For years i've studied various morphing techniques, lately I came across this genius method that works 8% of the time. Everyone won't believe their eyes! They will think you're wearing an incredibly detailed chocolate cake costume! Little do they know you have actually turned into a real chocolate cake. Have fun!\n\n83% of people incorrectly attempt to turn into a chocolate cake on a daily basis. As a result they all put themselves in serious danger. Ensure everyone does it properly & as safely as possible! SHARE IT:\nTWEET IT\u25ba http://ctt.ec/pFZ66 \nEGGBOOK IT\u25ba http://bit.ly/MorphIntoAChocolateCake \n\nClick Here To Eggscribe! --\u25ba\nhttp://bit.ly/Eggscribe \n\nHave a video Suggestion? Post it in the Comments Section, Contact me through my Facebook page or Tweet me!\n\nConnect with me!\nFacebook \u25ba http://www.facebook.com/HowToBasic\nTwitter \u25ba http://www.twitter.com/HowToBasic\nInstagram \u25ba http://instagram.com/HowToBasic\n2ND Channel \u25ba http://www.youtube.com/HowToBasic2\n\u00a0\nT-Shirts & Eggy Merchandise \u25ba http://howtobasic.spreadshirt.com/\n\nWant to send me something?\nSend mail to \u25ba\nHowToBasic\nPO Box 334\nCannington, WA 6987\nAustralia\n\nKnow someone that struggles to morph into a chocolate cake on a daily basis? Link them to this video!\n\nHowToBasic howtobasic How To Basic",
+              "extension": "m4v",
+              "views": "1,371,261",
+              "title": "How To Morph Into a Chocolate Cake",
+              "indexID": 5,
+              "videoID": "hKeKuuAll8Y",
+              "filename": "hKeKuuAll8Y.m4v",
+              "downloadUrl": "http://r6---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=84a78abae02597c6&itag=137&source=youtube&mm=31&mn=sn-nfpnnjvh-1gis&pl=22&mv=m&ms=au&ratebypass=yes&mime=video/mp4&gir=yes&clen=30295288&lmt=1433070058829331&dur=67.800&key=dg_yt0&sver=3&upn=Auq8RU4uZNo&fexp=9406983,9408710,9415365,9415485,9416023,9416126,9418153&mt=1438960370&signature=65C3C4475A3309361CE1A8323591840ED8542E3D.643D14937149E6DC48C5E329B33C76ABC3E2588F&ip=178.199.44.182&ipbits=0&expire=1438982016&sparams=ip,ipbits,expire,id,itag,source,mm,mn,pl,mv,ms,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 38693,
+              "lengthseconds": 68,
+              "duration": "1:08",
+              "thumbnailUrl": "https://i.ytimg.com/vi/hKeKuuAll8Y/default.jpg",
+              "resolution": [
+                1920,
+                1080
+              ],
+              "filesize": 30295288
+            },
+            "6": {
+              "username": "HowToBasic",
+              "description": "Today I show you how to correctly cook a lobster. When cooked correctly lobster is incredibly tasty, succulent & tender. Cooking lobster is incredibly easy once you know the correct cooking technique, but unfortunately not many people are aware of it. That's why I made this video - To share with the world the correct lobster cooking method so that everyone, no matter how old or young, can successfully cook a lobster. Enjoy!\n\nIngredients:\nTuna\n\n94% of people cook lobster incorrectly. Help change that! SHARE IT:\nTWEET IT\u25ba http://ctt.ec/970ux \nEGGBOOK IT\u25ba http://bit.ly/CorrectlyCookLobsterAnus \n\nClick Here To Eggscribe! --\u25ba\nhttp://bit.ly/Eggscribe \n\nHave a video Suggestion? Post it in the Comments Section, Contact me through my Facebook page or Tweet me!\n\nConnect with me!\nFacebook \u25ba http://www.facebook.com/HowToBasic\nTwitter \u25ba http://www.twitter.com/HowToBasic\nInstagram \u25ba http://instagram.com/HowToBasic\n2ND Channel \u25ba http://www.youtube.com/HowToBasic2\n\u00a0\nT-Shirts & Eggy Merchandise \u25ba http://howtobasic.spreadshirt.com/\n\nWant to send me something?\nSend mail to \u25ba\nHowToBasic\nPO Box 334\nCannington, WA 6987\nAustralia\n\nKnow someone that needs help cooking their lobster? Send this video to them! They'll truly appreciate it.\n\nHowToBasic howtobasic How To Basic",
+              "extension": "m4v",
+              "views": "1,199,967",
+              "title": "How To Correctly Cook Lobster",
+              "indexID": 6,
+              "videoID": "pdUGz_nS89k",
+              "filename": "pdUGz_nS89k.m4v",
+              "downloadUrl": "http://r5---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=a5d506cff9d2f3d9&itag=137&source=youtube&pl=22&mn=sn-nfpnnjvh-1gis&mm=31&ms=au&mv=m&ratebypass=yes&mime=video/mp4&gir=yes&clen=24605265&lmt=1434856915342370&dur=62.240&mt=1438960370&upn=THveOI4rJ70&fexp=9406984,9408710,9415365,9415485,9416023,9416126,9418153&key=dg_yt0&signature=7294D354261B5468666598FE1EFF10039D8741DF.8E41369C56333405E66ADAFF6863529445405F71&sver=3&ip=178.199.44.182&ipbits=0&expire=1438982016&sparams=ip,ipbits,expire,id,itag,source,pl,mn,mm,ms,mv,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 28393,
+              "lengthseconds": 63,
+              "duration": "1:03",
+              "thumbnailUrl": "https://i.ytimg.com/vi/pdUGz_nS89k/default.jpg",
+              "resolution": [
+                1920,
+                1080
+              ],
+              "filesize": 24605265
+            },
+            "7": {
+              "username": "HowToBasic",
+              "description": "Today I show you how to perfectly cook an egg in 3 seconds or less. This lightning fast egg cooking technique is currently the world's fastest. Using this method you can scramble, fry, poach & hard boil an egg to perfection in 3 seconds or less. Spending ages preparing your eggs? Not anymore! Simply follow the step by step instructions in this video & you'll perfectly cook your eggs at an unbelievably fast rate!\n\nSHARE the world's fastest egg cooking technique around!\nTWEET IT\u25ba http://ctt.ec/s7I43\nEGGBOOK IT\u25ba http://bit.ly/PerfectEggs \n\nClick Here To Eggscribe! --\u25ba\nhttp://bit.ly/Eggscribe \n\nHave a video Suggestion? Post it in the Comments Section, Contact me through my Facebook page or Tweet me!\n\nConnect with me!\nFacebook \u25ba http://www.facebook.com/HowToBasic\nTwitter \u25ba http://www.twitter.com/HowToBasic\nInstagram \u25ba http://instagram.com/HowToBasic\n2ND Channel \u25ba http://www.youtube.com/HowToBasic2\n\u00a0\nT-Shirts & Eggy Merchandise \u25ba http://howtobasic.spreadshirt.com/\n\nWant to send me something?\nSend mail to \u25ba\nHowToBasic\nPO Box 334\nCannington, WA 6987\nAustralia\n\nKnow someone that's spending too much time preparing their eggs? Link them to this lightning fast egg cooking method! \n\nHowToBasic howtobasic How To Basic",
+              "extension": "m4v",
+              "views": "1,515,354",
+              "title": "How To Perfectly Cook an Egg in 3 Seconds",
+              "indexID": 7,
+              "videoID": "hUqO3tFexiQ",
+              "filename": "hUqO3tFexiQ.m4v",
+              "downloadUrl": "http://r8---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=854a8eded15ec624&itag=137&source=youtube&pl=22&mm=31&mn=sn-nfpnnjvh-1gis&ms=au&mv=m&ratebypass=yes&mime=video/mp4&gir=yes&clen=15473728&lmt=1437637000964303&dur=42.440&sver=3&mt=1438960370&fexp=9406989,9408710,9415365,9415485,9416023,9416126,9418153&key=dg_yt0&signature=80700953E1855C3924E0F5490FD31325441320E6.275D595DD53E6D5978544C35FF0ED761707FABEF&upn=zdTFS62Uwco&ip=178.199.44.182&ipbits=0&expire=1438982016&sparams=ip,ipbits,expire,id,itag,source,pl,mm,mn,ms,mv,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 48313,
+              "lengthseconds": 43,
+              "duration": "0:43",
+              "thumbnailUrl": "https://i.ytimg.com/vi/hUqO3tFexiQ/default.jpg",
+              "resolution": [
+                1920,
+                1080
+              ],
+              "filesize": 15473728
+            },
+            "8": {
+              "username": "HowToBasic",
+              "description": "Today I show you how to lower your laptops temperature. Unfortunately laptops are known for sometimes being hotter than they should be. This is a real problem, as they can potentially overheat or even cause an injury. But don't panic! There's a few simple steps you can take to prevent your laptop from overheating or causing any damage. This technique will ensure that your laptop always remains at a reasonable temperature. It only takes a minute to dramatically reduce the temperature of your Laptop or Computer! Simply watch the video & follow the step by step instructions carefully!\n\nEnsure all laptops remain at a reasonable temperature! SHARE this laptop cooling technique around!\nTWEET IT\u25ba http://ctt.ec/Jd51t \nEGGBOOK IT\u25ba http://bit.ly/ReduceLaptopTemperature \n\nClick Here To Eggscribe! --\u25ba\nhttp://bit.ly/Eggscribe \n\nHave a video Suggestion? Post it in the Comments Section, Contact me through my Facebook page or Tweet me!\n\nConnect with me!\nFacebook \u25ba http://www.facebook.com/HowToBasic\nTwitter \u25ba http://www.twitter.com/HowToBasic\nInstagram \u25ba http://instagram.com/HowToBasic\n2ND Channel \u25ba http://www.youtube.com/HowToBasic2\n\u00a0\nT-Shirts & Eggy Merchandise \u25ba http://howtobasic.spreadshirt.com/\n\nWant to send me something?\nSend mail to \u25ba\nHowToBasic\nPO Box 334\nCannington, WA 6987\nAustralia\n\nKnow someone that is struggling to keep their laptop at a reasonable temperature? Link them to this video!\n\nHowToBasic howtobasic How To Basic",
+              "extension": "m4v",
+              "views": "1,923,057",
+              "title": "How To Cool Down Your Laptop",
+              "indexID": 8,
+              "videoID": "Bh6LFitHeyg",
+              "filename": "Bh6LFitHeyg.m4v",
+              "downloadUrl": "http://r2---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=061e8b162b477b28&itag=137&source=youtube&mv=m&ms=au&mm=31&mn=sn-nfpnnjvh-1gis&pl=22&pcm2cms=yes&ratebypass=yes&mime=video/mp4&gir=yes&clen=20873792&lmt=1433504362869801&dur=53.880&mt=1438960370&fexp=9405637,9405958,9407171,9408511,9408710,9415365,9415435,9415485,9416023,9416126,9416370,9416575,9416899,9417009,9417925,9418153,9418456,9418705,9418780&sver=3&key=dg_yt0&upn=00MgpkPGz6g&signature=333595BF95B672653FED4F26FF39E6210E7F58.1A36501561D94B804F2072A932114C5C6B8799B6&ip=178.199.44.182&ipbits=0&expire=1438982016&sparams=ip,ipbits,expire,id,itag,source,mv,ms,mm,mn,pl,pcm2cms,ratebypass,mime,gir,clen,lmt,dur",
+              "likes": 50675,
+              "lengthseconds": 54,
+              "duration": "0:54",
+              "thumbnailUrl": "https://i.ytimg.com/vi/Bh6LFitHeyg/default.jpg",
+              "resolution": [
+                1920,
+                1080
+              ],
+              "filesize": 20873792
+            },
+            "9": {
+              "username": "HowToBasic",
+              "description": "Today I show you how to make green tea. This healthy green tea recipe has been in my family for generations. It was invented by my dead goat named Henry. It used to contain traces of goat urine, but unfortunately after Henry passed away from quite a severe & unexpected case of food poisoning I was no longer able to obtain any more goat urine. Still tastes good though. Enjoy! \n\nShow everyone the correct way to make green tea! SHARE IT:\nTWEET IT\u25ba http://ctt.ec/awmo1 \nEGGBOOK IT\u25ba http://bit.ly/GreenTeaRecipe \n\nClick Here To Eggscribe! --\u25ba\nhttp://bit.ly/Eggscribe \n\nHave a video Suggestion? Post it in the Comments Section, Contact me through my Facebook page or Tweet me!\n\nConnect with me!\nFacebook \u25ba http://www.facebook.com/HowToBasic\nTwitter \u25ba http://www.twitter.com/HowToBasic\nInstagram \u25ba http://instagram.com/HowToBasic\n2ND Channel \u25ba http://www.youtube.com/HowToBasic2\n\u00a0\nT-Shirts & Eggy Merchandise \u25ba http://howtobasic.spreadshirt.com/\n\nWant to send me something?\nSend mail to \u25ba\nHowToBasic\nPO Box 334\nCannington, WA 6987\nAustralia\n\nKnow someone that likes green tea? Link them to this delicious recipe!\n\nHowToBasic howtobasic How To Basic",
+              "extension": "m4v",
+              "views": "1,048,927",
+              "title": "How To Make Green Tea",
+              "indexID": 9,
+              "videoID": "x2HV-7sY5ck",
+              "filename": "x2HV-7sY5ck.m4v",
+              "downloadUrl": "http://r8---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?itag=137&mt=1438960370&initcwndbps=1141250&upn=Xe6Tagp5MEQ&signature=E57625335724EF2ABBF582CE488F0B2F209396D3.6E1F83021946D38936D8AEB6F2DEC69080A990DA&mime=video%2Fmp4&keepalive=yes&sparams=clen%2Cdur%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Csource%2Cupn%2Cexpire&ipbits=0&mv=m&source=youtube&ms=au&lmt=1433070995382192&ip=178.199.44.182&key=yt5&fexp=9406508%2C9407051%2C9407718%2C9408500%2C9408710%2C9409171%2C9415365%2C9415435%2C9415485%2C9416023%2C9416126%2C9416215%2C9416329%2C9417269%2C9418153%2C9418215%2C9418781&mn=sn-nfpnnjvh-1gis&mm=31&id=o-AGHpglodpgB1ISq__5scm_yboaicY08r5xpUbs5lohv3&dur=69.120&gir=yes&sver=3&clen=28833897&expire=1438982017&pl=22&ratebypass=yes",
+              "likes": 28235,
+              "lengthseconds": 70,
+              "duration": "1:10",
+              "thumbnailUrl": "https://i.ytimg.com/vi/x2HV-7sY5ck/default.jpg",
+              "resolution": [
+                1920,
+                1080
+              ],
+              "filesize": 28833897
+            }
+          },
+          "TotalDuration": "00:15:55"
+        },
+        "Title": "Petra Cortright for Kunsthaus Langenthal",
+        "PlaylistID": "PL83uifC2t2mylGa9sqFSns5vpa37aODac",
+        "Artistname": "Petra Cortright",
+        "Youtubename": "Geneva Skeen",
+        "ID": "4",
+        "Playlisturl": "https://www.youtube.com/playlist?list=PL83uifC2t2mylGa9sqFSns5vpa37aODac"
+      }
+    },
+    "Title": "Youtube Exhbition in Langenthal"
+  }
+}
