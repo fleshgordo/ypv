@@ -32,13 +32,21 @@
 				"ID": 3,
 				"Playlisturl": "https://www.youtube.com/playlist?list=PLCUGKK4FUkbOb4pSW13KeQ_M3Y6SB4KUl",
 				"Title": "The title of the playlist",
-				"DownloadVideosFlag": 0
+				"DownloadVideosFlag": 1
 			},
 			"4": {
 				"Artistname": "Petra Cortright",
-				"Concept": "Text about the playlist by Constant Dullaart",
+				"Concept": "Text about the playlist by Petra Cortright",
 				"ID": 4,
 				"Playlisturl": "https://www.youtube.com/playlist?list=PL83uifC2t2mylGa9sqFSns5vpa37aODac",
+				"Title": "The title of the playlist",
+				"DownloadVideosFlag": 0
+			},
+			"5": {
+				"Artistname": "Nico Princen",
+				"Concept": "Text about the playlist by Nico Princen",
+				"ID": 4,
+				"Playlisturl": "https://www.youtube.com/playlist?list=PLFEKcIBXXbQGXKmPFALXv1uaQWZtSOCAG",
 				"Title": "The title of the playlist",
 				"DownloadVideosFlag": 0
 			}
