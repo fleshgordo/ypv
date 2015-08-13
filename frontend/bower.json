@@ -3,7 +3,14 @@
   "private": true,
   "dependencies": {
     "modernizr": "~2.6.2",
-    "jquery": "~1.11.0"
+    "jquery": "~1.11.0",
+    "roboto-local": "*",
+    "normalize.css": "~3.0.3",
+    "roboto-fontface": "~0.4.3",
+    "underscore": "~1.8.3",
+    "jplayer": "~2.9.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "normalize.css": "~3.0.3"
+  }
 }

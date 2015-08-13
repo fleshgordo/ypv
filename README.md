@@ -46,6 +46,7 @@ Using a Storm 8 keys interface. Keycodes are:
 	    	"Playlisturl": "The url of the playlist",
 	    	"Title": "The title of the playlist",
 	    	"DownloadVideosFlag": "boolean 0 for no download, 1 for download videos"
+	    	"DownloadMetaFlag": "boolean 0 for no download e. q. keep metadata from existing file, 1 for live download meta"
 		}
 	}
 }

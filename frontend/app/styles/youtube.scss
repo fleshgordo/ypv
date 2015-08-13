@@ -1,0 +1,205 @@
+// youtube stuff
+
+#yt-masthead-container {
+    background: none repeat scroll 0% 0% #FFF;
+    border-bottom: 1px solid #E8E8E8;
+    min-width: 0px;
+    padding-bottom: 8px;
+    padding-top: 7px;
+    position: relative;
+}
+.page-loaded .yt-base-gutter, .page-loaded #page, .page-loaded #appbar-content {
+    transition: padding 0s ease-in-out 0s;
+}
+.yt-base-gutter {
+    min-width: 943px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#yt-masthead .yt-masthead-logo-container {
+    float: left;
+    margin-top: 3px;
+    position: relative;
+    width: 200px;
+}
+
+#yt-masthead .yt-masthead-logo-container #logo-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+a {
+    color: #167AC6;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#yt-masthead #logo-container .logo {
+    background: url("//s.ytimg.com/yts/imgbin/www-hitchhiker-vflbbrnjb.png") no-repeat scroll -487px -14px transparent;
+    width: 72px;
+    height: 30px;
+}
+.yt-sprite {
+    display: inline-block;
+}
+
+#yt-masthead-user {
+    color: #555;
+    float: right;
+    margin-left: 50px;
+    margin-top: 3px;
+}
+
+#masthead-search {
+    margin-top: 3px;
+    max-width: 650px;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+}
+
+#masthead-search .search-btn-component, #masthead-search .search-btn-component .start {
+    border-left: 0px none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#masthead-search-terms input {
+    background: none repeat scroll 0% 0% transparent;
+    border: 0px none;
+    display: inline-block;
+    font-size: 16px;
+    height: 100%;
+    left: 0px;
+    margin: 0px;
+    outline: medium none;
+    padding: 2px 6px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+#masthead-search-terms {
+    background-color: #FFF;
+    font-size: 14px;
+    height: 29px;
+    line-height: 30px;
+    margin: 0px 0px 2px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease 0s;
+}
+.masthead-search-terms-border {
+    border: 1px solid #CCC;
+    box-shadow: 0px 1px 2px #EEE inset;
+}
+#masthead-search .search-btn-component .yt-uix-button-content {
+    border: medium none;
+    display: block;
+    opacity: 0.6;
+    padding: 0px;
+    text-indent: -10000px;
+    background: url("//s.ytimg.com/yts/imgbin/www-hitchhiker-vflbbrnjb.png") no-repeat scroll -562px -132px transparent;
+    width: 14px;
+    height: 14px;
+    box-shadow: none;
+}
+
+#masthead-search .search-btn-component {
+    height: 29px;
+}
+.search-btn-component {
+    padding: 0px;
+}
+.yt-uix-button-default, .yt-uix-button-default[disabled], .yt-uix-button-default[disabled]:hover, .yt-uix-button-default[disabled]:active, .yt-uix-button-default[disabled]:focus {
+    border-color: #D3D3D3;
+    background: none repeat scroll 0% 0% #F8F8F8;
+    color: #333;
+}
+a.yt-uix-button {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.yt-uix-button {
+    display: inline-block;
+    height: 28px;
+    border: 1px solid transparent;
+    padding: 0px 10px;
+    outline: 0px none;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+#masthead-search .search-btn-component {
+    float: right;
+}
+#masthead-search .search-btn-component {
+    height: 29px;
+}
+
+#pl-video-table {
+    counter-reset: playlistvideo;
+    width: 100%;
+    position: absolute;
+}
+#pl-playlist-table {
+    counter-reset: playlistvideo;
+    width: 100%;
+    position: absolute;
+}
+#pl-video-list {
+    background: white;
+}
+#upload-btn .yt-uix-button-content {
+    vertical-align: middle;
+    display: inline-block;
+margin-top: 8px;
+}
+table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    font-size: 100%;
+    background: none repeat scroll 0% 0% transparent;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.pl-video {
+    border-bottom: 1px solid #E2E2E2;
+    height: 60px;
+}
+.yt-uix-tile {
+    cursor: pointer;
+}
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.pl-video .pl-video-thumbnail {
+    padding: 15px 0px;
+    width: 72px;
+}
+.pl-video td {
+    vertical-align: middle;
+}
+.pl-video td, .pl-video .more-menu-wrapper {
+    padding: 8px;
+}
+
+#container > .yt-lockup-tile, .branded-page-v2-primary-col .branded-page-box, .section-list li .item-section .branded-page-box {
+    border-bottom: 1px solid #E2E2E2;
+}

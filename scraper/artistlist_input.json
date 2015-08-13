@@ -1,6 +1,6 @@
 {
 	"Videoplayer": {
-		"Title": "Youtube Exhbition in Langenthal",
+		"Title": "Art and Playlists from 10 Years",
 		"Works": {
 			"0": {
 				"Artistname": "Oliver Laric",
@@ -8,7 +8,8 @@
 				"ID": 0,
 				"Playlisturl": "",
 				"Title": "The title of the playlist",
-				"DownloadVideosFlag": 0
+				"DownloadVideosFlag": 0,
+				"DownloadMetaFlag": 0
 			},
 			"1": {
 				"Artistname": "TRAUMAWIEN & Bernhard Bauch",
@@ -16,7 +17,8 @@
 				"ID": 1,
 				"Playlisturl": "",
 				"Title": "The title of the playlist",
-				"DownloadVideosFlag": 0
+				"DownloadVideosFlag": 0,
+				"DownloadMetaFlag": 0
 			},
 			"2": {
 				"Artistname": "Iocose",
@@ -24,31 +26,116 @@
 				"ID": 2,
 				"Playlisturl": "",
 				"Title": "The title of the playlist",
-				"DownloadVideosFlag": 0
+				"DownloadVideosFlag": 0,
+				"DownloadMetaFlag": 0
 			},
 			"3": {
 				"Artistname": "Constant Dullaart",
 				"Concept": "Text about the playlist by Constant Dullaart",
 				"ID": 3,
 				"Playlisturl": "https://www.youtube.com/playlist?list=PLCUGKK4FUkbOb4pSW13KeQ_M3Y6SB4KUl",
-				"Title": "The title of the playlist",
-				"DownloadVideosFlag": 1
+				"Title": "FLUIDSIM invisible containers",
+				"DownloadVideosFlag": 0,
+				"DownloadMetaFlag": 0
 			},
 			"4": {
 				"Artistname": "Petra Cortright",
 				"Concept": "Text about the playlist by Petra Cortright",
 				"ID": 4,
 				"Playlisturl": "https://www.youtube.com/playlist?list=PL83uifC2t2mylGa9sqFSns5vpa37aODac",
-				"Title": "The title of the playlist",
-				"DownloadVideosFlag": 0
+				"Title": "How to",
+				"DownloadVideosFlag": 0,
+				"DownloadMetaFlag": 0
 			},
 			"5": {
+				"Artistname": "Jennifer Chan",
+				"Concept": "Text about the playlist by Jennifer Chan",
+				"ID": 5,
+				"Playlisturl": "",
+				"Title": "",
+				"DownloadVideosFlag": 0,
+				"DownloadMetaFlag": 0
+			},
+			"6": {
+				"Artistname": "Eva & Franco Mattes",
+				"Concept": "Text about the playlist by Eva & Franco Mattes",
+				"ID": 6,
+				"Playlisturl": "https://www.youtube.com/playlist?list=PLFEKcIBXXbQG6yja7hsimNWlYe3Bt_-vq",
+				"Title": "DSCF0001.AVI",
+				"DownloadVideosFlag": 0,
+				"DownloadMetaFlag": 0
+			},
+			"7": {
 				"Artistname": "Nico Princen",
 				"Concept": "Text about the playlist by Nico Princen",
-				"ID": 4,
+				"ID": 7,
 				"Playlisturl": "https://www.youtube.com/playlist?list=PLFEKcIBXXbQGXKmPFALXv1uaQWZtSOCAG",
-				"Title": "The title of the playlist",
-				"DownloadVideosFlag": 0
+				"Title": "Zomergasten",
+				"DownloadVideosFlag": 0,
+				"DownloadMetaFlag": 0
+			},
+			"8": {
+				"Artistname": "Guthrie Lonergan",
+				"Concept": "Text about the playlist by Guthrie Lonergan",
+				"ID": 8,
+				"Playlisturl": "https://www.youtube.com/playlist?list=PLEBF5D6DC4589D7B7",
+				"Title": "MySpace Intro Playlist",
+				"DownloadVideosFlag": 0,
+				"DownloadMetaFlag": 0
+			},
+			"9": {
+				"Artistname": "Jeremy Bailey",
+				"Concept": "Text about the playlist by Jeremy Bailey",
+				"ID": 9,
+				"Playlisturl": "",
+				"Title": "",
+				"DownloadVideosFlag": 0,
+				"DownloadMetaFlag": 0
+			},
+			"10": {
+				"Artistname": "Marisa Olson",
+				"Concept": "Text about the playlist by Marisa Olson",
+				"ID": 10,
+				"Playlisturl": "",
+				"Title": "",
+				"DownloadVideosFlag": 0,
+				"DownloadMetaFlag": 0
+			},
+			"11": {
+				"Artistname": "Sinae Yoo",
+				"Concept": "Text about the playlist by Sinae Yoo",
+				"ID": 11,
+				"Playlisturl": "https://www.youtube.com/playlist?list=PLFEKcIBXXbQF_MViIqiC7RHrB-MMVqMJe",
+				"Title": "Happy Together",
+				"DownloadVideosFlag": 0,
+				"DownloadMetaFlag": 0
+			},
+			"12": {
+				"Artistname": "Fabian Chiquet",
+				"Concept": "Text about the playlist by Fabian Chiquet",
+				"ID": 12,
+				"Playlisturl": "https://www.youtube.com/playlist?list=PLFEKcIBXXbQEW-Tvkqofbelkq9YMMegaj",
+				"Title": "Dancing People Are Never Wrong",
+				"DownloadVideosFlag": 0,
+				"DownloadMetaFlag": 0
+			},
+			"13": {
+				"Artistname": "Lauren Huret",
+				"Concept": "Text about the playlist by Lauren Huret",
+				"ID": 13,
+				"Playlisturl": "https://www.youtube.com/playlist?list=PLFEKcIBXXbQEmN3oBqif2E_KhZRQpN9MU",
+				"Title": "All he could do was wreck and destroy",
+				"DownloadVideosFlag": 0,
+				"DownloadMetaFlag": 0
+			},
+			"14": {
+				"Artistname": "Harm van den Dorpel",
+				"Concept": "Text about the playlist by Harm van den Dorpel",
+				"ID": 13,
+				"Playlisturl": "",
+				"Title": "",
+				"DownloadVideosFlag": 0,
+				"DownloadMetaFlag": 0
 			}
 		}
 	}

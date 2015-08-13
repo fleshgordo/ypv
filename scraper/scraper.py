@@ -33,7 +33,7 @@ def getMetaDataForPlaylist(_index, _plpafy):
 	_w[_index]['Description'] = _plpafy['description']
 	_w[_index]['PlaylistID'] = _plpafy['playlist_id']
 	_w[_index]['Youtubename'] = _plpafy['author']
-	_w[_index]['Title'] = _plpafy['title']
+	#_w[_index]['Title'] = _plpafy['title']
 
 def timetosec(_time):
 	if (len(_time.split(":")) == 2):
@@ -67,12 +67,12 @@ def getMetaDataForVideo(_id,_plpafy):
 	video['thumbnailUrl'] = _plpafy['items'][_id]['playlist_meta']['thumbnail']
 	video['title'] = _plpafy['items'][_id]['playlist_meta']['title']
 	video['username'] = _plpafy['items'][_id]['playlist_meta']['author']
-	video['downloadUrl'] = _plpafy['items'][_id]['pafy'].getbestvideo().url
-	video['extension'] = _plpafy['items'][_id]['pafy'].getbestvideo().extension
+	video['downloadUrl'] = _plpafy['items'][_id]['pafy'].getbest(preftype="mp4").url
+	video['extension'] = _plpafy['items'][_id]['pafy'].getbest(preftype="mp4").extension
 	video['videoID'] = _plpafy['items'][_id]['pafy'].videoid
 	video['filename'] = "%s.%s" %(video['videoID'], video['extension'])
-	video['resolution'] = _plpafy['items'][_id]['pafy'].getbestvideo().dimensions
-	video['filesize'] = _plpafy['items'][_id]['pafy'].getbestvideo().get_filesize()
+	video['resolution'] = _plpafy['items'][_id]['pafy'].getbest(preftype="mp4").dimensions
+	video['filesize'] = _plpafy['items'][_id]['pafy'].getbest(preftype="mp4").get_filesize()
 	#video['videoID'] = _plpafy['items'][_id]['pafy']['duration']
 	
 	return video
@@ -89,6 +89,7 @@ def getAllVideos(_k, _plpafy, _download):
 
     """
 	totalTime = 0
+	totalViews = 0
 
 	for i in range(len(_plpafy['items'])):
 		_w[_k]['Videos']['Video'][i] = getMetaDataForVideo(i,_plpafy)
@@ -98,8 +99,10 @@ def getAllVideos(_k, _plpafy, _download):
 			downloadVideo(_k, i, _plpafy)
 
 		totalTime += _w[_k]['Videos']['Video'][i]['lengthseconds']
+		totalViews += int(_w[_k]['Videos']['Video'][i]['views'].replace(',',''))
 
 	_w[_k]['Videos']['TotalDuration'] = sectotime(totalTime)
+	_w[_k]['Videos']['TotalViews'] = format(int(totalViews),',d')
 
 
 def downloadVideo(_k, _i, _plpafy):
@@ -115,7 +118,7 @@ def downloadVideo(_k, _i, _plpafy):
 	filedestination = './assets/%s/%s.%s' %(newdir, videoid, fileextension)
 
 	# download the video
-	_plpafy['items'][_i]['pafy'].getbestvideo().download(filepath=filedestination,quiet=False)
+	_plpafy['items'][_i]['pafy'].getbest(preftype="mp4").download(filepath=filedestination,quiet=False)
 
 	# download thumbnail file for previewing the playlist only from first video
 	if (_i == 0):
@@ -126,7 +129,13 @@ def downloadVideo(_k, _i, _plpafy):
 	thumbdestination = 'assets/%s/%s.jpg' %(_w[_k]['PlaylistID'], videoid)
 	urllib.urlretrieve(_w[_k]['Videos']['Video'][_i]['thumbnailUrl'], thumbdestination)
 
-def generateJSON(_file):
+def my_key(dict_key):
+	try:
+		return int(dict_key)
+	except ValueError:
+		return dict_key
+
+def generateJSON(_file,_outputfile):
 	"""Generates the JSON String with all metadata 
 
     Args:
@@ -137,28 +146,39 @@ def generateJSON(_file):
 	artistlist = open(_file)
 	artistlist =  json.load(artistlist)
 
+	outputfile = open(_outputfile)
+	outputfile = json.load(outputfile)
+
 	for key, videoplayer in artistlist.items():
 		for works, value in sorted(videoplayer.items()):
 			# check for dictionary "Works"
 			if type(value) == dict:
-				for k,v in sorted(value.items()):
-					_w[k]['Artistname'] = v['Artistname']
-					_w[k]['Concept'] = v['Concept']
-					_w[k]['Playlisturl'] = v['Playlisturl']
-					_w[k]['ID'] = k
+				# sort them by numeric key indices 0, 1, 2 ... n instead of 0, 1, 10, 11 ... n
+				for k,v in sorted(value.items(), key=lambda (k,v): (int(k),v)):
 					if v['Playlisturl'] != "":
-						print "getting playlist for: " + _w[k]['Artistname']
-						plpafy = pafy.get_playlist(v['Playlisturl'])
-						getMetaDataForPlaylist(k,plpafy)	
-						getAllVideos(k,plpafy,v['DownloadVideosFlag'])
+						_w[k]['Artistname'] = v['Artistname']
+						_w[k]['Concept'] = v['Concept']
+						_w[k]['Title'] = v['Title']
+						_w[k]['Playlisturl'] = v['Playlisturl']
+						_w[k]['PlaylistID'] = ''
+	 					_w[k]['ID'] = k
+						if v['DownloadMetaFlag'] == 1:
+							print "... Getting playlist for: " + _w[k]['Artistname']
+							plpafy = pafy.get_playlist(v['Playlisturl'])
+							getMetaDataForPlaylist(k,plpafy)	
+							getAllVideos(k,plpafy,v['DownloadVideosFlag'])
+						elif v['DownloadMetaFlag'] == 0:
+							print "... Replacing existing Metadata for %s with keyid: %s" %(_w[k]['Artistname'],k)
+							_w[k] = outputfile['Videoplayer']['Works'][k]
 					else:
-						print "couldn't get playlist for: " + _w[k]['Artistname']
-			
+						print "... Couldn't get playlist for keyid: %s" %(k)
 			# check if dict value is string "Title"		
 			if type(value) == unicode:
 				works_output['Videoplayer']['Title'] = value
+				works_output['Videoplayer']['AssetsPath'] = '../assets/'
 
-generateJSON('./artistlist_input.json')
+generateJSON('./artistlist_input.json','output.json')
+
 
 with open("output.json", "w") as outfile:
-    json.dump(works_output, outfile, indent = 2, separators=(',', ': '))
+    json.dump(works_output, outfile, sort_keys=True, indent = 2, separators=(',', ': '))
