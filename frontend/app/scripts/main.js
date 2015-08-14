@@ -49,7 +49,7 @@
 			$('#header').append(_.template(this.templates.siteHeader));
 
 			$.ajax({
-				url: '../output.json',
+				url: '../dump/output.json',
 				dataType: 'json',
 				async: false,
 				success: function(data) {
@@ -317,7 +317,6 @@
 		 */
 		stopPlayback: function() {
 			console.log('stop playback ...');
-
 			$('#jquery_jplayer_1').jPlayer('destroy');
 			$('#bgModal').fadeOut().promise().done(function() {
 				YTP.state = 1;
@@ -359,23 +358,27 @@
 			$(document).keydown(function(e) {
 				switch (e.which) {
 					case 27: // ESC
+					case 128: // up on STORM interface
 						YTP.toggleHelp();
 						break;
 				}
-				//console.log(e.which);
+				console.log(e.which);
 				switch (YTP.state) {
 					case 0:
 						switch (e.which) {
 							case 37: // left
 								break;
 							case 38: // up
+							case 129: // up on STORM interface
 								YTP.updateCounter(false);
 								break;
 							case 39: // right
+							case 131: // green key on STORM interface
 							case 13: // enter
 								YTP.openPlaylist();
 								break;
 							case 40: // down
+							case 130: // down on STORM interface
 								YTP.updateCounter(true);
 								break;
 							default:
@@ -386,17 +389,21 @@
 					case 1:
 						switch (e.which) {
 							case 37: // left
+							case 132: // left key on STORM interface
 								YTP.state = 0;
 								YTP.showHideMenu();
 								break;
 							case 38: // up
+							case 129: // up on STORM interface
 								YTP.updateCounterDetail(false);
 								break;
 							case 39: // right
 							case 13:
+							case 131: // green key on STORM interface
 								YTP.startPlayback();
 								break;
 							case 40: // down
+							case 130: // down on STORM interface
 								YTP.updateCounterDetail(true);
 								break;
 							default:
@@ -406,14 +413,17 @@
 					case 2:
 						switch (e.which) {
 							case 37: // left
+							case 132: // left key on STORM interface
 								YTP.state = 1;
 								YTP.stopPlayback();
 								YTP.showHideMenu();
 								break;
 							case 38: // up
+							case 129: // up on STORM interface
 								YTP.nextVideo(false);
 								break;
 							case 40: // down
+							case 130: // down on STORM interface
 								YTP.nextVideo(true);
 								break;
 							default:

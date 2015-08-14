@@ -19,9 +19,17 @@ sudo pip install pafy
 
 `python scraper.py >> output.json`
 
-### Run player
+### Frontend 
 
-Frontend player 
+Install bower, yo and grunt-cli
+
+`npm install -g yo bower grunt-cli gulp`
+
+Checkout from github and install bower and node_modules
+
+`git clone https://github.com/fleshgordo/ypv.git`
+`bower install --save`
+`npm install`
 
 **TBD**
 
