@@ -8,9 +8,11 @@
     padding-top: 7px;
     position: relative;
 }
+
 .page-loaded .yt-base-gutter, .page-loaded #page, .page-loaded #appbar-content {
     transition: padding 0s ease-in-out 0s;
 }
+
 .yt-base-gutter {
     min-width: 943px;
     padding-left: 30px;
@@ -28,6 +30,7 @@
     display: inline-block;
     vertical-align: middle;
 }
+
 a {
     color: #167AC6;
     cursor: pointer;
@@ -39,6 +42,7 @@ a {
     width: 72px;
     height: 30px;
 }
+
 .yt-sprite {
     display: inline-block;
 }
@@ -78,6 +82,7 @@ a {
     width: 100%;
     box-sizing: border-box;
 }
+
 #masthead-search-terms {
     background-color: #FFF;
     font-size: 14px;
@@ -89,10 +94,12 @@ a {
     box-sizing: border-box;
     transition: border-color 0.2s ease 0s;
 }
+
 .masthead-search-terms-border {
     border: 1px solid #CCC;
     box-shadow: 0px 1px 2px #EEE inset;
 }
+
 #masthead-search .search-btn-component .yt-uix-button-content {
     border: medium none;
     display: block;
@@ -108,18 +115,22 @@ a {
 #masthead-search .search-btn-component {
     height: 29px;
 }
+
 .search-btn-component {
     padding: 0px;
 }
+
 .yt-uix-button-default, .yt-uix-button-default[disabled], .yt-uix-button-default[disabled]:hover, .yt-uix-button-default[disabled]:active, .yt-uix-button-default[disabled]:focus {
     border-color: #D3D3D3;
     background: none repeat scroll 0% 0% #F8F8F8;
     color: #333;
 }
+
 a.yt-uix-button {
     text-decoration: none;
     box-sizing: border-box;
 }
+
 .yt-uix-button {
     display: inline-block;
     height: 28px;
@@ -141,6 +152,7 @@ a.yt-uix-button {
 #masthead-search .search-btn-component {
     float: right;
 }
+
 #masthead-search .search-btn-component {
     height: 29px;
 }
@@ -149,20 +161,44 @@ a.yt-uix-button {
     counter-reset: playlistvideo;
     width: 100%;
     position: absolute;
+    .pl-video {
+        border-bottom: 1px solid #E2E2E2;
+        height: 40px;
+    }
+    .pl-video .pl-video-thumbnail {
+        padding: 3px 0px;
+        width: 30px;
+    }
+    img.pl-video-thumbnail-img {
+        max-width: 100%;
+    }
 }
+
 #pl-playlist-table {
-    counter-reset: playlistvideo;
-    width: 100%;
-    position: absolute;
+    @extend #pl-video-table;
+    .pl-video {
+        border-bottom: 1px solid #E2E2E2;
+
+    }
+    .pl-video .pl-video-thumbnail {
+        padding: 3px 0px;
+        width: 30px;
+    }
+    img.pl-video-thumbnail-img {
+        width: 100px;
+    }
 }
+
 #pl-video-list {
     background: white;
 }
+
 #upload-btn .yt-uix-button-content {
     vertical-align: middle;
     display: inline-block;
-margin-top: 8px;
+    margin-top: 8px;
 }
+
 table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
     margin: 0px;
     padding: 0px;
@@ -170,6 +206,7 @@ table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
     font-size: 100%;
     background: none repeat scroll 0% 0% transparent;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0px;
@@ -179,9 +216,11 @@ table {
     border-bottom: 1px solid #E2E2E2;
     height: 60px;
 }
+
 .yt-uix-tile {
     cursor: pointer;
 }
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -193,9 +232,11 @@ table {
     padding: 15px 0px;
     width: 72px;
 }
+
 .pl-video td {
     vertical-align: middle;
 }
+
 .pl-video td, .pl-video .more-menu-wrapper {
     padding: 8px;
 }
