@@ -117,6 +117,7 @@ module.exports = function(grunt) {
 					src: [
 						'.tmp',
 						'<%= config.dist %>/*',
+						'!<%= config.dist %>/assets',
 						'!<%= config.dist %>/.git*'
 					]
 				}]
@@ -336,7 +337,9 @@ module.exports = function(grunt) {
 					src: [
 						'*.{ico,png,txt}',
 						'.htaccess',
-						'images/{,*/}*.webp',
+						'images/{,*/}*.*',
+						'fonts/{,*/}*.*',
+						'dump/{,*/}*.*',
 						'{,*/}*.html',
 						'styles/fonts/{,*/}*.*'
 					]
@@ -431,7 +434,7 @@ module.exports = function(grunt) {
 		'uglify',
 		'copy:dist',
 		'modernizr',
-		'rev',
+		//'rev',
 		'usemin',
 		'htmlmin'
 	]);

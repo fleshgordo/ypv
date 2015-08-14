@@ -48,23 +48,15 @@
 			// load template for site header
 			$('#header').append(_.template(this.templates.siteHeader));
 
-			$.ajax({
-				url: '../dump/output.json',
-				dataType: 'json',
-				async: false,
-				success: function(data) {
-					YTP.playerTitle = data['Videoplayer']['Title'];
-					YTP.assetsPath = data['Videoplayer']['AssetsPath'];
-					YTP.works = data['Videoplayer']['Works'];
-					YTP.totalWorks = Object.keys(YTP.works).length;
-					$('#masthead-search-term').val(data['Videoplayer']['Title'])
-					YTP.initMenu();
-					YTP.bindKeyHandlers();
-				},
-				error: function(jqXHR, textStatus, errorThrown) {
-					console.log(textStatus, errorThrown);
-				}
-			});
+			// get stuff from the json file
+			YTP.playerTitle = data['Videoplayer']['Title'];
+			YTP.assetsPath = data['Videoplayer']['AssetsPath'];
+			YTP.works = data['Videoplayer']['Works'];
+			YTP.totalWorks = Object.keys(YTP.works).length;
+			$('#masthead-search-term').val(data['Videoplayer']['Title'])
+			YTP.initMenu();
+			YTP.bindKeyHandlers();
+
 		},
 
 		utils: {
@@ -186,12 +178,12 @@
 		showHideMenu: function() {
 			switch (YTP.state) {
 				case 0:
-					$('#pl-playlist-table').fadeIn();
+					$('#pl-playlist-table').fadeIn('150');
 					$('#pl-video-table').fadeOut();
 					$('#pl-video-table').html('');
 					break
 				case 1:
-					$('#pl-video-table').fadeIn();
+					$('#pl-video-table').fadeIn('150');
 					$('#pl-playlist-table').fadeOut();
 					break;
 				case 2:
@@ -203,10 +195,9 @@
 		 * start playback of current selected video
 		 */
 		startPlayback: function() {
-
 			YTP.state = 2;
 			console.log('... playback');
-			$('#bgModal').fadeIn().promise().done(function() {
+			$('#bgModal').fadeIn('150').promise().done(function() {
 				YTP.initPlayer();
 			})
 
@@ -277,9 +268,7 @@
 					}
 				},
 				ended: function() {
-
 					YTP.reinitPlayer(true);
-
 				},
 				resize: function() {
 
@@ -295,6 +284,7 @@
 					YTP.currentVideo += 1;
 					if (YTP.currentVideo >= YTP.totalVideos) {
 						YTP.currentVideo = 0;
+						YTP.updateSubMenu();
 						YTP.stopPlayback();
 					} else {
 						YTP.initPlayer();
@@ -307,9 +297,7 @@
 						YTP.initPlayer();
 					}
 				}
-
 			});
-
 		},
 
 		/**
@@ -317,10 +305,11 @@
 		 */
 		stopPlayback: function() {
 			console.log('stop playback ...');
-			$('#jquery_jplayer_1').jPlayer('destroy');
-			$('#bgModal').fadeOut().promise().done(function() {
+
+			$('#bgModal, #jquery_jplayer_1').fadeOut('100').promise().done(function() {
 				YTP.state = 1;
 				YTP.showHideMenu();
+				$('#jquery_jplayer_1').jPlayer('destroy');
 			})
 
 		},
@@ -329,13 +318,7 @@
 		 * Show help modal
 		 */
 		toggleHelp: function() {
-			if ($('#helpModal').isVisible()) {
-				$('#helpModal').fadeOut();
-
-			} else {
-				$('#helpModal').fadeIn();
-			}
-
+			console.log('showing help');
 		},
 
 		/**
@@ -355,14 +338,13 @@
 		 * Bind general key handlers for Storm interface
 		 */
 		bindKeyHandlers: function() {
-			$(document).keydown(function(e) {
+			$(document).keydown($.debounce(function(e) {
 				switch (e.which) {
 					case 27: // ESC
 					case 128: // up on STORM interface
 						YTP.toggleHelp();
 						break;
 				}
-				console.log(e.which);
 				switch (YTP.state) {
 					case 0:
 						switch (e.which) {
@@ -432,7 +414,7 @@
 						break;
 				}
 				e.preventDefault(); // prevent the default action (scroll / move caret)
-			});
+			}, 300));
 		}
 	}
 
