@@ -10,6 +10,7 @@
 		consoleHolder: console,
 		currentArtist: 0,
 		currentVideo: 0,
+		isMac: 0,
 		works: {},
 		playerTitle: '',
 		assetsPath: '',
@@ -44,7 +45,7 @@
 			// Disable all console.logs if DEBUG=false
 			this.debug();
 			this.templates = YYY.Templates;
-
+			this.isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
 			// load template for site header
 			$('#header').append(_.template(this.templates.siteHeader));
 
@@ -370,6 +371,12 @@
 						break;
 					case 1:
 						switch (e.which) {
+							case 0: // back button on Storm interface gives 0 on Mac
+								if (YTP.isMac === true) {
+									YTP.state = 0;
+									YTP.showHideMenu();
+								}
+								break;
 							case 37: // left
 							case 132: // left key on STORM interface
 								YTP.state = 0;
@@ -394,6 +401,13 @@
 						break;
 					case 2:
 						switch (e.which) {
+							case 0: // back button on Storm interface gives 0 on Mac
+								if (YTP.isMac === true) {
+									YTP.state = 1;
+									YTP.stopPlayback();
+									YTP.showHideMenu();
+								}
+								break;
 							case 37: // left
 							case 132: // left key on STORM interface
 								YTP.state = 1;
