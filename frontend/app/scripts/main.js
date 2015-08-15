@@ -342,7 +342,7 @@
 			$(document).keydown($.debounce(function(e) {
 				switch (e.which) {
 					case 27: // ESC
-					case 128: // up on STORM interface
+					case 128: // question mark on STORM interface
 						YTP.toggleHelp();
 						break;
 				}

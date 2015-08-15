@@ -1,10 +1,10 @@
 # YPV Youtube playlist videoplayer
 
-This Youtube videoplayer takes a bunch of Youtube playlists and downloads their metadata and videofiles in order to display its findings as a web-interface for playback. It heavily relies on [Pafy](https://github.com/mps-youtube/pafy) and [youtube-dl](https://rg3.github.io/youtube-dl/).
+This Youtube videoplayer takes a bunch of Youtube playlists and downloads their metadata and videofiles in order to display its findings as a web-interface for playback. It heavily relies on [Pafy](https://github.com/mps-youtube/pafy) and [youtube-dl](https://rg3.github.io/youtube-dl/). The frontend part is using Yeoman and the web-generator app while using a [STORM interface](http://www.storm-interface.com/) for the final installation.
 
 The scripts found here were written for an exhibition titled "Art and Playlists from 10 Years" at the [Kunsthaus Langenthal](http://www.kunsthauslangenthal.ch/), curated by Raffael Doerig in August 2015.  
 
-Written by Gordan Savicic while riding an electrobike, 2015
+Written by Gordan Savicic, July-Aug 2015
 
 ## INSTALL
 
@@ -25,19 +25,32 @@ Install bower, yo and grunt-cli
 
 `npm install -g yo bower grunt-cli gulp`
 
-Checkout from github and install bower and node_modules
+Checkout from github and install bower and node_modules:
 
 `git clone https://github.com/fleshgordo/ypv.git`
-`bower install --save`
-`npm install`
 
-**TBD**
+`bower install --save`
+
+`npm cache clean && npm install`
+
+Now, let's start the live-server for development:
+
+`grunt -v serve`
+
+And build the final distro package:
+
+`grunt -v build`
 
 ### Interface
 
-Using a Storm 8 keys interface. Keycodes are:
-
-**TBD**
+Using a Storm EZ Access 5 keys interface (older generation. EZkeys software is not compatible with. Hence, keycodes can't be reprogrammed!). 
+Keycodes are:
+ 
+* Back button: 132 (on osX this one doesn't work = keycode 0)
+* Up arrow: 129
+* Down arrow: 130
+* Green button: 131
+* Blue button (?): 128
 
 ## Appendix
 
