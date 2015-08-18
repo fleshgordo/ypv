@@ -179,6 +179,13 @@ def generateJSON(_file,_outputfile):
 
 generateJSON('./artistlist_input.json','output.json')
 
-
+# Write output to JSON
 with open("output.json", "w") as outfile:
     json.dump(works_output, outfile, sort_keys=True, indent = 2, separators=(',', ': '))
+
+# Write output to JS file
+outputJS = open("output.js","w")
+outputJSON = open("output.json","r")
+outputJS.write("var data = ")
+outputJS.write(outputJSON.read())
+outputJS.close()

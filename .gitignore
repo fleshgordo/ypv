@@ -1,3 +1,4 @@
 scraper/assets/*
 *.pyc
 frontend/app/assets/
+.DS_Store
