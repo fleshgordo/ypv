@@ -7,6 +7,7 @@
 		/* VARIABLES */
 		/* ----------------------------------------------------------------------------------- */
 		DEBUG: true,
+		APP: false,
 		consoleHolder: console,
 		currentArtist: 7,
 		currentVideo: 0,
@@ -101,7 +102,6 @@
 
 			$.each(YTP.works[ID]['Videos']['Video'], function(index, work) {
 				work['PlaylistID'] = YTP.works[ID]['PlaylistID'];
-
 				outputhtml += playlistDetailTemplate(work);
 			});
 
@@ -114,6 +114,7 @@
 
 			if (totalVideos >= 12) {
 				var splitPoint = parseInt(totalVideos / 2);
+				$('.pl-video-div').addClass('smaller');
 				$('.pl-video-div').slice(splitPoint).wrapAll('<div class="pl-video-container-right">');
 				$('.pl-video-div').slice(0, splitPoint).wrapAll('<div class="pl-video-container-left">');
 			}
@@ -224,15 +225,30 @@
 			YTP.updateSubMenu();
 			$('#jquery_jplayer_1').jPlayer('destroy').jPlayer({
 				ready: function() {
-					$(this).jPlayer('setMedia', {
-						m4v: 'assets/' + YTP.works[ID]['PlaylistID'] + '/' + YTP.works[ID]['Videos']['Video'][videoID]['filename'],
-					});
+					if (YTP.APP === false) {
+						$(this).jPlayer('setMedia', {
+							m4v: 'assets/' + YTP.works[ID]['PlaylistID'] + '/' + YTP.works[ID]['Videos']['Video'][videoID]['filename'],
+						});
+					} else {
+						var path = require('path');
+						var nwPath = process.execPath;
+						var nwDir = path.dirname(nwPath);
+						console.log(nwDir);
+						debugger;
+
+						$(this).jPlayer('setMedia', {
+							m4v: nwDir + path.sep + 'assets/' + YTP.works[ID]['PlaylistID'] + '/' + YTP.works[ID]['Videos']['Video'][videoID]['filename'],
+						});
+					}
 					$(this).jPlayer('play');
-					$('#jquery_jplayer_1').fadeIn('100').promise().done();
-					$('#jquery_jplayer_1').css('width', '100%');
-					$('#jquery_jplayer_1').css('height', '100%');
-					$('#jquery_jplayer_1 > video').css('width', '100%');
-					$('#jquery_jplayer_1 > video').css('height', '100%');
+					setTimeout(function() {
+						$('#jquery_jplayer_1').fadeIn('100').promise().done();
+						$('#jquery_jplayer_1').css('width', '100%');
+						$('#jquery_jplayer_1').css('height', '100%');
+						$('#jquery_jplayer_1 > video').css('width', '100%');
+						$('#jquery_jplayer_1 > video').css('height', '100%');
+					}, 200);
+
 				},
 				swfPath: './scripts/',
 				supplied: 'm4v',
@@ -320,7 +336,6 @@
 		 */
 		stopPlayback: function() {
 			console.log('stop playback ...');
-
 			$('#bgModal, #jquery_jplayer_1').fadeOut('100').promise().done(function() {
 				YTP.state = 1;
 				YTP.showHideMenu();
@@ -364,12 +379,20 @@
 		 */
 		bindKeyHandlers: function() {
 			$(document).keydown($.debounce(function(e) {
-				//console.log(e.which)
+				console.log(e.which)
 				switch (e.which) {
 					case 72: // h for help
 					case 128: // question mark on STORM interface
 						YTP.toggleHelp();
 						break;
+				}
+				if (YTP.APP === true) {
+					if (e.which === 27) {
+						console.log('quit nwjs');
+						var gui = require('nw.gui');
+						console.log(gui.App.argv);
+						gui.App.quit();
+					}
 				}
 				switch (YTP.state) {
 					case 0:
@@ -459,7 +482,7 @@
 
 	$(document).ready(function() {
 		YTP.init();
-		YTP.openPlaylist();
+		//YTP.openPlaylist();
 	});
 
 	// adding object to window for nicer debugging ;)

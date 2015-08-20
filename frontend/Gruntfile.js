@@ -247,6 +247,28 @@ module.exports = function(grunt) {
 				}]
 			}
 		},
+
+		'regex-replace': {
+			appfalse: { //specify a target with any name
+				src: ['<%= config.app %>/scripts/main.js'],
+				actions: [{
+					name: 'changeAPP',
+					search: 'APP: true',
+					replace: 'APP: false',
+					flags: 'g'
+				}]
+			},
+			apptrue: { //specify a target with any name
+				src: ['<%= config.app %>/scripts/main.js'],
+				actions: [{
+					name: 'changeAPP',
+					search: 'APP: false',
+					replace: 'APP: true',
+					flags: 'g'
+				}]
+			}
+		},
+
 		wiredep: {
 
 			task: {
@@ -338,6 +360,7 @@ module.exports = function(grunt) {
 						'*.{ico,png,txt}',
 						'.htaccess',
 						'images/{,*/}*.*',
+						'assets/{,*/}*.jpg',
 						'fonts/{,*/}*.*',
 						'dump/{,*/}*.*',
 						'{,*/}*.html',
@@ -424,8 +447,10 @@ module.exports = function(grunt) {
 		]);
 	});
 
+
 	grunt.registerTask('build', [
 		'clean:dist',
+		'regex-replace:apptrue',
 		'useminPrepare',
 		'concurrent:dist',
 		'autoprefixer',
@@ -436,7 +461,8 @@ module.exports = function(grunt) {
 		'modernizr',
 		//'rev',
 		'usemin',
-		'htmlmin'
+		'htmlmin',
+		'regex-replace:appfalse',
 	]);
 
 	grunt.registerTask('default', [
