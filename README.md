@@ -41,6 +41,14 @@ And build the final distro package:
 
 `grunt -v build`
 
+### Frontend APP
+
+Using [web2executable](https://github.com/jyapayne/Web2Executable)
+
+The assets folder should not be compiled inside the node-webkit app. It will be directly copied into the final built.
+
+Check package.sh for details
+
 ### Interface
 
 Using a Storm EZ Access 5 keys interface (older generation. EZkeys software is not compatible with. Hence, keycodes can't be reprogrammed!). 

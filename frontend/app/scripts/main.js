@@ -9,7 +9,7 @@
 		DEBUG: true,
 		APP: false,
 		consoleHolder: console,
-		currentArtist: 7,
+		currentArtist: 0,
 		currentVideo: 0,
 		isMac: 0,
 		works: {},
@@ -233,9 +233,6 @@
 						var path = require('path');
 						var nwPath = process.execPath;
 						var nwDir = path.dirname(nwPath);
-						console.log(nwDir);
-						debugger;
-
 						$(this).jPlayer('setMedia', {
 							m4v: nwDir + path.sep + 'assets/' + YTP.works[ID]['PlaylistID'] + '/' + YTP.works[ID]['Videos']['Video'][videoID]['filename'],
 						});
@@ -247,7 +244,7 @@
 						$('#jquery_jplayer_1').css('height', '100%');
 						$('#jquery_jplayer_1 > video').css('width', '100%');
 						$('#jquery_jplayer_1 > video').css('height', '100%');
-					}, 200);
+					}, 40);
 
 				},
 				swfPath: './scripts/',
@@ -379,7 +376,7 @@
 		 */
 		bindKeyHandlers: function() {
 			$(document).keydown($.debounce(function(e) {
-				console.log(e.which)
+				//console.log(e.which)
 				switch (e.which) {
 					case 72: // h for help
 					case 128: // question mark on STORM interface
@@ -388,9 +385,7 @@
 				}
 				if (YTP.APP === true) {
 					if (e.which === 27) {
-						console.log('quit nwjs');
 						var gui = require('nw.gui');
-						console.log(gui.App.argv);
 						gui.App.quit();
 					}
 				}

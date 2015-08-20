@@ -450,7 +450,7 @@ module.exports = function(grunt) {
 
 	grunt.registerTask('build', [
 		'clean:dist',
-		'regex-replace:apptrue',
+		//'regex-replace:apptrue',
 		'useminPrepare',
 		'concurrent:dist',
 		'autoprefixer',
@@ -462,7 +462,7 @@ module.exports = function(grunt) {
 		//'rev',
 		'usemin',
 		'htmlmin',
-		'regex-replace:appfalse',
+		//'regex-replace:appfalse',
 	]);
 
 	grunt.registerTask('default', [
