@@ -24,8 +24,8 @@
 				"Artistname": "Iocose",
 				"Concept": "Text about the playlist by Iocose",
 				"ID": 2,
-				"Playlisturl": "",
-				"Title": "The title of the playlist",
+				"Playlisturl": "https://www.youtube.com/playlist?list=PLFEKcIBXXbQFqYDx3UI2CPjhN6768IXtl",
+				"Title": "Sorry About That",
 				"DownloadVideosFlag": 0,
 				"DownloadMetaFlag": 0
 			},
@@ -51,8 +51,8 @@
 				"Artistname": "Jennifer Chan",
 				"Concept": "Text about the playlist by Jennifer Chan",
 				"ID": 5,
-				"Playlisturl": "",
-				"Title": "",
+				"Playlisturl": "https://www.youtube.com/playlist?list=PL1B991ADCE05DCFAF",
+				"Title": "Seals",
 				"DownloadVideosFlag": 0,
 				"DownloadMetaFlag": 0
 			},
@@ -87,8 +87,8 @@
 				"Artistname": "Jeremy Bailey",
 				"Concept": "Text about the playlist by Jeremy Bailey",
 				"ID": 9,
-				"Playlisturl": "",
-				"Title": "",
+				"Playlisturl": "https://www.youtube.com/playlist?list=PL3rWPUEsL-MFOpLQ1FCZlavfKZK16Q8Cq",
+				"Title": "Concept Art",
 				"DownloadVideosFlag": 0,
 				"DownloadMetaFlag": 0
 			},

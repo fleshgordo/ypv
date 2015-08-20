@@ -1,7 +1,7 @@
 var data = {
 	"Videoplayer": {
 		"AssetsPath": "../assets/",
-		"Title": "Art and Playlists from 10 Years",
+		"Title": "On YouTube. Kunst und Playlists aus 10 Jahrenm",
 		"Works": {
 			"11": {
 				"Artistname": "Sinae Yoo",
@@ -634,6 +634,43 @@ var data = {
 				},
 				"Youtubename": "saprai"
 			},
+			"2": {
+				"Artistname": "Iocose",
+				"Concept": "Text about the playlist by Iocose",
+				"Description": "",
+				"ID": "2",
+				"PlaylistID": "PLFEKcIBXXbQFqYDx3UI2CPjhN6768IXtl",
+				"Playlisturl": "https://www.youtube.com/playlist?list=PLFEKcIBXXbQFqYDx3UI2CPjhN6768IXtl",
+				"Title": "Sorry About That",
+				"Videos": {
+					"TotalAmount": 1,
+					"TotalDuration": "00:00:55",
+					"TotalViews": "0",
+					"Video": {
+						"0": {
+							"description": "",
+							"downloadUrl": "http://r1---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?upn=dP-Df9NMtn4&key=yt5&ipbits=0&ratebypass=yes&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&lmt=1440019279253550&itag=22&fexp=9405643%2C9405978%2C9407150%2C9408710%2C9408940%2C9409069%2C9415090%2C9415365%2C9415435%2C9415485%2C9416023%2C9416126%2C9416359%2C9416571%2C9416729%2C9416984%2C9417707%2C9418153%2C9418642%2C9418705%2C9418898&ip=178.199.44.182&mime=video%2Fmp4&initcwndbps=1047500&source=youtube&signature=58C5AB26BF3F57AEB3ED411552B54CF6DCF7635A.D953FED73AD973BCB832CD03702FF4CFBF77334D&mm=31&mn=sn-nfpnnjvh-1gis&pl=19&id=o-ABVM3IzNZa0Xm48yv8WGZRDghWNdynHfyvpGTb4HCi3U&ms=au&mt=1440019838&mv=m&dur=54.566&expire=1440041515&sver=3",
+							"duration": "0:55",
+							"extension": "mp4",
+							"filename": "9p5Zf89caIc.mp4",
+							"filesize": 3048565,
+							"indexID": 0,
+							"lengthseconds": 55,
+							"likes": 0,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/9p5Zf89caIc/default.jpg",
+							"title": "Sorry about that",
+							"username": "Iocose",
+							"videoID": "9p5Zf89caIc",
+							"views": "32,021"
+						}
+					}
+				},
+				"Youtubename": "saprai"
+			},
 			"3": {
 				"Artistname": "Constant Dullaart",
 				"Concept": "Text about the playlist by Constant Dullaart",
@@ -1167,6 +1204,223 @@ var data = {
 					}
 				},
 				"Youtubename": "Geneva Skeen"
+			},
+			"5": {
+				"Artistname": "Jennifer Chan",
+				"Concept": "Text about the playlist by Jennifer Chan",
+				"Description": "",
+				"ID": "5",
+				"PlaylistID": "PL1B991ADCE05DCFAF",
+				"Playlisturl": "https://www.youtube.com/playlist?list=PL1B991ADCE05DCFAF",
+				"Title": "Seals",
+				"Videos": {
+					"TotalAmount": 10,
+					"TotalDuration": "00:32:27",
+					"TotalViews": "34,283,706",
+					"Video": {
+						"0": {
+							"description": "I'm a professional opera, concert and choral singer that was diagnosed with a brain tumour. The neurosurgeon's (prof. dr. Pierre Robe) advice was to do an awake craniotomy so that I could sing during the surgery (on June13th 2014) in order to avoid deficits after the procedure. The music neuro team of the UMC in Utrecht was also involved in order to assist the surgery. There is no blood or exposed flesh in the video.\nI sing two (first and last) couplets of Schubert's lied \u201cGute Nacht\u201d: the minor - major transition in order to see if I can still recognise the key change. \nAll is fine until min. 2:40  when things start to get very interesting\u2026 \nIt\u2019s been more than a year since and I\u2019m doing fine, continuing my professional singing career.\nFor licensing please contact licensing@fullscreen.com",
+							"downloadUrl": "http://r7---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?itag=22&mt=1440019838&ratebypass=yes&dur=757.760&lmt=1439644115737432&signature=437E19EE4F099CA2F5A3150B5ED973183068D1E4.0F4874224D1D88EC81C18A3EA1341EA0B8F67677&expire=1440041521&ipbits=0&upn=WRSJ0mRxZJ4&fexp=9408710%2C9409069%2C9415365%2C9415485%2C9416023%2C9416126%2C9417707%2C9418153&mn=sn-nfpnnjvh-1gis&ip=178.199.44.182&mm=31&key=yt5&pl=19&id=o-ACRRPBLTvIsPnH5_SGZ3TezeaExHjQxgdg9g6rkQb90C&mime=video%2Fmp4&sver=3&ms=au&mv=m&initcwndbps=1047500&source=youtube&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire",
+							"duration": "12:38",
+							"extension": "mp4",
+							"filename": "obiARnsKUAo.mp4",
+							"filesize": 129692728,
+							"indexID": 0,
+							"lengthseconds": 758,
+							"likes": 3824,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/obiARnsKUAo/default.jpg",
+							"title": "awake craniotomy with singing and talking",
+							"username": "Ambro\u017e Bajec-Lapajne",
+							"videoID": "obiARnsKUAo",
+							"views": "1,197,122"
+						},
+						"1": {
+							"description": "",
+							"downloadUrl": "http://r2---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?lmt=1302776201971696&expire=1440041624&mime=video%2Fmp4&itag=18&pl=19&dur=101.276&source=youtube&pcm2cms=yes&ipbits=0&initcwndbps=1047500&signature=922968B99ADA28D122AD8CA3EDBA84CB42AF3AD3.39F1019114232D995893628A31CA67DEF82EDFBA&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2cms%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&sver=3&ratebypass=yes&mn=sn-nfpnnjvh-1gis&mm=31&id=o-ACOfaHCKkThnoD0lbCteuiBKN32Y2ngz4RabD8RVUgha&fexp=9408710%2C9409069%2C9415365%2C9415485%2C9416023%2C9416126%2C9417707%2C9418153&upn=28n1XG6rbIo&ip=178.199.44.182&key=yt5&mv=m&mt=1440019958&ms=au",
+							"duration": "1:42",
+							"extension": "mp4",
+							"filename": "eAdlaUqF5-A.mp4",
+							"filesize": 4592917,
+							"indexID": 1,
+							"lengthseconds": 102,
+							"likes": 1,
+							"resolution": [
+								640,
+								360
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/eAdlaUqF5-A/default.jpg",
+							"title": "c0",
+							"username": "uttertrash",
+							"videoID": "eAdlaUqF5-A",
+							"views": "251"
+						},
+						"2": {
+							"description": "mitch setting his pubes on fire",
+							"downloadUrl": "http://r3---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?signature=CD78213B31586AD980B335AD85D4EC39A3039980.0EE9B7523801F795C329B8B6A46139B1A16363A4&key=yt5&fexp=9408093%2C9408349%2C9408507%2C9408710%2C9409069%2C9415365%2C9415485%2C9415657%2C9415873%2C9416023%2C9416126%2C9416179%2C9416729%2C9417268%2C9417707%2C9418153%2C9419446&lmt=1208409227670498&dur=8.133&source=youtube&initcwndbps=1047500&ipbits=0&pcm2cms=yes&mime=video%2Fmp4&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2cms%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&id=o-ADtOUplw1OniHMm8YqQQr_4LVFlmwejQGC5LA0ToLKx_&mn=sn-nfpnnjvh-1gis&mm=31&ms=au&mv=m&mt=1440019958&pl=19&ip=178.199.44.182&ratebypass=yes&itag=18&sver=3&expire=1440041631&upn=Z2e6IRDH_TA",
+							"duration": "0:09",
+							"extension": "mp4",
+							"filename": "W97uDo9A4Ug.mp4",
+							"filesize": 286782,
+							"indexID": 2,
+							"lengthseconds": 9,
+							"likes": 23,
+							"resolution": [
+								640,
+								360
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/W97uDo9A4Ug/default.jpg",
+							"title": "Setting Pubes on Fire",
+							"username": "woodyz10",
+							"videoID": "W97uDo9A4Ug",
+							"views": "45,136"
+						},
+						"3": {
+							"description": "Some cat's photos made me to remind croissant (or may be bagel) by their colors and shapes.\r\nThis is just a image conjured in my mind :D\r\n\r\n\r\n\r\nThe music used was from this site.\r\nhttp://www.ne.jp/asahi/music/myuu/",
+							"downloadUrl": "http://r2---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?mn=sn-nfpnnjvh-1gis&mm=31&ipbits=0&mime=video%2Fmp4&upn=9KFYzg0glFM&lmt=1387270526510304&fexp=9406989%2C9408710%2C9409069%2C9415365%2C9415485%2C9416023%2C9416126%2C9417707%2C9418153&signature=CEFB10EBB00EAF5C58D717C7CA5BB08C5D7D52BE.AEBBD3FF2329ABB6AEDE722A7FD52CB6B8C380BC&sver=3&expire=1440041633&mv=m&mt=1440019958&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&pl=19&source=youtube&ratebypass=yes&dur=58.003&initcwndbps=1047500&ms=au&key=yt5&ip=178.199.44.182&itag=18&id=o-AOZAADs1h7haPqJWEWNZ1ohBFRjZ0Rd5gjKXkrtO4RuG",
+							"duration": "0:59",
+							"extension": "mp4",
+							"filename": "elpAKTauZUw.mp4",
+							"filesize": 2605743,
+							"indexID": 3,
+							"lengthseconds": 59,
+							"likes": 3800,
+							"resolution": [
+								640,
+								360
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/elpAKTauZUw/default.jpg",
+							"title": "Cats Morph into Croissants",
+							"username": "xGCGGCCGCx",
+							"videoID": "elpAKTauZUw",
+							"views": "855,104"
+						},
+						"4": {
+							"description": "Here is a Gold mine of black heads, rare and very big black heads on nose, known as solar comedones, being extracted out of nose by me with the help of comedone extractor, you can see they are coming out of nose, while extracting one of them dropped on ground, where a molluscs was waiting for licking it. We have shown the pits, the wells on nose from where we have dug the black heads. We can say that this is going to be one of the best black head video ever. We tried to squeeze them out with out fingers but unable to do so, so we took the help of magic stick to remove them. Finally we crushed them under slides and seen them under microscope. So here is one more video to quinch your thirst of popping the zits. We have the informed consent form candidate to be shown here. Thanks for you love and affection shown to our channel.",
+							"downloadUrl": "http://r2---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?ratebypass=yes&ipbits=0&mn=sn-nfpnnjvh-1gis&mm=31&ms=au&upn=S1ooeiKcLSA&mv=m&mt=1440019958&source=youtube&signature=DFC86C91E5DDE51180E9A428CF18D7F212A93833.E9554C7A727FF3DB17AE300DFA1D973D82D41C44&mime=video%2Fmp4&sver=3&pl=19&expire=1440041637&dur=290.504&lmt=1432175280954107&key=yt5&ip=178.199.44.182&initcwndbps=1047500&itag=22&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&fexp=9405824%2C9406012%2C9408710%2C9409069%2C9409205%2C9413320%2C9415092%2C9415365%2C9415485%2C9415836%2C9416023%2C9416126%2C9417269%2C9417299%2C9417529%2C9417707%2C9417843%2C9417948%2C9418153%2C9418219%2C9419242&id=o-AOEsfJjH7CUKHSmQHjBiYivvwt3OOWcJXIMFSN0TmUlj",
+							"duration": "4:51",
+							"extension": "mp4",
+							"filename": "KCKh0-vTRAE.mp4",
+							"filesize": 85023956,
+							"indexID": 4,
+							"lengthseconds": 291,
+							"likes": 14648,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/KCKh0-vTRAE/default.jpg",
+							"title": "Gold Mine Of Black Heads On Nose",
+							"username": "Vikram Yadav",
+							"videoID": "KCKh0-vTRAE",
+							"views": "16,722,557"
+						},
+						"5": {
+							"description": "this video goes out to all the dumb ass haters and trolls online that say swag and yolo but then turn around and make fun of fedoras for no reason at all\n\nyour not fucking funny and it's stupid as shit of you to chat your ignorant mouths about a topic you don't know jack about so get your grip together and log offline because your an epic fail",
+							"downloadUrl": "http://r6---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?pl=19&mv=m&mt=1440020076&ms=au&ratebypass=yes&ipbits=0&signature=8456D1363AADC14F001E46521717E66FC4E6A16A.2FFFED805FC1981A3EEDAD87B1B0EC920711CCFC&expire=1440041706&initcwndbps=1063750&key=yt5&upn=M18qQXYCVcg&mn=sn-nfpnnjvh-1gis&mm=31&id=o-AFA8aenKnWb0QzNf2ugPetngAPO9TZbgoXlyRJmAtQTg&fexp=9408710%2C9409069%2C9415365%2C9415485%2C9416023%2C9416126%2C9417707%2C9418153&source=youtube&sver=3&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&dur=108.228&ip=178.199.44.182&mime=video%2Fmp4&lmt=1428039030949508&itag=22",
+							"duration": "1:49",
+							"extension": "mp4",
+							"filename": "VfOuJ93sIog.mp4",
+							"filesize": 16262166,
+							"indexID": 5,
+							"lengthseconds": 109,
+							"likes": 11800,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/VfOuJ93sIog/default.jpg",
+							"title": "fuck you all, fedoras own hard",
+							"username": "skunkpaste",
+							"videoID": "VfOuJ93sIog",
+							"views": "1,037,365"
+						},
+						"6": {
+							"description": "fluff man callin out peanut butter man.",
+							"downloadUrl": "http://r4---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=o-ACqKVqVCK4qa_RtJ8rwlYUCQCuByBax7gUqXckwf0Itd&fexp=9407150%2C9408371%2C9408492%2C9408710%2C9409069%2C9412858%2C9413149%2C9415365%2C9415485%2C9415531%2C9415656%2C9416023%2C9416126%2C9416837%2C9417259%2C9417707%2C9418153%2C9418204%2C9419317%2C9419446&signature=41C528BEB6AD531935CA491788151A9F60ED2C93.E397FF82563217C30F604FC3DAF15E4336FD203B&ms=au&mt=1440020076&mv=m&upn=dfFlHaedlKc&dur=25.286&expire=1440041721&pl=19&ip=178.199.44.182&mm=31&mn=sn-nfpnnjvh-1gis&ratebypass=yes&sver=3&source=youtube&itag=18&initcwndbps=1063750&ipbits=0&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&lmt=1392987217323702&mime=video%2Fmp4&key=yt5",
+							"duration": "0:26",
+							"extension": "mp4",
+							"filename": "cMzPi3dxxaU.mp4",
+							"filesize": 1144806,
+							"indexID": 6,
+							"lengthseconds": 26,
+							"likes": 40,
+							"resolution": [
+								640,
+								360
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/cMzPi3dxxaU/default.jpg",
+							"title": "Fluff Man callin out Peanut Butter Man",
+							"username": "James Fisher",
+							"videoID": "cMzPi3dxxaU",
+							"views": "27,809"
+						},
+						"7": {
+							"description": "Pingu on drugs part 5:\r\n\r\nPingu - pingu at the fairground\r\nPsytrance - Bio Genesis - Geostygma",
+							"downloadUrl": "http://r3---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?expire=1440041724&ratebypass=yes&mn=sn-nfpnnjvh-1gis&source=youtube&mm=31&fexp=9408093%2C9408627%2C9408710%2C9409069%2C9413139%2C9415365%2C9415485%2C9416023%2C9416126%2C9416574%2C9416729%2C9416875%2C9417335%2C9417707%2C9418083%2C9418153%2C9418501&ms=au&mv=m&sver=3&mt=1440020076&dur=404.747&pl=19&ipbits=0&upn=TjBYAEeVT-8&itag=18&key=yt5&ip=178.199.44.182&mime=video%2Fmp4&initcwndbps=1063750&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&id=o-ANMl74-U8NCXkF5j3qNUavCQHSQuqJ2DqAI0OKbdN-H-&signature=49801ED6DAF36643B84187B088EE35F097E82F78.9D8A595379EA218AB008A79317DD7FF211F0828C&lmt=1259201703047010",
+							"duration": "6:45",
+							"extension": "mp4",
+							"filename": "nnHz3aVKuys.mp4",
+							"filesize": 37441440,
+							"indexID": 7,
+							"lengthseconds": 405,
+							"likes": 14,
+							"resolution": [
+								640,
+								360
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/nnHz3aVKuys/default.jpg",
+							"title": "Pingu on drugs 5",
+							"username": "pinguondrugs",
+							"videoID": "nnHz3aVKuys",
+							"views": "11,085"
+						},
+						"8": {
+							"description": "Don't Mix Milk With Red Bull. Watch and see what happens.",
+							"downloadUrl": "http://r6---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?mv=m&upn=nHfyP6yqbqQ&fexp=9407536%2C9408710%2C9409069%2C9413142%2C9415365%2C9415485%2C9416023%2C9416045%2C9416103%2C9416126%2C9416673%2C9416838%2C9417707%2C9417719%2C9418153%2C9418204%2C9419445&sver=3&key=yt5&lmt=1394314515097707&mn=sn-nfpnnjvh-1gis&ipbits=0&initcwndbps=1063750&expire=1440041756&ip=178.199.44.182&itag=18&pl=19&mt=1440020076&ratebypass=yes&ms=au&mime=video%2Fmp4&dur=52.616&id=o-AHwchQ3fRqMrbvvhZ59jqOlqE4_33s5IfLF-xPj9WcIN&signature=97F90C76870C636E38F0F43C4A69275AB6A44623.842C55A4FBBC57210DDF18D083D6A1FA28B570E2&source=youtube&mm=31&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire",
+							"duration": "0:53",
+							"extension": "mp4",
+							"filename": "IFeceVPm7Do.mp4",
+							"filesize": 2357823,
+							"indexID": 8,
+							"lengthseconds": 53,
+							"likes": 10553,
+							"resolution": [
+								640,
+								360
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/IFeceVPm7Do/default.jpg",
+							"title": "Don't Mix Milk With Red Bull",
+							"username": "mentor972",
+							"videoID": "IFeceVPm7Do",
+							"views": "12,650,785"
+						},
+						"9": {
+							"description": "Home channel: https://www.youtube.com/user/0214mex",
+							"downloadUrl": "http://r4---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?ipbits=0&expire=1440041759&mt=1440020076&lmt=1399104640130958&upn=WdXmmQ85Bgo&signature=5623D9F826115316AA9669C231DFB2F6C657BE71.DC291FA0517B1698202FF0CBF77126A181544326&mime=video%2Fmp4&itag=22&ratebypass=yes&mv=m&initcwndbps=1063750&source=youtube&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&ms=au&sver=3&pl=19&id=o-AG2DstU9nkYmRZfjqoWfREaF0HQPyO12y8r3ZTMJ6Oes&dur=134.815&mm=31&mn=sn-nfpnnjvh-1gis&ip=178.199.44.182&key=yt5&fexp=9405987%2C9407882%2C9408093%2C9408495%2C9408710%2C9409069%2C9409171%2C9412514%2C9413319%2C9415365%2C9415485%2C9416023%2C9416126%2C9416329%2C9416778%2C9416916%2C9416999%2C9417269%2C9417707%2C9417949%2C9418153%2C9418203%2C9418562%2C9419387%2C9419445",
+							"duration": "2:15",
+							"extension": "mp4",
+							"filename": "ReeEMFAMiGA.mp4",
+							"filesize": 26295660,
+							"indexID": 9,
+							"lengthseconds": 135,
+							"likes": 5726,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/ReeEMFAMiGA/default.jpg",
+							"title": "\u8d85\u5de8\u5927\u30b9\u30e9\u30a4\u30e0\u3092\u5bb6\u306b\u5e30\u3089\u305b\u308b\u65b9\u6cd5",
+							"username": "\u306f\u3058\u3081\u3057\u3083\u3061\u3087\u30fc2 (hajime)",
+							"videoID": "ReeEMFAMiGA",
+							"views": "1,736,492"
+						}
+					}
+				},
+				"Youtubename": "Jennifer Chan"
 			},
 			"6": {
 				"Artistname": "Eva & Franco Mattes",
@@ -1978,6 +2232,523 @@ var data = {
 					}
 				},
 				"Youtubename": "guthrie"
+			},
+			"9": {
+				"Artistname": "Jeremy Bailey",
+				"Concept": "Text about the playlist by Jeremy Bailey",
+				"Description": "",
+				"ID": "9",
+				"PlaylistID": "PL3rWPUEsL-MFOpLQ1FCZlavfKZK16Q8Cq",
+				"Playlisturl": "https://www.youtube.com/playlist?list=PL3rWPUEsL-MFOpLQ1FCZlavfKZK16Q8Cq",
+				"Title": "Concept Art",
+				"Videos": {
+					"TotalAmount": 25,
+					"TotalDuration": "00:36:53",
+					"TotalViews": "79,583,097",
+					"Video": {
+						"0": {
+							"description": "The newest prototype shown off by Polyton technologies is an entirely transparent smart phone; what does this mean for the future of the smart phone market? \n\nFurther reading on the announcement: \n\nhttp://liliputing.com/2013/02/polytron-is-working-on-a-transparent-smartphone.html\n\nhttp://www.gottabemobile.com/2013/02/12/transparent-smartphones-coming-in-2013-5-ways-it-will-impact-you/\n\nLike us on Facebook at Cosmic History: https://www.facebook.com/cosmichistory.com.au",
+							"downloadUrl": "http://r8---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=o-AHKXX1fqLWSxrq9BWz-g80mHYi4AwQHHSMavKekDjf00&expire=1440041782&mm=31&mn=sn-nfpnnjvh-1gis&mime=video%2Fmp4&fexp=9408507%2C9408622%2C9408710%2C9409069%2C9414936%2C9415365%2C9415485%2C9415540%2C9416023%2C9416126%2C9417268%2C9417625%2C9417707%2C9418153%2C9418201%2C9418391%2C9418824%2C9419444&upn=FL8zqRCmyN4&dur=81.037&itag=22&pl=19&ip=178.199.44.182&key=yt5&ms=au&source=youtube&mv=m&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&ipbits=0&mt=1440020076&initcwndbps=1063750&signature=6A22C73DD7487C64190882937044048C84ADDE18.4034DA544A673A37AABBBCC9724858EDB06B867F&lmt=1394297348217199&ratebypass=yes&sver=3",
+							"duration": "1:22",
+							"extension": "mp4",
+							"filename": "9pIW62ZEEhE.mp4",
+							"filesize": 12086459,
+							"indexID": 0,
+							"lengthseconds": 82,
+							"likes": 2708,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/9pIW62ZEEhE/default.jpg",
+							"title": "New transparent phone concept, soon to be on the market?",
+							"username": "Epic Technology",
+							"videoID": "9pIW62ZEEhE",
+							"views": "2,273,597"
+						},
+						"1": {
+							"description": "Subscribe: http://www.youtube.com/subscription_center?add_user=conceptsiphone\n\nThe next iPhone need to be innovative and the main part is the screen! new amazing concept shows the next generation of the iPhone device, the iPhone 7 with two screens.\n\nVideo by Ran Avni.\n\nThe next iPhone will come with ( According to the concept ):\n- 4.9 inch Full HD Sapphire front display, wrap around screen\n- The next operating system of Apple, iOS 9\n- Capacitive home button and Touch ID sensor with 700 dpi pixel density\n- NFC sensor and bluetooth 4.2\n- Apple A9 chip quad-core 1.8 GHz with 2x faster GPU\n- 13 MP rear camera, 2k@30fps, 1080p@120-480fps\n- 2260 mAh battery with light indicator around the lightning connector\n\nThe concept was created by Iskander Utebaev and Ran Avni.\n\nThe concept in Behance: http://bit.ly/1d0FnIG\nGIF(1): http://bit.ly/INtmgo\nGIF(2): http://bit.ly/1bkVIIK\nGIF(3): http://bit.ly/1dU8oe3\n\nContact: conceptsiphone@gmail.com\n\nFor all the new & latest updates around iPhone & iOS, LIKE our friend's facebook page - http://www.facebook.com/appliOS\n\nGoogle+: http://bit.ly/18Gff2N\nNew channel from us: http://www.youtube.com/user/ConceptsPhone\nFacebook page: https://www.facebook.com/Conceptsiphone\nSubscribe: http://www.youtube.com/subscription_center?add_user=conceptsiphone\n\nMusic by Rob Simonsen: http://robsimonsen.tumblr.com/",
+							"downloadUrl": "http://r2---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?itag=22&initcwndbps=1063750&upn=HQEbkmu1gsw&fexp=9405825%2C9408710%2C9409069%2C9412773%2C9415365%2C9415485%2C9415791%2C9416023%2C9416126%2C9416309%2C9416673%2C9416729%2C9417707%2C9417908%2C9418153%2C9418616%2C9418907%2C9419167&lmt=1428176311178854&mime=video%2Fmp4&source=youtube&pl=19&dur=57.237&expire=1440041793&mm=31&mt=1440020076&mv=m&sver=3&id=o-ADucGIT5j0-bmwmDv4vyU6LVoGTPzuUtBzcks3sEPUV1&ms=au&signature=4A6B6C79539AA2F255E3D9993F5B07339390681B.EF35061F508DDB6C9037182318B806BBFE2BE4FA&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&mn=sn-nfpnnjvh-1gis&ipbits=0&ratebypass=yes&ip=178.199.44.182&key=yt5",
+							"duration": "0:58",
+							"extension": "mp4",
+							"filename": "impZ7krcPzI.mp4",
+							"filesize": 8322484,
+							"indexID": 1,
+							"lengthseconds": 58,
+							"likes": 72966,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/impZ7krcPzI/default.jpg",
+							"title": "iPhone 7 - Innovative Screen",
+							"username": "ConceptsiPhone",
+							"videoID": "impZ7krcPzI",
+							"views": "27,732,178"
+						},
+						"2": {
+							"description": "iPhone 6 & iOs 7 - Apple Tv Ad\n\nNOTE: for all of you that say that the track is watermarked, was due to a problem during rendering (the editor didn't switch off the preview instead the purchase one).\nBy the way this was only a test, the video with the purchase version, is here http://www.youtube.com/watch?v=tpW0WOHk9HI\n\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  WARNING  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\nThe copy of this video in part or in total is strictly prohibited. Each offender will be punished legally and criminally. SET Solution Srl\n\nEveryone who copy this video will be prosecuted for copyright infringement to Google, resulting the termination of your youtube account!\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\nWe are pleased to announce the new iphone 6 and ios7: in this fantastic advertisement for the iPhone6 \u200b\u200billustrate the newest features and benefits of ios7.\nThe new concept features of iphone 6 and ios7! This is an apple tv commercial for the new iphone 6 , with the new design and features. \nThis CG iPhone 6 has fantastic features: 3D Camera, Softkeys button, Wireless Charging, bigger display and only 4,8 thinckness, and iOs 7 !!!\n\nWIRELESS CHARGING http://en.wikipedia.org/wiki/Inductive_charging \n\nWe hope you enjoy this iPhone 6 video... and if you like, please subscribe to our youtube channel to be notified of new videos on iphone 6 and ios7 .\n\nNew iPhone videos:\n- iPhone 6 - Cinema Ad - Fall 2014 http://www.youtube.com/watch?v=jvBe-imu-wg\n- iPhone 5S New Feature SmartScreen http://www.youtube.com/watch?v=FwIhUn_PqaA\n- iPhone 6 Commercial http://www.youtube.com/watch?v=tpW0WOHk9HI\n- iPhone 5S Colorful http://www.youtube.com/watch?v=zRjtKHgsVM0\n\n----------------------------------\nhttp://www.setsolution.it \n----------------------------------\nFACEBOOK: http://www.facebook.com/setsolution\nTWITTER: http://www.twitter.com/setsolution\nVIMEO: http://www.vimeo.com/setsolution",
+							"downloadUrl": "http://r3---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?ratebypass=yes&sver=3&mime=video%2Fmp4&id=o-ACOAiKRUEc48CJ2layNuWUx-0tSjPbbp6OrH1UXFRdbj&mv=m&source=youtube&ip=178.199.44.182&signature=5E7CE26445DA2F5188EF10753DE0DB922BA44529.6BF6D0941572DB1EF5310C6C30D9B9C9FEECD6D5&expire=1440041800&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&mt=1440020076&itag=22&pl=19&fexp=9407478%2C9408710%2C9409069%2C9415365%2C9415485%2C9416023%2C9416126%2C9417707%2C9418153&ms=au&lmt=1422214849911144&key=yt5&dur=79.087&ipbits=0&initcwndbps=1063750&upn=PSOP9BkENq0&mm=31&mn=sn-nfpnnjvh-1gis",
+							"duration": "1:20",
+							"extension": "mp4",
+							"filename": "9W1pyoXpTZA.mp4",
+							"filesize": 11582667,
+							"indexID": 2,
+							"lengthseconds": 80,
+							"likes": 6241,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/9W1pyoXpTZA/default.jpg",
+							"title": "iPhone 6 & iOs 7 - Apple Tv Ad",
+							"username": "SET Solution",
+							"videoID": "9W1pyoXpTZA",
+							"views": "2,573,651"
+						},
+						"3": {
+							"description": "This time at the SET Solution's headquarters we've made a cool advertising for our new concept! iPhone Air Tv Ad !\nWe've thought that this new phone should be very thin, and really light... almost like a feather!\nSo here we have a scale, a feather and our awesome CG iPhone Air!\nHave you enjoyed it?\n\nBy the way, the iPhone Air is only our concept. \nWe at \"SET Solution\" work hard to create these concepts, hoping to give some good ideas to the producers, and why not, to be contacted in order to become our concept, reality!\n\nIf you have enjoyed this video, please hit \"SUBSCRIBE\" ! \n\nOthers iPhone Air videos:\n- iPhone Air Unboxing http://youtu.be/uztZ8IiPvYQ\n- Introducing iPhone Air http://youtu.be/t7LzELrd0J4\n\n2013 \u00a9 by SET Solution Srl. All rights reserved. \nhttp://www.setsolution.it\n\nFollow , Like and Share !\n----------------------------------\nFACEBOOK: http://www.facebook.com/setsolution\nTWITTER: http://www.twitter.com/setsolution\nVIMEO: http://www.vimeo.com/setsolution",
+							"downloadUrl": "http://r3---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?mime=video%2Fmp4&initcwndbps=1063750&ipbits=0&fexp=9408710%2C9408940%2C9409069%2C9415089%2C9415365%2C9415436%2C9415485%2C9415835%2C9416023%2C9416126%2C9416611%2C9417205%2C9417707%2C9418153%2C9419336&mm=31&mn=sn-nfpnnjvh-1gis&ratebypass=yes&ms=au&source=youtube&mv=m&dur=52.407&pl=19&itag=22&ip=178.199.44.182&lmt=1422214804595616&upn=aDQGu5NYxOE&expire=1440041812&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&sver=3&id=o-AM-cFX5uoFMjBbFsNmq01ayHOFEq1jKjf_6Y6yJifzXh&key=yt5&signature=C15BD5B73CBF306D5F511C7D787519B188792CA4.5D4BD01714E275C5D0BF1D3C0599D3C6A503223E&mt=1440020076",
+							"duration": "0:53",
+							"extension": "mp4",
+							"filename": "M64hS4hF0p0.mp4",
+							"filesize": 8011363,
+							"indexID": 3,
+							"lengthseconds": 53,
+							"likes": 868,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/M64hS4hF0p0/default.jpg",
+							"title": "iPhone Air Tv Ad",
+							"username": "SET Solution",
+							"videoID": "M64hS4hF0p0",
+							"views": "554,269"
+						},
+						"4": {
+							"description": "First on Youtube - iPhone Air Unboxing !\niPhone Air: the lightest, the thinnest, the coolest ever!\nWith a unibody aluminum, \"the iPhone Air\" Apple is a unique design element!\nIn this video we show you the unboxing of the iPhone Air, his first boot, and a unique look at this great new iPhone!\n\nBy the way, the iPhone Air is only our concept. \nWe at \"SET Solution\" work hard to create these concepts, hoping to give some good ideas to the producers, and why not, to be contacted in order to become our concept, reality!\n\nIf you have enjoyed this video, please hit \"SUBSCRIBE\" ! \n\nNew iPhone videos:\n- iPhone 6 EYE-ID Retinal Scanner http://youtu.be/YgPBI5orWd4\n- iPhone 6 Projector http://youtu.be/FJv6Lc4DKF8\n- iPhone 6 http://youtu.be/tpW0WOHk9HI\n- New design iPhone 6 http://www.youtube.com/watch?v=GTdJ_871Pao\n\n2013 \u00a9 by SET Solution Srl. All rights reserved. \nhttp://www.setsolution.it\n\nFollow , Like and Share !\n----------------------------------\nFACEBOOK: http://www.facebook.com/setsolution\nTWITTER: http://www.twitter.com/setsolution\nVIMEO: http://www.vimeo.com/setsolution",
+							"downloadUrl": "http://r5---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?ipbits=0&ratebypass=yes&mime=video%2Fmp4&mm=31&expire=1440041819&initcwndbps=1063750&mn=sn-nfpnnjvh-1gis&signature=727E6AB66B79CDA668BAA076A4D78DC0D06838F0.68F2BCEE82229AFE6EACF4C45CE6AA8BE7F9A005&pcm2cms=yes&ip=178.199.44.182&key=yt5&lmt=1432717342809154&source=youtube&sver=3&dur=48.506&mv=m&mt=1440020194&ms=au&id=o-AB0ShZdLSEu-Z9mBsd01Q-vNrRc7jmzKVCy6Ep83go8F&fexp=9406003%2C9408093%2C9408506%2C9408710%2C9409069%2C9409171%2C9409207%2C9413137%2C9414904%2C9415365%2C9415485%2C9416023%2C9416126%2C9416729%2C9417707%2C9417947%2C9418153%2C9418958%2C9419167&pl=19&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2cms%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&itag=22&upn=9hF5HSn99zg",
+							"duration": "0:49",
+							"extension": "mp4",
+							"filename": "uztZ8IiPvYQ.mp4",
+							"filesize": 7136388,
+							"indexID": 4,
+							"lengthseconds": 49,
+							"likes": 621,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/uztZ8IiPvYQ/default.jpg",
+							"title": "iPhone Air Unboxing",
+							"username": "SET Solution",
+							"videoID": "uztZ8IiPvYQ",
+							"views": "232,858"
+						},
+						"5": {
+							"description": "Introducing the iWatch - 'fashionable' device running iOS with biometrics and other features providing integration with other iOS devices ( MacRumors ).\n\nConcept render by Mindspi Vision exclusive for ConceptsiPhone.\n\nMindspi Vision YouTube channel: https://www.youtube.com/user/MindspiVision\n\nContact: conceptsiphone@gmail.com\n\nGoogle+: http://bit.ly/18Gff2N\nNew channel from us: http://www.youtube.com/user/ConceptsPhone\nFacebook page: https://www.facebook.com/Conceptsiphone\nSubscribe: http://www.youtube.com/subscription_center?add_user=conceptsiphone\n\niPhone 6 Fan page: https://www.facebook.com/iPhone6OfficialFanPage\n\nFor all the new & latest updates around iPhone & iOS, LIKE our friend's facebook page - http://www.facebook.com/appliOS",
+							"downloadUrl": "http://r1---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?expire=1440041826&fexp=9408144%2C9408495%2C9408710%2C9408938%2C9409069%2C9412836%2C9412927%2C9413209%2C9415365%2C9415426%2C9415485%2C9416023%2C9416105%2C9416126%2C9416358%2C9416362%2C9416729%2C9417470%2C9417707%2C9417753%2C9418153%2C9418199%2C9418903&id=o-ALJ5RhFd6pHD4itoynEbb6WVuxSGXGcH-ajmjTjHr0e9&mn=sn-nfpnnjvh-1gis&mm=31&mt=1440020194&mime=video%2Fmp4&upn=muWH6oX2p4k&itag=22&pl=19&dur=125.550&ip=178.199.44.182&key=yt5&ms=au&mv=m&source=youtube&ipbits=0&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&initcwndbps=1063750&lmt=1401203630482363&signature=039119DB72D71605A5FCE60025ABAFC6F70C3114.48ACF11D45B750428C2D9C669FB042E5515DD84A&ratebypass=yes&sver=3",
+							"duration": "2:06",
+							"extension": "mp4",
+							"filename": "qLmMiraK7ok.mp4",
+							"filesize": 27166995,
+							"indexID": 5,
+							"lengthseconds": 126,
+							"likes": 699,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/qLmMiraK7ok/default.jpg",
+							"title": "Introducing the iWatch 2014",
+							"username": "ConceptsiPhone",
+							"videoID": "qLmMiraK7ok",
+							"views": "190,837"
+						},
+						"6": {
+							"description": "Technology advances more and more, especially in recent years and smartphones are the workhorse of technological progress!\nWhat features we will see in the next iPhone? What technologies will be able to develop Apple for its iPhone 7? We can not yet know, but we can try to imagine what we might like!\nIn this video our Creative Director has tried to imagine some futuristic features, such as holograms, interactive screen, a new notification system...\n\nMaybe we could found them in the new iPhone7, maybe not... but one thing is for sure: dreaming is fantastic and makes life more beautiful!\n\nWatch this new cool concept of iPhone 7, and write in the comments below what features you would like in the next iPhone!\n\n***\nWatch First Part: http://youtu.be/S6GR6EmYEZc\n***\n\nWe at \"SET Solution\" work hard to create these concepts, hoping to give some good ideas to the producers, and why not, to be contacted in order to turn our concepts into reality!\n\nIf you have enjoyed this video, please hit \"SUBSCRIBE\" ! \n\n***\nIf you want to embed this video in an article, in a website, in a blog post, on a facebook page, please send us an email request!\n***\n\n2015 \u00a9 by SET Solution Srl. All rights reserved. It is strictly prohibited to copy, redistribute, republish or modify any videos.\nhttp://www.setsolution.it\n\nFollow , Like and Share !\n----------------------------------\nFACEBOOK: http://www.facebook.com/setsolution\nTWITTER: http://www.twitter.com/setsolution\nVIMEO: http://www.vimeo.com/setsolution",
+							"downloadUrl": "http://r8---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?mm=31&itag=22&initcwndbps=1063750&upn=kBAKLrfLJec&fexp=9408710%2C9409069%2C9413147%2C9415365%2C9415485%2C9416023%2C9416126%2C9416838%2C9416916%2C9417707%2C9418133%2C9418153%2C9418200%2C9418203%2C9418377%2C9419445%2C9419498&lmt=1431843925144642&mime=video%2Fmp4&source=youtube&pl=19&dur=60.209&expire=1440041848&sver=3&mt=1440020194&mv=m&id=o-AK6f_hSsY7wozDRxMmj2tETb_0cbxmbMe-BUU4oXZOyH&ms=au&signature=2F81155D4211AC7092863C7F89B44C94059A7F08.3961B3797582E6BA3BA10E8E930CB1C9C9E3424F&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&mn=sn-nfpnnjvh-1gis&ipbits=0&ratebypass=yes&ip=178.199.44.182&key=yt5",
+							"duration": "1:01",
+							"extension": "mp4",
+							"filename": "gRPU0Pcl180.mp4",
+							"filesize": 9250293,
+							"indexID": 6,
+							"lengthseconds": 61,
+							"likes": 717,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/gRPU0Pcl180/default.jpg",
+							"title": "iPhone 7 The Future",
+							"username": "SET Solution",
+							"videoID": "gRPU0Pcl180",
+							"views": "248,698"
+						},
+						"7": {
+							"description": "With the Cicret Bracelet, you can make your skin your new touchscreen. Read your mails, play your favorite games, answer your calls, check the weather, find your way\u2026Do whatever you want on your arm. More infos: www.cicret.com. \n\nFollow us:\nwww.facebook.com/CicretAppandBracelet\ntwitter.com/cicret_official\ninstagram.com/cicret_official\n\n\nMusic by Sweet Wave Audio\nwww.sweetwaveaudio.co.uk",
+							"downloadUrl": "http://r8---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?itag=22&ipbits=0&signature=0AA32AA6C753ECB564D37E1C7CA6235D8B1ECC26.B8E6833BE937213CD2B467C23E126F433F8B1B3F&source=youtube&ms=au&mt=1440020194&mv=m&mm=31&mn=sn-nfpnnjvh-1gis&mime=video%2Fmp4&lmt=1431859021720535&id=o-AI5a0WiJHrT7F6mOhbEsf_oe0nB8TWqSkf7EM-vBmxXs&upn=YJmU1OQ0UfE&initcwndbps=1063750&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2cms%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&fexp=9405825%2C9407991%2C9408211%2C9408710%2C9409069%2C9413317%2C9415365%2C9415485%2C9416023%2C9416049%2C9416126%2C9416343%2C9416729%2C9417689%2C9417707%2C9417909%2C9418153%2C9418183%2C9418257%2C9419243%2C9419294%2C9419296&ip=178.199.44.182&dur=164.095&sver=3&expire=1440041857&pl=19&key=yt5&ratebypass=yes&pcm2cms=yes",
+							"duration": "2:45",
+							"extension": "mp4",
+							"filename": "9J7GpVQCfms.mp4",
+							"filesize": 30129270,
+							"indexID": 7,
+							"lengthseconds": 165,
+							"likes": 49613,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/9J7GpVQCfms/default.jpg",
+							"title": "The Cicret Bracelet: Like a tablet...but on your skin.",
+							"username": "Cicret Bracelet",
+							"videoID": "9J7GpVQCfms",
+							"views": "17,933,080"
+						},
+						"8": {
+							"description": "Awesome new iPad 3 concept. The new iPad 3 video contains advanced CG  iPad 3 features on a new iPad design. A huge step up from iPad 1 features  or iPad 2 features. \n\nKey highlights of the new iPad 3 Concept features include edge-to-edge screen with retina display, 5 Mega Pixel Camera, magnetic iPads with near field communications (NFC) and 3d  holographic display for multiplayer games\n     \nThis computer generated new iPad 3 concept video pushes the envelope in iPad design and new iPad features, just like its hugely successful sister video 'iPhone 5 Concept Features' did with iPhone design and iPhone features. We hope this Concept  new iPad 3 preview provides you as much entertainment as the new iPad  commercial or the new iPad  official video or the new iPad  review, or the  new iPad  unboxing.\n\nThis iPad concept is aimed at entertaining iPad and technology enthusiasts globally.\n \nMore Aatma Studio\n\nVisit our YouTube Channel \n http://www.youtube.com/aatmastudio.com\nSubscribe to us on YouTube (Be the first to watch our upcoming videos)\n http://www.youtube.com/subscription_center?add_user=aatmastudio\nWatch our blockbuster sister video  - iPhone 5 Concept Features \n http://youtu.be/lzsBwnv_dAg\nFollow us on our Social Media Pages\n http://www.facebook.com/aatmastudio\n http://www.twitter.com/aatmastudio\n http://aatmastudio.tumblr.com/\n http://www.pinterest.com/aatmastudio/\n\nOfficial Website\nhttp://www.aatmastudio.com",
+							"downloadUrl": "http://r3---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=o-AJdzq-BxWKNKLeWED7h_V9N2HA_RXvnehG6GbawhvL66&mn=sn-nfpnnjvh-1gis&pcm2cms=yes&mm=31&ms=au&mv=m&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2cms%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&mt=1440020194&ip=178.199.44.182&signature=0772DEC4E734FF189AEFC14B8EB820E1143C0DBD.9D6F189D59532E15A8584FD6EBBB36ABB7DA47BD&fexp=9406852%2C9407178%2C9408710%2C9409069%2C9409171%2C9413031%2C9415365%2C9415485%2C9416023%2C9416126%2C9417368%2C9417629%2C9417707%2C9417909%2C9418026%2C9418153%2C9418203%2C9418377%2C9418986%2C9419047%2C9419333&ratebypass=yes&key=yt5&mime=video%2Fmp4&initcwndbps=1063750&expire=1440041885&sver=3&dur=66.734&ipbits=0&lmt=1428119580253884&itag=22&pl=19&source=youtube&upn=tTk6QxNSR2Q",
+							"duration": "1:07",
+							"extension": "mp4",
+							"filename": "9s2oYUy_cVY.mp4",
+							"filesize": 14408163,
+							"indexID": 8,
+							"lengthseconds": 67,
+							"likes": 21516,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/9s2oYUy_cVY/default.jpg",
+							"title": "New iPad 3 Concept Features",
+							"username": "AatmaStudio",
+							"videoID": "9s2oYUy_cVY",
+							"views": "9,072,668"
+						},
+						"9": {
+							"description": "iPhone 7\n\nThe Clear Step Forward.\n\nConcept video created for school project. \n\nThanks for Watching\n\nSchoolpost,",
+							"downloadUrl": "http://r2---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?mn=sn-nfpnnjvh-1gis&ipbits=0&mm=31&mt=1440020194&itag=22&ip=178.199.44.182&dur=30.882&pl=19&id=o-AI1Zma9uuHtKn2E1dkWq4JaJv6_YbKlsViK0x4PT9WFS&initcwndbps=1063750&mv=m&source=youtube&signature=AA5E28ADAFFEE423838952F73B2B418133245AFB.B06681E896494CA7B6BFB6056AE005F3AC215224&ms=au&mime=video%2Fmp4&lmt=1398990045041039&upn=1qv6Jb01KXM&expire=1440041898&pcm2=no&sver=3&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&key=yt5&fexp=9407156%2C9408512%2C9408710%2C9408939%2C9409069%2C9412755%2C9413137%2C9415365%2C9415485%2C9415881%2C9416023%2C9416126%2C9416344%2C9416729%2C9417488%2C9417707%2C9418144%2C9418153%2C9419297&ratebypass=yes",
+							"duration": "0:31",
+							"extension": "mp4",
+							"filename": "rczqP0FwWrk.mp4",
+							"filesize": 4645345,
+							"indexID": 9,
+							"lengthseconds": 31,
+							"likes": 36963,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/rczqP0FwWrk/default.jpg",
+							"title": "Apple - iPhone 7 - TV Ad",
+							"username": "Schoolpost",
+							"videoID": "rczqP0FwWrk",
+							"views": "14,780,177"
+						},
+						"10": {
+							"description": "A new concept shows Apple's future wearable device \"iWatch\" with 2mp camera,HD display,heart rate monitor and more.\n\nConcept designed by SCAVids (Sahanan Yogarasa)\nYou are more than 1000 subscribers, thank you so much.\n\n\nContact me\nTwitter - https://twitter.com/SCAVids\nFacebook - https://www.facebook.com/SCAVidsHD",
+							"downloadUrl": "http://r7---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?key=yt5&upn=l9fLHc3Sb4M&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&lmt=1403192151567730&ratebypass=yes&ipbits=0&itag=22&fexp=9405989%2C9406821%2C9408710%2C9409069%2C9412842%2C9415365%2C9415485%2C9416023%2C9416126%2C9416485%2C9417260%2C9417707%2C9417939%2C9418014%2C9418153%2C9418204%2C9418705%2C9418899&mime=video%2Fmp4&ip=178.199.44.182&initcwndbps=1063750&mm=31&source=youtube&pl=19&mn=sn-nfpnnjvh-1gis&dur=108.065&mt=1440020194&mv=m&id=o-ABxUX-SSsiG-Sz57WDIyYEpDk-9_NrFshRoJD8SyW4pz&ms=au&signature=E7D2625E487F678A43833308983FEA296CC2FC9C.C976BCF2475CD75F95B9D07F08955135E3BD027E&sver=3&expire=1440041902",
+							"duration": "1:49",
+							"extension": "mp4",
+							"filename": "mG2bKnEDrHY.mp4",
+							"filesize": 17415490,
+							"indexID": 10,
+							"lengthseconds": 109,
+							"likes": 434,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/mG2bKnEDrHY/default.jpg",
+							"title": "Apple Watch 2 concept",
+							"username": "SCAVidsHD",
+							"videoID": "mG2bKnEDrHY",
+							"views": "94,346"
+						},
+						"11": {
+							"description": "Apple Watch 2 Concept",
+							"downloadUrl": "http://r2---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?ip=178.199.44.182&lmt=1439891648197111&ratebypass=yes&ipbits=0&fexp=9405264%2C9405998%2C9408710%2C9409069%2C9412538%2C9414661%2C9414977%2C9415365%2C9415485%2C9416023%2C9416126%2C9417707%2C9418153%2C9418703%2C9419155%2C9419404&mime=video%2Fmp4&id=o-APEy24E-efuShlGjOvKDaXJUssw6j0wfRu_BG8rMXtig&expire=1440041919&mt=1440020194&mm=31&signature=F25FED01FE0B73D663F6D3E2044510B8C9D9214E.51CA759711C440D115A539E36FF39AD61FB2FCA4&upn=abcVBNF21Jc&mn=sn-nfpnnjvh-1gis&itag=22&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&source=youtube&initcwndbps=1063750&mv=m&key=yt5&ms=au&sver=3&dur=33.065&pl=19",
+							"duration": "0:34",
+							"extension": "mp4",
+							"filename": "WKUW6NBgN70.mp4",
+							"filesize": 5400384,
+							"indexID": 11,
+							"lengthseconds": 34,
+							"likes": 1,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/WKUW6NBgN70/default.jpg",
+							"title": "Apple Watch 2",
+							"username": "iPhone Concepts",
+							"videoID": "WKUW6NBgN70",
+							"views": "233"
+						},
+						"12": {
+							"description": "",
+							"downloadUrl": "http://r4---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?pl=19&lmt=1422438447378095&source=youtube&sver=3&expire=1440041925&dur=88.862&mv=m&mt=1440020194&ms=au&id=o-APsMhMuw1NRCPipiax53S16TnVarvibfss-V7UbNRvE5&mn=sn-nfpnnjvh-1gis&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&signature=0D5B3A42EB58F010B9E21A733003B73C7718C1A5.B7F25DDE633D6455F2E9E8745A87693A10817A09&ratebypass=yes&ipbits=0&mime=video%2Fmp4&ip=178.199.44.182&key=yt5&initcwndbps=1063750&itag=22&upn=QR655zJqXl8&mm=31&fexp=9405989%2C9407172%2C9408626%2C9408710%2C9409069%2C9415365%2C9415397%2C9415485%2C9416023%2C9416126%2C9416362%2C9416494%2C9416837%2C9417133%2C9417707%2C9418153%2C9418703%2C9418824%2C9418896%2C9419166%2C9419446",
+							"duration": "1:29",
+							"extension": "mp4",
+							"filename": "TQ2mLHIRBiE.mp4",
+							"filesize": 14742892,
+							"indexID": 12,
+							"lengthseconds": 89,
+							"likes": 0,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/TQ2mLHIRBiE/default.jpg",
+							"title": "iPhone 7   Apple Concept Introduction   Video Dailymotion 2",
+							"username": "Minh Th\u1ed1ng",
+							"videoID": "TQ2mLHIRBiE",
+							"views": "2,014"
+						},
+						"13": {
+							"description": "This Concept By:- Hass T\n\nMore Info About Hass T :- https://plus.google.com/u/0/104670048951721497590/posts\n\nThis model has a an old school look, but not old school like 1920, but more like the 1800s or 1700s. It\u2019s like the watches that gentlemen held in their chest pockets, somehow. The design seems slimmer, certainly more rounded than the first Apple Watch and the strap is all metal, with nice patterns. The UI is still based on a cloud of circular icons, like the first model.\n\nWe get a Home button with fingerprint scanner at the bottom of the round screen and a very crisp display, with the icons that feel like floating above the screen. The only thing I don\u2019t like here is the sheer size of the round body, that feels maybe a bit too big compared to the strap. It would be interesting if the designer actually showed this gadget on a wrist for size sake.\n\nSource:- http://www.concept-phones.com/apple/apple-watch-2-concept-envisioned-hass/",
+							"downloadUrl": "http://r2---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?mn=sn-nfpnnjvh-1gis&mm=31&ipbits=0&pl=19&signature=D3A99A42DB91C223BDF1902A6A63888AA05372A5.180C464E7CD2775739FC3FDC3A103606B99C4103&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&fexp=9405637%2C9407149%2C9408013%2C9408486%2C9408710%2C9409069%2C9415365%2C9415485%2C9416023%2C9416126%2C9416337%2C9416348%2C9416837%2C9417707%2C9417720%2C9417814%2C9418153%2C9418204%2C9418786%2C9419232%2C9419445&upn=uX048vwNtcQ&ip=178.199.44.182&id=o-APfu8yFHvua4czscB-BtSI4ALJL9DgHOXddq65Fat9np&dur=88.282&mv=m&source=youtube&ms=au&itag=22&initcwndbps=1053750&mt=1440020308&mime=video%2Fmp4&expire=1440041939&sver=3&key=yt5&ratebypass=yes&lmt=1430501682442417",
+							"duration": "1:29",
+							"extension": "mp4",
+							"filename": "WBB1TrQUWII.mp4",
+							"filesize": 15466248,
+							"indexID": 13,
+							"lengthseconds": 89,
+							"likes": 1,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/WBB1TrQUWII/default.jpg",
+							"title": "Apple Watch 2 Concept New Look 2015 \u1d34\u1d30",
+							"username": "PHConcepts",
+							"videoID": "WBB1TrQUWII",
+							"views": "418"
+						},
+						"14": {
+							"description": "Nilikha ko ang video na ito sa Video Editor ng YouTube (http://www.youtube.com/editor)\n\nClick the link below: Online Earnings...\nPage: http://mishellrich286.swaultimate.com/\nWatch Tagalog: http://www.youtube.com/watch?v=CUvETvvSdFg\nWatch English: http://www.youtube.com/watch?v=Al_0eoOcMtg\nhttp://supremewealthallianceultimate.com/\nLink Site: http://www.internet-gadgets.com/swa/\nPay Options : http://mishellrich286.swaultimate.com/payoption\n\nWebsite : http://www.internet-gadgets.com/gadgets-and-gear-smartphone/ & http://mostlatestgadgetlist.com",
+							"downloadUrl": "http://r2---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?itag=22&signature=049988D03B8D79820BC6B46BA207299018C0BD05.D2966091528571EBB59A243BEBA508A570457E80&mm=31&mn=sn-nfpnnjvh-1gis&upn=csrrdYZkE-Q&ms=au&source=youtube&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&mv=m&initcwndbps=1053750&dur=152.647&pl=19&sver=3&mt=1440020308&ratebypass=yes&ip=178.199.44.182&lmt=1417451302256723&ipbits=0&id=o-AH63_Tb50csDQO2DPgY6qg8DQcH51Xj3FbZt4Zk0LAcF&mime=video%2Fmp4&expire=1440041954&fexp=9405997%2C9406918%2C9408253%2C9408507%2C9408710%2C9409069%2C9412774%2C9412840%2C9415365%2C9415485%2C9415791%2C9416023%2C9416126%2C9416330%2C9416495%2C9417707%2C9417911%2C9418153%2C9419336%2C9419488&key=yt5",
+							"duration": "2:33",
+							"extension": "mp4",
+							"filename": "aIR8fb-kpc8.mp4",
+							"filesize": 36730848,
+							"indexID": 14,
+							"lengthseconds": 153,
+							"likes": 33,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/aIR8fb-kpc8/default.jpg",
+							"title": "Internet Gadgets Smartphone Bracelet Smile EmoPulse Concept",
+							"username": "Shell Aragon",
+							"videoID": "aIR8fb-kpc8",
+							"views": "7,574"
+						},
+						"15": {
+							"description": "APPLE CAR Concept 2015\n\nCredit - https://www.freelancer.com/contest/Create-a-design-for-the-rumored-Apple-Electric-Car-159251-byentry-5175053.html\n\nApple Car Concept (Final)\nThis concept explores a semi-autonomous electric car in the minimalist tradition of Apple design. It features external high resolution LED screens front and back for user selected headlight/taillight designs. This is my final entry, which replaces my previous #199. It now includes structural body modeling with discreet hatch and doors that open laterally. Thanks for your consideration. Cheers, Meni",
+							"downloadUrl": "http://r6---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?id=o-APFmnIkrtWZeXiBGC4KxRkGeJyoM-1VKtufiBHo07516&itag=22&ip=178.199.44.182&key=yt5&initcwndbps=1053750&dur=28.653&signature=06FD4A698BA741F9F5D00CAB653BF3DE21A594A6.304234AE7AA34D8B699E0567BFBA12B0C734F394&lmt=1428566971895054&ms=au&mt=1440020308&mv=m&source=youtube&expire=1440041984&sver=3&fexp=9406007%2C9406631%2C9406994%2C9407991%2C9408512%2C9408710%2C9409069%2C9414897%2C9415365%2C9415375%2C9415485%2C9415950%2C9416023%2C9416126%2C9416729%2C9417193%2C9417502%2C9417707%2C9418045%2C9418153%2C9418203%2C9418335%2C9418985%2C9419243&mm=31&upn=9ghlZtYsul4&mime=video%2Fmp4&ipbits=0&ratebypass=yes&pl=19&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&mn=sn-nfpnnjvh-1gis",
+							"duration": "0:29",
+							"extension": "mp4",
+							"filename": "tmO9vIIiKAc.mp4",
+							"filesize": 5139233,
+							"indexID": 15,
+							"lengthseconds": 29,
+							"likes": 1,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/tmO9vIIiKAc/default.jpg",
+							"title": "APPLE CAR Concept 2015",
+							"username": "Phong Vang Official",
+							"videoID": "tmO9vIIiKAc",
+							"views": "124"
+						},
+						"16": {
+							"description": "What if Augmented Reality (AR) was Amazingly Relevant, and not just a gimmick? We believe AR should be practical, intelligent and adaptable to human lives.\n\nIntroducing...The Infinity Augmented Reality Platform: The next generation of advanced and contextual Augmented Reality tools. \n\nOur platform will soon be available to connect with intelligent information and responses intertwined with pinpoint relevance and revolutionary human understanding.\n\nInfinity AR brings you real and apt human centred experiences powered by a toolbox that is an extension of yourself and your reality.\n\nFollow Us:\nInfinityAR.com\nFacebook.com/InfinityAR\nTwitter.com/Infinity_AR\nStock Symbol (ALSO:OTC BB) - finance.yahoo.com/q/bc?t=5d&s=ALSO",
+							"downloadUrl": "http://r3---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?sver=3&ratebypass=yes&mn=sn-nfpnnjvh-1gis&mm=31&ip=178.199.44.182&pl=19&expire=1440041991&dur=141.154&itag=22&upn=1A45qTA--lo&mv=m&mt=1440020308&ms=au&signature=F576C9D6E521DABFEFF5D11D3B5621C43574E52C.93C58BE8DFD26C2C83FF1FA2800EC669DE061CBF&fexp=9407573%2C9407992%2C9408500%2C9408710%2C9409069%2C9409245%2C9413032%2C9414855%2C9415365%2C9415485%2C9416023%2C9416045%2C9416126%2C9416494%2C9416903%2C9417707%2C9418153%2C9418203%2C9419229&id=o-AJ1F2zbwz9lIP-ycUk8wQ9fojXHIanDU5LV6jxu_WZJC&mime=video%2Fmp4&lmt=1400036424666865&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&ipbits=0&initcwndbps=1053750&source=youtube&key=yt5",
+							"duration": "2:22",
+							"extension": "mp4",
+							"filename": "fJI8tNG1rbQ.mp4",
+							"filesize": 38097453,
+							"indexID": 16,
+							"lengthseconds": 142,
+							"likes": 120,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/fJI8tNG1rbQ/default.jpg",
+							"title": "Infinity Augmented Reality Concept Video",
+							"username": "Infinity AR",
+							"videoID": "fJI8tNG1rbQ",
+							"views": "38,424"
+						},
+						"17": {
+							"description": "We are a production house operating in Kathmandu, Nepal. If you want to shoot music videos, require VFX effects in your videos or have any work related to recording, editing and promotion of videos, please mail us in the address below.\n\nE-Mail Adress - tech.rekesh@gmail.com",
+							"downloadUrl": "http://r1---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?mm=31&sver=3&mn=sn-nfpnnjvh-1gis&id=o-ADpmrNsDqtLDtZwD5svuE5GfCSinjnXW7u2YszjjeEYO&initcwndbps=1053750&ip=178.199.44.182&itag=22&ratebypass=yes&mt=1440020308&mv=m&ms=au&lmt=1379861236118826&pl=19&dur=39.334&source=youtube&mime=video%2Fmp4&key=yt5&signature=423236699DA6FBF373E67CF1E1A843AB8A194C5B.2D4A38E47F8B9EF41AA3D36AB077CBA39C6025CF&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&upn=tcttFo58b5Q&ipbits=0&expire=1440042024&fexp=9407991%2C9408710%2C9409069%2C9412754%2C9415365%2C9415485%2C9416023%2C9416126%2C9416729%2C9416838%2C9417157%2C9417430%2C9417457%2C9417707%2C9418153%2C9418185%2C9418561%2C9419339",
+							"duration": "0:40",
+							"extension": "mp4",
+							"filename": "EtJVJX4Cx_M.mp4",
+							"filesize": 11505148,
+							"indexID": 17,
+							"lengthseconds": 40,
+							"likes": 12,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/EtJVJX4Cx_M/default.jpg",
+							"title": "I-Phone 6 Concept : Hologram Interface",
+							"username": "Eigh Teen",
+							"videoID": "EtJVJX4Cx_M",
+							"views": "820"
+						},
+						"18": {
+							"description": "iWatch Glass\n\u2022 The glass curved around the human arm\n\u2022 iOS 8\n\u2022 OLED screen\n\u2022 Projector\n\u2022 Hologram",
+							"downloadUrl": "http://r8---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?expire=1440042035&mt=1440020308&key=yt5&ratebypass=yes&lmt=1424632175545499&mime=video%2Fmp4&sver=3&ip=178.199.44.182&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&fexp=9408710%2C9409069%2C9412927%2C9414935%2C9415365%2C9415485%2C9416023%2C9416126%2C9416324%2C9416729%2C9417707%2C9418153%2C9418204%2C9419060%2C9419446&upn=fw9Ha49xaoM&id=o-AEgENrdny1VDMHQKb-H_JlFuVT94hNbLvWMzPY0cX21r&dur=105.047&mv=m&source=youtube&ms=au&itag=22&initcwndbps=1053750&mn=sn-nfpnnjvh-1gis&mm=31&ipbits=0&pl=19&signature=1724171CF41A97E580AC9C02F353B1FDE14BD6CF.A0E54559E2C5E58F916C2B3C89056D041DAF4078",
+							"duration": "1:46",
+							"extension": "mp4",
+							"filename": "DEl8ArYtsug.mp4",
+							"filesize": 15294660,
+							"indexID": 18,
+							"lengthseconds": 106,
+							"likes": 33,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/DEl8ArYtsug/default.jpg",
+							"title": "iWatch Glass - Hologram (Concept)",
+							"username": "Mesut G. Designs",
+							"videoID": "DEl8ArYtsug",
+							"views": "11,800"
+						},
+						"19": {
+							"description": "For more Info Go To www.yankodesign.com",
+							"downloadUrl": "http://r1---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?pcm2cms=yes&fexp=9405987%2C9407146%2C9408093%2C9408710%2C9409069%2C9412526%2C9412774%2C9414904%2C9415365%2C9415485%2C9416023%2C9416126%2C9416613%2C9416729%2C9417707%2C9418081%2C9418153%2C9418355%2C9418711%2C9418786&mime=video%2Fmp4&itag=18&pl=19&upn=Q0s8egl5Zyw&signature=498E7AB2F4FC6D1D35A8113EE909EA7D24B1C12A.1EBBF0C307F83067B0985EEA8163514DEA035471&ipbits=0&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2cms%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&source=youtube&initcwndbps=1053750&id=o-ABm00EH2tjHaHGCjttGvY3_osFIV9nkkomPFiGwltzJD&sver=3&dur=85.077&expire=1440042049&ip=178.199.44.182&key=yt5&lmt=1434015769636558&ms=au&mt=1440020308&mv=m&ratebypass=yes&mm=31&mn=sn-nfpnnjvh-1gis",
+							"duration": "1:26",
+							"extension": "mp4",
+							"filename": "3XI687YFvNk.mp4",
+							"filesize": 2664650,
+							"indexID": 19,
+							"lengthseconds": 86,
+							"likes": 734,
+							"resolution": [
+								640,
+								360
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/3XI687YFvNk/default.jpg",
+							"title": "BlackBerry Empathy by Daniel Yoon Kiki Tang Animation",
+							"username": "radhika seth",
+							"videoID": "3XI687YFvNk",
+							"views": "706,703"
+						},
+						"20": {
+							"description": "Is an Apple Car coming soon to an American roadway near you? According to a report from The Wall Street Journal, that may indeed be a likely scenario, as \"people familiar with\" the tech giant's so-called Project Titan have told the news agency that there are hundreds of Apple employees working on an all-electric automobile project. The vehicle being created is said to resemble a minivan, and we're sure any resulting product would be the most stylish such box on wheels ever conceived.\n\nSteve Zadesky, a Vice President at Apple in product design who previously served as an engineer at Ford, is said to be leading the group. In September of last year, the Cupertino-based firm hired Johann Jungwirth from Mercedes-Benz, reportedly to work on Project Titan, and executives from Apple have met in Austria with Magna Steyr, a firm that has plenty of experience manufacturing automobiles for contract partners.\n\nRumors of a so-called iCar from Apple have appeared on these pages for years, but this time, the level of detail surrounding the reports lend an additional layer of credence to the notion that Silicon Valley may have another potential automaker on its hands. Indeed, reports of employee poaching between Apple and Tesla have circulated in recent weeks, with massive signing bonuses for those who choose to switch allegiances in the hotly-contested Silicon Valley job market.\n\nWe have no idea if Apple will indeed enter the electric car market, but the notion that it's dipping a few toes into the waters are anything but a shock. It's worth noting, too, that tech rival Google has similar interests in the automobile market. A report from Reuters suggests that Apple may follow Google into self-driving, autonomous automobile development. In any case, you can be sure we'll be paying rapt attention as the story unfolds.\n\ntext via autoblog.com",
+							"downloadUrl": "http://r4---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?lmt=1425106593959291&sver=3&initcwndbps=1092500&itag=22&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&upn=iVAhPVfMnvg&ipbits=0&expire=1440042052&mm=31&pl=19&mn=sn-nfpnnjvh-1gis&id=o-AFxlqQkHv9rg_qezl_MLfl_tMCaPaCM7aZzVoCuE__9r&dur=101.703&source=youtube&ratebypass=yes&mime=video%2Fmp4&ip=178.199.44.182&key=yt5&signature=2155E9F11F2EC207FB0431D3C83744BF3FA09EB3.7C7AC8C3C4B8E7BB995B363FA55521347DBB9E94&mt=1440020426&mv=m&ms=au&fexp=9408370%2C9408710%2C9409069%2C9409208%2C9413149%2C9415365%2C9415485%2C9415555%2C9416023%2C9416126%2C9416729%2C9417126%2C9417707%2C9417763%2C9418063%2C9418153%2C9418183%2C9418203%2C9418231%2C9419226",
+							"duration": "1:42",
+							"extension": "mp4",
+							"filename": "FNIdcXkQZXg.mp4",
+							"filesize": 16073228,
+							"indexID": 20,
+							"lengthseconds": 102,
+							"likes": 14,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/FNIdcXkQZXg/default.jpg",
+							"title": "Apple iCar Concept (Project Titan electric car)",
+							"username": "AutoTube",
+							"videoID": "FNIdcXkQZXg",
+							"views": "9,979"
+						},
+						"21": {
+							"description": "Concept r\u00e9alis\u00e9 par Frederico Ciccarese\nSite officiel : http://ciccaresedesign.com\n---\nH\u00e9lico\u00efd\u00e9e : Prototypage \u00e9lectronique. http://www.helicoidee.com",
+							"downloadUrl": "http://r7---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?ratebypass=yes&lmt=1394148526806995&ip=178.199.44.182&fexp=9405348%2C9408212%2C9408710%2C9408937%2C9409069%2C9409170%2C9412774%2C9413149%2C9415365%2C9415485%2C9416023%2C9416126%2C9416359%2C9416729%2C9416837%2C9417192%2C9417503%2C9417707%2C9418153%2C9419402&expire=1440042067&mime=video%2Fmp4&id=o-AJ3YOAKKKc1EEVqZNKvzIozUznen3IvobnnKkY_HezxZ&key=yt5&ipbits=0&itag=22&upn=Up5y81nZ92g&mn=sn-nfpnnjvh-1gis&mm=31&signature=BA99838A5884217D7CAAE3574E39A142AD73EAB0.6B166B5AE7AFEC9036F8A854AA074D14B3299E12&pl=19&dur=36.107&sver=3&ms=au&mt=1440020426&initcwndbps=1092500&mv=m&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&source=youtube",
+							"duration": "0:37",
+							"extension": "mp4",
+							"filename": "QOebX0jkSuo.mp4",
+							"filesize": 5961234,
+							"indexID": 21,
+							"lengthseconds": 37,
+							"likes": 3,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/QOebX0jkSuo/default.jpg",
+							"title": "Apple concept iRing - Prototype Design leaked engineering sample unveiled fuite new next 2014",
+							"username": "Tutti quanti",
+							"videoID": "QOebX0jkSuo",
+							"views": "503"
+						},
+						"22": {
+							"description": "The rights to this music is to Marten Eliasson\n\u25b6 His Website: http://eliasson-official.blogspot.com/\n\u25b6 On iTunes: http://tinyurl.com/or6lgmk\niPhone 7\nNew mobile phones\nBest mobile phones\nSmartphones\nNew technology\nIncredible mobile\niPhone\nApple\nNew\nlatest mobile phones\nI Love My Phone\nThis is iPhone 7\n\nhttp://www.youtube.com/watch?v=FmGG4SD8l1k",
+							"downloadUrl": "http://r7---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?sver=3&expire=1440042075&dur=197.114&pl=19&mm=31&source=youtube&ms=au&id=o-AMafLsydogIr6SwO1UnWL-iDrdwi4d6UiFVcvGPP7VqN&mv=m&mt=1440020426&ratebypass=yes&ipbits=0&mn=sn-nfpnnjvh-1gis&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&signature=C62B2A5F18C70A3A850245F17197A31F8FB9A9B9.F743FE71F202D87B116894FCD2D58DB8BE53B97C&lmt=1386126255104989&key=yt5&ip=178.199.44.182&upn=r149gXGeiYQ&initcwndbps=1092500&itag=18&mime=video%2Fmp4&fexp=9405975%2C9408710%2C9409069%2C9415365%2C9415485%2C9416023%2C9416126%2C9416729%2C9417348%2C9417707%2C9418153%2C9418204%2C9418214%2C9419292",
+							"duration": "3:18",
+							"extension": "mp4",
+							"filename": "FmGG4SD8l1k.mp4",
+							"filesize": 5688147,
+							"indexID": 22,
+							"lengthseconds": 198,
+							"likes": 4991,
+							"resolution": [
+								640,
+								360
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/FmGG4SD8l1k/default.jpg",
+							"title": "iPhone 7",
+							"username": "M Eliasson",
+							"videoID": "FmGG4SD8l1k",
+							"views": "2,644,145"
+						},
+						"23": {
+							"description": "Introducing the Google Nexus 360 - the most amazing concept phone ever. \n\nGoogle Nexus 360 aims at offering an exciting glimpse into the future of smartphones, imagining how the devices will evolve in the coming years, and can be made available in just about 3 to 4 years from now.\n\nWith the Google Nexus 360, 91mobiles combines a full-fledged smartphone that transforms into a feature-rich wristband, without compromising on any aspect when it comes to usage.  \n\nGoogle Nexus 360 has really cool features, features that you\u2019ll see in your mobile phone sooner than you expect.\n\nFeatures at a glance:\n\n\u2022 Phone that is watch convertible\n\u2022 Bendable screen\n\u2022 Embedded Bluetooth headset\n\u2022 Integrated fingerprint scanner \n\u2022 Built-in heart rate monitor\n\u2022 Hi-Res tube camera on your wrist\n\u2022 Always-on e-ink display on the side\n\u2022 Designed for all-weather use\n\nKnow more and win Xiaomi Mi 3: http://www.91mobiles.com/concept-phone/Google-Nexus-360\n\nJoin us on: \n\nYouTube: http://www.youtube.com/subscription_center?add_user=91mobiles\n\nFacebook: http://www.facebook.com/91mobiles\n\nTwitter: http://www.twitter.com/91mobiles",
+							"downloadUrl": "http://r6---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?fexp=9408710%2C9409069%2C9412843%2C9413010%2C9413148%2C9415365%2C9415435%2C9415485%2C9416023%2C9416126%2C9416359%2C9417707%2C9418153%2C9418394%2C9418405%2C9419229%2C9419247&itag=22&ipbits=0&ratebypass=yes&upn=1hKlEJXY4VI&key=yt5&sver=3&dur=157.547&signature=F3F518BFC1A6D8F765120FC7D345B1F0E56895D7.F266E46887677E0846E6ABE2499CDC4F819991E9&initcwndbps=1092500&pcm2cms=yes&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2cms%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&lmt=1408755793601856&expire=1440042080&id=o-AHfCuDWau_jvwD7XLT0YtCY9tW_-8M4q8MwteBKGgusL&ms=au&mt=1440020426&mv=m&source=youtube&mm=31&mn=sn-nfpnnjvh-1gis&pl=19&ip=178.199.44.182&mime=video%2Fmp4",
+							"duration": "2:38",
+							"extension": "mp4",
+							"filename": "EMhTJOdDs6s.mp4",
+							"filesize": 25010275,
+							"indexID": 23,
+							"lengthseconds": 158,
+							"likes": 242,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/EMhTJOdDs6s/default.jpg",
+							"title": "Google Nexus 360 \u2013 The Most Amazing Concept Phone Ever",
+							"username": "91mobiles",
+							"videoID": "EMhTJOdDs6s",
+							"views": "49,974"
+						},
+						"24": {
+							"description": "Google Smartwatch 3D render concept. We've seen the Samsung smartwatch and the possible Apple iWatch but what if Google made a watch? We've come up with a possible design and features that we would like to see in the Google Smart Watch\n\nWebsite: http://www.t3.com/\nTwitter: https://twitter.com/t3dotcom\nFacebook: https://www.facebook.com/t3mag",
+							"downloadUrl": "http://r4---sn-nfpnnjvh-1gis.googlevideo.com/videoplayback?fexp=9407117%2C9407575%2C9407992%2C9408093%2C9408710%2C9409069%2C9415089%2C9415365%2C9415435%2C9415485%2C9415660%2C9416023%2C9416103%2C9416126%2C9416729%2C9416985%2C9417707%2C9418026%2C9418153%2C9418201%2C9418959%2C9419255&pcm2cms=yes&itag=22&pl=19&mime=video%2Fmp4&signature=75F583490C517BDDC856D640FB77C091EF4C33B7.467F95DA93D0422150646485138C003393B086EA&upn=fJhyzYUmpgc&ipbits=0&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2cms%2Cpl%2Cratebypass%2Csource%2Cupn%2Cexpire&id=o-ANpEzDFfeNXE7kFSdyTIO0ZDk3sgYqRp08vO0Y-VL3BE&initcwndbps=1092500&source=youtube&expire=1440042100&dur=68.986&lmt=1386798801771130&ip=178.199.44.182&key=yt5&sver=3&ms=au&mv=m&mt=1440020426&mn=sn-nfpnnjvh-1gis&mm=31&ratebypass=yes",
+							"duration": "1:09",
+							"extension": "mp4",
+							"filename": "ZrSd2B9HrJs.mp4",
+							"filesize": 11098070,
+							"indexID": 24,
+							"lengthseconds": 69,
+							"likes": 1919,
+							"resolution": [
+								1280,
+								720
+							],
+							"thumbnailUrl": "https://i.ytimg.com/vi/ZrSd2B9HrJs/default.jpg",
+							"title": "Google Smartwatch 3D render concept",
+							"username": "T3 - The Gadget Experts",
+							"videoID": "ZrSd2B9HrJs",
+							"views": "424,027"
+						}
+					}
+				},
+				"Youtubename": "Jeremy Bailey"
 			}
 		}
 	}

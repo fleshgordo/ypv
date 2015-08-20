@@ -8,7 +8,7 @@
 		/* ----------------------------------------------------------------------------------- */
 		DEBUG: true,
 		consoleHolder: console,
-		currentArtist: 0,
+		currentArtist: 7,
 		currentVideo: 0,
 		isMac: 0,
 		works: {},
@@ -91,20 +91,32 @@
 		initSubMenu: function() {
 			var outputhtml = '',
 				path = YTP.assetsPath,
-				playlistDetailTemplate = _.template(this.templates.playlistDetail),
-				playlistDetailHeader = _.template(this.templates.playlistDetailHeader),
+				totalVideos = 0,
+				playlistDetailTemplate = _.template(this.templates.playlistDetailDiv),
+				playlistContainer = _.template(this.templates.playlistContainer),
+				playlistOverview = _.template(this.templates.playlistOverview),
 				ID = YTP.worksIndex[YTP.currentArtist];
+
+			totalVideos = YTP.works[ID]['Videos']['TotalAmount'];
 
 			$.each(YTP.works[ID]['Videos']['Video'], function(index, work) {
 				work['PlaylistID'] = YTP.works[ID]['PlaylistID'];
+
 				outputhtml += playlistDetailTemplate(work);
 			});
 
-			if ($('#pl-video-table').length < 1) {
-				$('#container').append(playlistDetailHeader);
-			}
 
+			if ($('#pl-video-table').length < 1) {
+				$('#container').append(playlistContainer);
+			}
+			$('#pl-video-table').prepend(playlistOverview(YTP.works[ID]));
 			$('#pl-video-table').append(outputhtml);
+
+			if (totalVideos >= 12) {
+				var splitPoint = parseInt(totalVideos / 2);
+				$('.pl-video-div').slice(splitPoint).wrapAll('<div class="pl-video-container-right">');
+				$('.pl-video-div').slice(0, splitPoint).wrapAll('<div class="pl-video-container-left">');
+			}
 		},
 
 		/**
@@ -153,8 +165,10 @@
 		 * Adds/remove active css class for submenu entry
 		 */
 		updateSubMenu: function() {
-			$('#pl-video-table tbody tr').removeClass('selected');
-			$('#pl-video-table tr[data-id="' + YTP.videosIndex[YTP.currentVideo] + '"]').addClass('selected');
+			// $('#pl-video-table tbody tr').removeClass('selected');
+			// $('#pl-video-table tr[data-id="' + YTP.videosIndex[YTP.currentVideo] + '"]').addClass('selected');
+			$('#pl-video-table div.pl-video-div').removeClass('selected');
+			$('#pl-video-table div.pl-video-div[data-id="' + YTP.videosIndex[YTP.currentVideo] + '"]').addClass('selected');
 		},
 
 		/**
@@ -319,7 +333,17 @@
 		 * Show help modal
 		 */
 		toggleHelp: function() {
-			console.log('showing help');
+			if ($('#helpModal').css('display') == 'none') {
+				$('#helpModal').fadeIn();
+				// fade out after 10sec.
+				setTimeout(function() {
+					if ($('#helpModal').css('display') == 'block') {
+						$('#helpModal').fadeOut()
+					}
+				}, 10000);
+			} else {
+				$('#helpModal').fadeOut();
+			}
 		},
 
 		/**
@@ -340,8 +364,9 @@
 		 */
 		bindKeyHandlers: function() {
 			$(document).keydown($.debounce(function(e) {
+				//console.log(e.which)
 				switch (e.which) {
-					case 27: // ESC
+					case 72: // h for help
 					case 128: // question mark on STORM interface
 						YTP.toggleHelp();
 						break;
@@ -428,7 +453,7 @@
 						break;
 				}
 				e.preventDefault(); // prevent the default action (scroll / move caret)
-			}, 300));
+			}, 250));
 		}
 	}
 

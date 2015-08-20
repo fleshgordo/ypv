@@ -163,30 +163,100 @@ a.yt-uix-button {
     position: absolute;
     .pl-video {
         border-bottom: 1px solid #E2E2E2;
-        height: 40px;
+        height: 40px !important;
     }
     .pl-video .pl-video-thumbnail {
         padding: 3px 0px;
         width: 30px;
     }
+    .pl-video-div {
+        padding-top: 10px;
+        border-bottom: 1px solid #E2E2E2;
+        height: 40px !important;
+        width: 100%;
+        position: relative;
+    }
+    .pl-video-index {
+        width: 2%;
+    }
+    .pl-video-thumbnail {
+        text-align:center;
+        width: 10%;
+    }
+    .pl-video-title {
+        width: 55%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .pl-video-time {
+        width: 6%;
+        height: 100%;
+    }
+    .pl-video-added-by {
+        width: 25%;
+    }
+    .pl-video-headline {
+        width: 60%;
+        padding-left: 2%;
+    }
+    .pl-video-container-left {
+        position: relative;
+        float: left;
+        width: 50%;
+        //border-right: 1px solid #E2E2E2;
+        white-space: nowrap;
+    }
+    .pl-video-container-right {
+        position: relative;
+        float: left;
+        width: 50%;
+        -webkit-box-sizing: border-box;
+        /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;
+        /* Firefox, other Gecko */
+        box-sizing: border-box;
+        /* Opera/IE 8+ */
+        border-left: 1px solid #E2E2E2;
+    }
     img.pl-video-thumbnail-img {
         max-width: 100%;
+        height: 30px;
     }
+}
+
+.header {
+    width: 100%;
+    padding: 10px 0 0 0;
+    height: 100px;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.half {
+    width: 50% !important;
 }
 
 #pl-playlist-table {
     @extend #pl-video-table;
     .pl-video {
         border-bottom: 1px solid #E2E2E2;
-
+        height: 52px !important;
     }
     .pl-video .pl-video-thumbnail {
-        padding: 3px 0px;
-        width: 30px;
+        padding: 0px !important;
+        width: 60px;
     }
-    img.pl-video-thumbnail-img {
-        width: 100px;
+    img.pl-playlist-thumbnail-img {
+        max-width: 100%;
+        width: 45px;
     }
+    .pl-video td {
+        padding: 2px 8px 2px 8px;
+    }
+}
+
+.left {
+    float: left;
 }
 
 #pl-video-list {
@@ -238,6 +308,7 @@ table {
 }
 
 .pl-video td, .pl-video .more-menu-wrapper {
+    //padding: 2px 8px 2px 8px;
     padding: 8px;
 }
 

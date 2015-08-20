@@ -9,17 +9,6 @@ works_output = autovivi.AutoVivification();
 # this is just to shortcut the path to the most-used dictionary
 _w = works_output['Videoplayer']['Works']
 
-
-def downloadVideos():
-	"""Download videos
-
-    Args:
-        n: the number to get the square root of.
-    Returns:
-        the square root of n.
-    """
-	return 0
-
 def getMetaDataForPlaylist(_index, _plpafy):
 	"""Get all metaData for specified playlist
 
@@ -106,6 +95,17 @@ def getAllVideos(_k, _plpafy, _download):
 
 
 def downloadVideo(_k, _i, _plpafy):
+	"""Gets a specific video and downloads it to playlist destination folder (+thumbnail with urllib) 
+
+    Args:
+        _k: the current ID of the works
+        _i: the current ID of the video in the videos array
+        _plpafy: the playlist pafy object
+    Returns:
+        nothing for the moment
+
+    """
+
 	if not os.path.exists('assets'):
 		os.makedirs('assets')
 	newdir = _w[_k]['PlaylistID']
@@ -128,12 +128,6 @@ def downloadVideo(_k, _i, _plpafy):
 	# download thumbnails for each video and save as name (videoID.jpg)
 	thumbdestination = 'assets/%s/%s.jpg' %(_w[_k]['PlaylistID'], videoid)
 	urllib.urlretrieve(_w[_k]['Videos']['Video'][_i]['thumbnailUrl'], thumbdestination)
-
-def my_key(dict_key):
-	try:
-		return int(dict_key)
-	except ValueError:
-		return dict_key
 
 def generateJSON(_file,_outputfile):
 	"""Generates the JSON String with all metadata 

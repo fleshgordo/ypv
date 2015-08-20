@@ -8,7 +8,6 @@ var YYY = YYY || {};
 		'    <div id="yt-masthead">',
 		'        <div class="yt-masthead-logo-container">',
 		'            <a id="logo-container" class="spf-link  masthead-logo-renderer yt-uix-sessionlink"><span class="logo masthead-logo-renderer-logo yt-sprite"></span><span class="content-region">Langenthal</span></a>',
-		//	'            <!-- <div id="appbar-main-guide-notification-container"> -->
 		'            </div>',
 		'        </div>',
 		'        <div id="yt-masthead-user" class="yt-uix-clickcard">',
@@ -30,48 +29,40 @@ var YYY = YYY || {};
 		'</div>',
 	].join("\n");
 
-	YYY.Templates.playlistDetail = [
-		'<tr class="pl-video yt-uix-tile" data-id="<%=indexID%>" data-title="<%=videoID%>">',
-		'	<td class="pl-video-index">&nbsp;</td>',
-		'	<td class="pl-video-thumbnail">',
-		'		<span class="pl-video-thumb ux-thumb-wrap contains-addto">',
-		'		    <a href="" class="yt-uix-sessionlink" aria-hidden="true" ><span class="video-thumb  yt-thumb yt-thumb-72">',
-		'		        <span class="yt-thumb-default">',
-		'		           <span class="yt-thumb-clip">',
-		'		               <img src="./assets/<%=PlaylistID%>/<%=videoID%>.jpg" class="pl-video-thumbnail-img" />',
-		'		                <span class="vertical-align"></span>',
-		'		           </span>',
-		'		        </span>',
-		'		     </span>',
-		'		   </a>',
-		'		</span>',
-		'	</td>',
-		'	<td class="pl-video-title"><a class="pl-video-title-link yt-uix-tile-link yt-uix-sessionlink  spf-link"><%=title%></a>',
-		'	</td>',
-		//'	<td class="pl-video-added-by"><%=description%></td>',
-		'	<td class="pl-video-time">',
-		'		<div class="more-menu-wrapper">',
-		'			<div class="timestamp"><%=duration%></div>',
-		//'			<div class="timestamp">Total videos: <%=filename%></div>',
-		'		</div>',
-		'	</td>',
-		'</tr>'
+	// YYY.Templates.playlistDetail = [
+	// 	'<tr class="pl-video yt-uix-tile" data-id="<%=indexID%>" data-title="<%=videoID%>">',
+	// 	'	<td class="pl-video-index">&nbsp;</td>',
+	// 	'	<td class="pl-video-thumbnail">',
+	// 	'		<img src="./assets/<%=PlaylistID%>/<%=videoID%>.jpg" class="pl-video-thumbnail-img" />',
+	// 	'	</td>',
+	// 	'	<td class="pl-video-title"><a class="pl-video-title-link yt-uix-tile-link yt-uix-sessionlink  spf-link"><%=title%></a> <br />uploaded by <a class="pl-video-title-link yt-uix-tile-link yt-uix-sessionlink spf-link"><%=username%></a>',
+	// 	'	</td>',
+	// 	'	<td class="pl-video-added-by">Views: <%=views%></td>',
+	// 	'	<td class="pl-video-time">',
+	// 	'			<div class="timestamp"><%=duration%></div>',
+	// 	'	</td>',
+	// 	'</tr>'
+	// ].join("\n");
+	
+	YYY.Templates.playlistDetailDiv = [
+		'<div class="pl-video-div yt-uix-tile" data-id="<%=indexID%>" data-title="<%=videoID%>">',
+		'	<div class="pl-video-index left">&nbsp;</div>',
+		'	<div class="pl-video-thumbnail left">',
+		'		<img src="./assets/<%=PlaylistID%>/<%=videoID%>.jpg" class="pl-video-thumbnail-img" />',
+		'	</div>',
+		'	<div class="pl-video-title left"><a class="pl-video-title-link yt-uix-tile-link yt-uix-sessionlink  spf-link"><%=title%></a> <br />uploaded by <a class="pl-video-title-link yt-uix-tile-link yt-uix-sessionlink spf-link"><%=username%></a>',
+		'	</div>',
+		'	<div class="pl-video-added-by left">Views: <%=views%></div>',
+		'	<div class="pl-video-time left"><%=duration%></div>',
+		'</div>'
 	].join("\n");
+
+
 	YYY.Templates.playlist = [
 		'<tr class="pl-video yt-uix-tile" data-id="<%=ID%>" data-title="<%=Title%>">',
-		'	<td class="pl-video-index"><%=ID%></td>',
+		'	<td class="pl-video-index"></td>',
 		'	<td class="pl-video-thumbnail">',
-		'		<span class="pl-video-thumb ux-thumb-wrap contains-addto">',
-		'		    <a href="" class="yt-uix-sessionlink" aria-hidden="true" ><span class="video-thumb  yt-thumb yt-thumb-72">',
-		'		        <span class="yt-thumb-default">',
-		'		           <span class="yt-thumb-clip">',
-		'		               <img src="./assets/<%=PlaylistID%>/default.jpg" />',
-		'		                <span class="vertical-align"></span>',
-		'		           </span>',
-		'		        </span>',
-		'		     </span>',
-		'		   </a>',
-		'		</span>',
+		'		               <img src="./assets/<%=PlaylistID%>/default.jpg"  class="pl-playlist-thumbnail-img" />',
 		'	</td>',
 		'	<td class="pl-video-title"><a class="pl-video-title-link yt-uix-tile-link yt-uix-sessionlink  spf-link"><%=Title%></a>',
 		'		<div class="pl-video-owner">',
@@ -82,7 +73,7 @@ var YYY = YYY || {};
 		'	<td class="pl-video-time">',
 		'		<div class="more-menu-wrapper">',
 		'			<div class="timestamp">Total time: <% print(obj.Videos.TotalDuration) %></div>',
-		'			<div class="timestamp">Total videos: <% print(obj.Videos.TotalAmount) %></div>',
+		// '			<div class="timestamp">Total videos: <% print(obj.Videos.TotalAmount) %></div>',
 		'		</div>',
 		'	</td>',
 		'</tr>'
@@ -91,8 +82,22 @@ var YYY = YYY || {};
 	YYY.Templates.playlistHeader = [
 		'<table id="pl-playlist-table" class="pl-playlist-table"><tbody id="pl-playlist-list"></tbody></table>'
 	].join("\n");
-
-	YYY.Templates.playlistDetailHeader = [
-		'<table id="pl-video-table" class="pl-video-table"><tbody id="pl-video-list"></tbody></table>'
+	YYY.Templates.playlistOverview = [
+		'<div class="header">',
+		'	<div class="pl-video-index left">&nbsp;</div>',
+		'	<div class="left"><img src="./assets/<%=PlaylistID%>/default.jpg" /></div>',
+		'	<div class="left pl-video-headline" class=""><h1><%=Artistname%></h1><h3><%=Title%></h3></div>',
+		'</div>'
 	].join("\n");
+
+	YYY.Templates.playlistDetailBody = [
+		'<table id="pl-video-table" class="pl-video-table">',
+		'<tbody id="pl-video-list"></tbody></table>'
+	].join("\n");
+
+	YYY.Templates.playlistContainer = [
+		'<div id="pl-video-table">',
+		'</div>'
+	].join("\n");
+
 })(YYY);

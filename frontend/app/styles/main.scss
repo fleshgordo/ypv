@@ -35,11 +35,14 @@ body {
     background: #fff;
 }
 
-tr.selected {
+.selected {
     transition: background 0.5s ease;
     background: #d1d1d1;
 }
 
+.clear {
+    clear:both;
+}
 #jquery_jplayer_1 {
     position: fixed;
     top: 0;
@@ -61,6 +64,10 @@ tr.selected {
     height: 100%;
 }
 
+.nomargin {
+    margin: 0 auto;
+}
+
 #bgModal {
     position: fixed;
     width: 100%;
@@ -73,5 +80,17 @@ tr.selected {
 
 #helpModal {
     @extend #bgModal;
-    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 9998;
+    display: none;
+    div {
+        top: 10%;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        > img {
+            max-width: 80%;
+        }
+    }
 }
